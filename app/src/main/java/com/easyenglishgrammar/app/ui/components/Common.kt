@@ -20,6 +20,7 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -29,6 +30,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.easyenglishgrammar.app.audio.LocalAudio
 import com.easyenglishgrammar.app.data.CastMember
 
 @Composable
@@ -49,7 +51,40 @@ fun BackBar(title: String, onBack: () -> Unit) {
             color = Color.White,
             maxLines = 1,
             overflow = TextOverflow.Ellipsis,
+            modifier = Modifier.weight(1f),
         )
+        SoundBar(Modifier.padding(end = 8.dp))
+    }
+}
+
+/** Music and voice toggles, shown in the top corner of every screen. */
+@Composable
+fun SoundBar(modifier: Modifier = Modifier) {
+    val audio = LocalAudio.current
+    val muted by audio.music.muted
+    val voices by audio.voices.enabled
+    Row(modifier, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+        SoundToggle(if (muted) "🔇" else "🎵", on = !muted, label = if (muted) "Music off" else "Music on") {
+            audio.music.toggleMute()
+        }
+        SoundToggle(if (voices) "🗣️" else "🤐", on = voices, label = if (voices) "Voices on" else "Voices off") {
+            audio.voices.toggle()
+        }
+    }
+}
+
+@Composable
+private fun SoundToggle(icon: String, on: Boolean, label: String, onClick: () -> Unit) {
+    Box(
+        Modifier
+            .size(40.dp)
+            .clip(CircleShape)
+            .background(if (on) Color.White.copy(alpha = 0.16f) else Color.Black.copy(alpha = 0.3f))
+            .border(1.dp, Color.White.copy(alpha = if (on) 0.5f else 0.2f), CircleShape)
+            .clickable(onClickLabel = label, onClick = onClick),
+        contentAlignment = Alignment.Center,
+    ) {
+        Text(icon, fontSize = 18.sp)
     }
 }
 

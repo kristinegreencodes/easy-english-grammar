@@ -54,6 +54,7 @@ import com.easyenglishgrammar.app.ui.components.Avatar
 import com.easyenglishgrammar.app.ui.components.Pill
 import com.easyenglishgrammar.app.ui.components.ProgressBar
 import com.easyenglishgrammar.app.ui.components.SectionTitle
+import com.easyenglishgrammar.app.ui.components.SoundBar
 import com.easyenglishgrammar.app.ui.theme.Gold
 import com.easyenglishgrammar.app.ui.theme.Lavender
 import com.easyenglishgrammar.app.ui.theme.Sakura
@@ -158,9 +159,10 @@ private fun Header() {
         Modifier
             .fillMaxWidth()
             .statusBarsPadding()
-            .padding(top = 24.dp, bottom = 4.dp),
+            .padding(top = 8.dp, bottom = 4.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
+        SoundBar(Modifier.align(Alignment.End))
         Text("文法の物語", color = Sakura, fontSize = 14.sp, letterSpacing = 4.sp)
         Text(
             "Easy English Grammar",

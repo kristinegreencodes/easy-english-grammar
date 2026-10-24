@@ -29,11 +29,13 @@ import androidx.compose.material3.TabRowDefaults
 import androidx.compose.material3.TabRowDefaults.tabIndicatorOffset
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.key
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateMapOf
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
@@ -47,6 +49,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.easyenglishgrammar.app.audio.LocalAudio
 import com.easyenglishgrammar.app.data.Cast
 import com.easyenglishgrammar.app.data.Category
 import com.easyenglishgrammar.app.data.GrammarRule
@@ -61,6 +64,7 @@ import com.easyenglishgrammar.app.ui.theme.Gold
 import com.easyenglishgrammar.app.ui.theme.Ink
 import com.easyenglishgrammar.app.ui.theme.Mint
 import com.easyenglishgrammar.app.ui.theme.Paper
+import kotlinx.coroutines.delay
 
 private val tabs = listOf("📖 Story", "🧩 Parts", "📜 History", "✏️ Examples", "🎯 Quiz")
 
@@ -134,22 +138,63 @@ fun RuleScreen(
 
 @Composable
 private fun StoryTab(rule: GrammarRule, category: Category, onFinished: () -> Unit, onParts: () -> Unit) {
+    val voices = LocalAudio.current.voices
+    val voicesOn by voices.enabled
+    val speaking by voices.speakingKey
     var shown by rememberSaveable(rule.id) { mutableIntStateOf(1) }
+    var autoPlay by rememberSaveable(rule.id) { mutableStateOf(false) }
+    // The last panel that has finished being read (or shown, when voices are off).
+    var doneIndex by remember(rule.id) { mutableIntStateOf(0) }
     val total = rule.story.size
     LaunchedEffect(shown) { if (shown >= total) onFinished() }
 
-    rule.story.take(shown).forEachIndexed { i, panel -> key(rule.id, i) { Panel(panel, i) } }
+    // Read each newly revealed panel aloud in its character's voice.
+    LaunchedEffect(rule.id, shown, voicesOn) {
+        val panel = rule.story[shown - 1]
+        if (voicesOn) voices.speakAndWait(panel.who, panel.line, panelKey(rule, shown - 1))
+        doneIndex = shown
+    }
+    // In play mode, move on to the next panel once the current one is finished.
+    LaunchedEffect(autoPlay, doneIndex) {
+        if (autoPlay && doneIndex == shown) {
+            delay(if (voicesOn) 450 else 2600)
+            if (shown < total) shown++ else autoPlay = false
+        }
+    }
+    DisposableEffect(rule.id) { onDispose { voices.stop() } }
+
+    rule.story.take(shown).forEachIndexed { i, panel ->
+        val k = panelKey(rule, i)
+        key(rule.id, i) {
+            Panel(panel, i, speaking = speaking == k) { voices.speak(panel.who, panel.line, k) }
+        }
+    }
 
     if (shown < total) {
-        ActionButton("Next  ▶   (${shown}/$total)", category.color) { shown++ }
+        Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            ActionButton(
+                if (autoPlay) "⏸  Pause" else "▶  Play scene",
+                Color.White.copy(alpha = 0.85f),
+                Modifier.weight(1f),
+            ) { autoPlay = !autoPlay }
+            ActionButton("Next  ⏭  (${shown}/$total)", category.color, Modifier.weight(1f)) { shown++ }
+        }
     } else {
         TrickCard(rule.trick)
-        ActionButton("See the parts of this rule  →", category.color, onParts)
+        ActionButton("🔁  Replay scene", Color.White.copy(alpha = 0.85f)) {
+            voices.stop()
+            shown = 1
+            doneIndex = 0
+            autoPlay = true
+        }
+        ActionButton("See the parts of this rule  →", category.color, onClick = onParts)
     }
 }
 
+private fun panelKey(rule: GrammarRule, index: Int) = "${rule.id}#$index"
+
 @Composable
-private fun Panel(panel: StoryPanel, index: Int) {
+private fun Panel(panel: StoryPanel, index: Int, speaking: Boolean, onReplay: () -> Unit) {
     val state = remember { MutableTransitionState(false).apply { targetState = true } }
     AnimatedVisibility(state, enter = fadeIn() + slideInVertically { it / 3 }) {
         val member = Cast.get(panel.who)
@@ -163,7 +208,12 @@ private fun Panel(panel: StoryPanel, index: Int) {
                     .fillMaxWidth()
                     .clip(RoundedCornerShape(10.dp))
                     .background(Color.Black.copy(alpha = 0.35f))
-                    .border(1.dp, Color(0xFFFFE082).copy(alpha = 0.5f), RoundedCornerShape(10.dp))
+                    .border(
+                        if (speaking) 2.dp else 1.dp,
+                        Color(0xFFFFE082).copy(alpha = if (speaking) 1f else 0.5f),
+                        RoundedCornerShape(10.dp),
+                    )
+                    .clickable(onClickLabel = "Read aloud", onClick = onReplay)
                     .padding(12.dp),
             )
         } else {
@@ -187,7 +237,8 @@ private fun Panel(panel: StoryPanel, index: Int) {
                         )
                         .background(Paper)
                         .border(
-                            2.dp, member.color,
+                            if (speaking) 4.dp else 2.dp,
+                            if (speaking) Gold else member.color,
                             RoundedCornerShape(
                                 topStart = if (onRight) 18.dp else 4.dp,
                                 topEnd = if (onRight) 4.dp else 18.dp,
@@ -195,9 +246,15 @@ private fun Panel(panel: StoryPanel, index: Int) {
                                 bottomEnd = 18.dp,
                             )
                         )
+                        .clickable(onClickLabel = "Read aloud", onClick = onReplay)
                         .padding(12.dp)
                 ) {
-                    Text(member.name, color = member.color.darken(), fontWeight = FontWeight.ExtraBold, fontSize = 13.sp)
+                    Text(
+                        member.name + if (speaking) "  🔊" else "",
+                        color = member.color.darken(),
+                        fontWeight = FontWeight.ExtraBold,
+                        fontSize = 13.sp,
+                    )
                     Text(panel.line, color = Ink, fontSize = 15.sp, lineHeight = 21.sp)
                 }
                 if (onRight) { Spacer(Modifier.width(10.dp)); Avatar(member) }
@@ -231,7 +288,7 @@ private fun PartsTab(rule: GrammarRule, category: Category, onNext: () -> Unit) 
             if (part.example.isNotBlank()) ExampleLine(part.example, category.color)
         }
     }
-    ActionButton("Why is it this way?  →", category.color, onNext)
+    ActionButton("Why is it this way?  →", category.color, onClick = onNext)
 }
 
 // ---------- History ----------
@@ -247,12 +304,21 @@ private fun HistoryTab(rule: GrammarRule, onNext: () -> Unit) {
             .padding(18.dp),
         verticalArrangement = Arrangement.spacedBy(10.dp),
     ) {
-        Text("📜 The Legend Behind the Rule", color = Color(0xFF5D3A1A), fontWeight = FontWeight.Black, fontSize = 18.sp)
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text(
+                "📜 The Legend Behind the Rule",
+                color = Color(0xFF5D3A1A),
+                fontWeight = FontWeight.Black,
+                fontSize = 18.sp,
+                modifier = Modifier.weight(1f),
+            )
+            ListenChip("sensei", rule.history, "${rule.id}#history", Color(0xFF5D3A1A))
+        }
         rule.history.split("\n\n").forEach {
             Text(it, color = Color(0xFF3E2A14), fontSize = 15.sp, lineHeight = 23.sp)
         }
     }
-    ActionButton("Show me examples  →", Color(0xFFB08850), onNext)
+    ActionButton("Show me examples  →", Color(0xFFB08850), onClick = onNext)
 }
 
 // ---------- Examples ----------
@@ -267,7 +333,7 @@ private fun ExamplesTab(rule: GrammarRule, category: Category, onNext: () -> Uni
         }
     }
     TrickCard(rule.trick)
-    ActionButton("Take the quiz  🎯", category.color, onNext)
+    ActionButton("Take the quiz  🎯", category.color, onClick = onNext)
 }
 
 // ---------- Quiz ----------
@@ -314,7 +380,7 @@ private fun QuizTab(rule: GrammarRule, category: Category, onMastered: () -> Uni
             )
         }
         if (!perfect) ActionButton("Try again  ↻", category.color) { attempt++ }
-        if (onNext != null) ActionButton("Next episode  ▶", Gold, onNext)
+        if (onNext != null) ActionButton("Next episode  ▶", Gold, onClick = onNext)
     }
 }
 
@@ -394,19 +460,43 @@ private fun TrickCard(trick: String) {
             .background(Brush.linearGradient(listOf(Color(0xFFFFE066), Color(0xFFFFB74D))))
             .padding(16.dp)
     ) {
-        Text("✨ Memory Spell", color = Ink, fontWeight = FontWeight.Black, fontSize = 16.sp)
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text("✨ Memory Spell", color = Ink, fontWeight = FontWeight.Black, fontSize = 16.sp, modifier = Modifier.weight(1f))
+            ListenChip("sensei", trick, "trick#$trick", Ink)
+        }
         Text(trick, color = Ink, fontSize = 15.sp, lineHeight = 21.sp)
     }
 }
 
+/** A small "Listen" button that reads a block of text in a character's voice. */
 @Composable
-private fun ActionButton(label: String, color: Color, onClick: () -> Unit) {
+private fun ListenChip(who: String, text: String, key: String, color: Color) {
+    val voices = LocalAudio.current.voices
+    val speaking by voices.speakingKey
+    val voicesOn by voices.enabled
+    if (!voicesOn) return
+    val playing = speaking == key
+    Text(
+        if (playing) "⏹ Stop" else "🔊 Listen",
+        color = color,
+        fontWeight = FontWeight.Bold,
+        fontSize = 13.sp,
+        modifier = Modifier
+            .clip(RoundedCornerShape(50))
+            .border(1.5.dp, color, RoundedCornerShape(50))
+            .clickable { if (playing) voices.stop() else voices.speak(who, text, key) }
+            .padding(horizontal = 10.dp, vertical = 4.dp),
+    )
+}
+
+@Composable
+private fun ActionButton(label: String, color: Color, modifier: Modifier = Modifier, onClick: () -> Unit) {
     Text(
         label,
         color = Ink,
         fontWeight = FontWeight.ExtraBold,
         textAlign = TextAlign.Center,
-        modifier = Modifier
+        modifier = modifier
             .fillMaxWidth()
             .clip(RoundedCornerShape(50))
             .background(color)
