@@ -1,0 +1,281 @@
+{
+  "id": "punctuation",
+  "order": 8,
+  "title": "Punctuation",
+  "subtitle": "The Punctuation Ninja Clan",
+  "emoji": "🥷",
+  "color": "#80CBC4",
+  "colorDark": "#263238",
+  "intro": "Kage leads a secret clan of tiny ninjas: Period, Comma, Semicolon, Colon, Apostrophe and more. Each one has a single silent job: to tell readers when to pause, stop, list, explain or own.",
+  "rules": [
+    {
+      "id": "end-marks",
+      "title": "Period, Question Mark, Exclamation Point",
+      "tagline": "Three ways to end a sentence",
+      "story": [
+        {"who": "kage", "line": "I am Kage, leader of the Punctuation Ninja Clan. Every sentence must end with one of my three guardians."},
+        {"who": "kage", "line": "The Period stops a statement. The Question Mark guards questions. The Exclamation Point shouts with strong feeling."},
+        {"who": "kaito", "line": "I'm hungry!!!!!"},
+        {"who": "kage", "line": "One guardian is enough, warrior. Too many and your writing sounds like you're always screaming."},
+        {"who": "hana", "line": "Got it. Are you hungry? I'm hungry. I'm SO hungry!"}
+      ],
+      "parts": [
+        {"name": "Period (.)", "detail": "Ends statements and polite commands.", "example": "The shrine opens at nine."},
+        {"name": "Question mark (?)", "detail": "Ends direct questions.", "example": "Where is the shrine?"},
+        {"name": "Exclamation point (!)", "detail": "Ends strong feelings or urgent commands. Use sparingly.", "example": "Watch out!"},
+        {"name": "Indirect questions get a period", "detail": "A question reported inside a statement.", "example": "She asked where the shrine was."}
+      ],
+      "history": "Around 200 BC, Aristophanes of Byzantium, a librarian at Alexandria, invented a system of dots placed at different heights to show readers where to pause. The lowest dot became our period.\n\nThe question mark appeared in medieval manuscripts, around the 700s–800s. A popular story says it came from the Latin word quaestio ('question') shortened to 'qo' with the q above the o, but historians aren't sure. The exclamation point has a similar legend: Latin 'io' (a cry of joy) with the i written above the o.",
+      "examples": [
+        {"good": "Can you help me?", "bad": "Can you help me.", "note": "Direct question."},
+        {"good": "I wonder if it will rain.", "bad": "I wonder if it will rain?", "note": "Indirect question: period."},
+        {"good": "That's amazing!", "bad": "That's amazing!!!!", "note": "One is enough in formal writing."}
+      ],
+      "trick": "Statement = a full stop. Question = a curious hook. Exclamation = a lightning bolt.",
+      "quiz": [
+        {"q": "'He asked me what time it was__'", "options": [".", "?", "!"], "answer": 0, "why": "It's an indirect question inside a statement."},
+        {"q": "'What a beautiful sunset__'", "options": [".", "?", "!"], "answer": 2, "why": "Strong feeling."}
+      ]
+    },
+    {
+      "id": "capitalization",
+      "title": "Capital Letters",
+      "tagline": "Starts of sentences, I, and proper nouns",
+      "story": [
+        {"who": "kaito", "line": "yesterday i went to tokyo with hana."},
+        {"who": "kage", "line": "Your sentence is wearing no crown. Capital letters crown the important words."},
+        {"who": "hana", "line": "The first word, the word I, and names! Yesterday I went to Tokyo with Hana."},
+        {"who": "kage", "line": "Also days, months, languages, nationalities, and titles. But not seasons: spring, summer, fall, winter."},
+        {"who": "yumi", "line": "Why is I always a capital? Is it showing off?"},
+        {"who": "kage", "line": "Ha! There's a story behind that."}
+      ],
+      "parts": [
+        {"name": "Start of every sentence", "detail": "Always.", "example": "The rain stopped."},
+        {"name": "The pronoun I", "detail": "Always capital, anywhere in the sentence.", "example": "Yesterday I slept."},
+        {"name": "Proper nouns", "detail": "Names of people, places, organizations, brands.", "example": "Hana, Mount Fuji, Nintendo"},
+        {"name": "Days, months, holidays, languages", "detail": "But not seasons.", "example": "Monday, October, New Year's Day, English, in winter"},
+        {"name": "Titles", "detail": "Main words of book and movie titles; titles before names.", "example": "Spirited Away, Doctor Tanaka"}
+      ],
+      "history": "Romans wrote only in capital letters. Lowercase letters developed later; a neat, rounded style called Carolingian minuscule spread under Charlemagne around 800 AD and is the ancestor of our lowercase.\n\nThe word I was once 'ic' and then a small 'i.' A single tiny i was easy to lose or mistake for a stroke of another letter in handwriting, so by the 1300s–1400s scribes started writing it as a capital. In the 1600s and 1700s English writers often capitalized all nouns, like German still does today. That fashion faded by the late 1700s.",
+      "examples": [
+        {"good": "My friend and I visited Paris in spring.", "bad": "my friend and i visited paris in Spring.", "note": "Capitals: My, I, Paris. Not spring."},
+        {"good": "She speaks Japanese and French.", "bad": "She speaks japanese and french.", "note": "Languages are capitalized."},
+        {"good": "We met on Tuesday, July 5.", "bad": "We met on tuesday, july 5.", "note": "Days and months."}
+      ],
+      "trick": "Capitalize what has a name tag: people, places, days, months, languages, and the mighty I.",
+      "quiz": [
+        {"q": "Which is correct?", "options": ["I love Summer in japan.", "I love summer in Japan.", "i love summer in Japan.", "I Love Summer In Japan."], "answer": 1, "why": "Japan is a proper noun; seasons are lowercase."},
+        {"q": "Which word needs a capital?", "options": ["autumn", "friday", "river", "teacher"], "answer": 1, "why": "Days of the week are capitalized: Friday."}
+      ]
+    },
+    {
+      "id": "commas-lists",
+      "title": "Commas in Lists (and the Oxford Comma)",
+      "tagline": "Separate three or more items",
+      "story": [
+        {"who": "narrator", "line": "A birthday card reads: 'To my parents, Sensei and Yumi.'"},
+        {"who": "hana", "line": "Wait... are Sensei and Yumi your parents?!"},
+        {"who": "yumi", "line": "Absolutely not! Hehe!"},
+        {"who": "kage", "line": "A missing comma. 'To my parents, Sensei, and Yumi' makes three separate people. That last comma before 'and' is called the Oxford comma."},
+        {"who": "kaito", "line": "So is it required?"},
+        {"who": "kage", "line": "Style guides disagree. Many book publishers use it; many newspapers don't. Just be consistent, and always use it when it prevents confusion."}
+      ],
+      "parts": [
+        {"name": "Lists of three or more", "detail": "Put commas between items.", "example": "We bought rice, fish, and tea."},
+        {"name": "The Oxford (serial) comma", "detail": "The optional comma before the final and/or.", "example": "red, white, and blue / red, white and blue"},
+        {"name": "Two items: no comma", "detail": "Just use and.", "example": "We bought rice and tea."},
+        {"name": "Adjectives that could swap", "detail": "Use a comma between equal adjectives.", "example": "a long, difficult journey"}
+      ],
+      "history": "The comma's name comes from the Greek komma, 'a piece cut off.' In the late 1400s, the Venetian printer Aldus Manutius helped popularize the modern comma shape.\n\nThe Oxford comma is named after Oxford University Press, whose printers used it consistently; it appears in Horace Hart's rules for Oxford printers from the early 1900s. In 2017, a court ruled that a missing Oxford comma in a Maine law made it unclear, and a dairy company later agreed to pay its drivers $5 million in overtime!",
+      "examples": [
+        {"good": "I invited the twins, Kaito, and Yumi.", "bad": "I invited the twins, Kaito and Yumi.", "note": "Without the Oxford comma, Kaito and Yumi might be the twins."},
+        {"good": "She sings, dances, and acts.", "bad": "She sings dances and acts.", "note": "Lists need commas."},
+        {"good": "a cold, dark night", "bad": "a cold dark, night", "note": "Equal adjectives get a comma between them."}
+      ],
+      "trick": "The Oxford comma is a seatbelt. You may not always need it, but it never hurts and sometimes saves you.",
+      "quiz": [
+        {"q": "Which list is correctly punctuated?", "options": ["apples oranges, and bananas", "apples, oranges, and bananas", "apples, oranges, and, bananas", "apples oranges and, bananas"], "answer": 1, "why": "Commas between each item."},
+        {"q": "What is the Oxford comma?", "options": ["A comma after an introduction", "The comma before the last 'and' in a list", "A comma between two sentences", "A comma in dates"], "answer": 1, "why": "Also called the serial comma."}
+      ]
+    },
+    {
+      "id": "commas-clauses",
+      "title": "Commas with Clauses & Introductions",
+      "tagline": "Pauses that guide the reader",
+      "story": [
+        {"who": "yumi", "line": "Let's eat Kaito!"},
+        {"who": "kaito", "line": "AAAH! Don't eat me!"},
+        {"who": "kage", "line": "Calm down. She means 'Let's eat, Kaito!' A comma before a name you're speaking to saves lives."},
+        {"who": "hana", "line": "Where else do commas go?"},
+        {"who": "kage", "line": "After introductory words, before FANBOYS joining two sentences, and around extra information you could remove."}
+      ],
+      "parts": [
+        {"name": "Direct address", "detail": "When talking to someone by name.", "example": "Thanks, Hana. / Hana, come here."},
+        {"name": "After introductions", "detail": "After intro words, phrases, or dependent clauses.", "example": "However, it rained. / When it rained, we left."},
+        {"name": "Before FANBOYS joining sentences", "detail": "Two independent clauses.", "example": "I was tired, so I slept."},
+        {"name": "Around extra info", "detail": "Non-essential details get a pair of commas.", "example": "My sister, who lives in Osaka, is a chef."},
+        {"name": "Not between subject and verb", "detail": "Don't separate them.", "example": "The tall man ran. (not The tall man, ran.)"}
+      ],
+      "history": "Early commas showed where a reader should breathe when reading aloud. Over time, especially from the 1700s on, grammarians shifted toward placing commas by grammar, not breathing.\n\nThat's why modern advice mixes both ideas: commas often fall where you'd pause, but the real rules follow sentence structure.",
+      "examples": [
+        {"good": "Let's eat, Grandma!", "bad": "Let's eat Grandma!", "note": "The famous comma that saves lives."},
+        {"good": "After the movie, we got ice cream.", "bad": "After the movie we, got ice cream.", "note": "Comma after the intro phrase."},
+        {"good": "My brother, a doctor, works nights.", "bad": "My brother a doctor, works nights.", "note": "Extra info needs commas on both sides."}
+      ],
+      "trick": "If you could lift the words out with chopsticks and the sentence still works, surround them with commas.",
+      "quiz": [
+        {"q": "Which is correct?", "options": ["Hi Hana how are you?", "Hi, Hana, how are you?", "Hi Hana, how, are you?", "Hi, Hana how, are you?"], "answer": 1, "why": "Commas around the direct address."},
+        {"q": "Which is correct?", "options": ["If it snows we'll stay in.", "If it snows, we'll stay in.", "If, it snows we'll stay in.", "If it snows we'll, stay in."], "answer": 1, "why": "Comma after an introductory clause."}
+      ]
+    },
+    {
+      "id": "apostrophes-contractions",
+      "title": "Apostrophes in Contractions",
+      "tagline": "The apostrophe marks missing letters",
+      "story": [
+        {"who": "kage", "line": "The Apostrophe ninja has two missions: showing ownership, and marking where letters vanished."},
+        {"who": "hana", "line": "Like do not becoming don't!"},
+        {"who": "kage", "line": "Yes. The apostrophe stands exactly where the o disappeared. I am → I'm. They are → they're. Will not → won't."},
+        {"who": "kaito", "line": "Won't? Where did the 'will' go?"},
+        {"who": "kage", "line": "Won't comes from an old form, 'wol not.' Some ninjas have strange histories."},
+        {"who": "yumi", "line": "And apostrophes NEVER make plurals. 'Banana's for sale' is a crime! Hehe."}
+      ],
+      "parts": [
+        {"name": "Contractions", "detail": "Apostrophe replaces the missing letters.", "example": "can't, it's (it is), you're, we've, she'd"},
+        {"name": "Possession", "detail": "See Possessive Nouns.", "example": "the cat's toy"},
+        {"name": "Never for plurals", "detail": "Plural nouns don't get apostrophes.", "example": "apples (not apple's), the 1990s (not 1990's)"},
+        {"name": "Formal writing", "detail": "Contractions are friendly; very formal writing may avoid them.", "example": "do not (formal) / don't (friendly)"}
+      ],
+      "history": "The apostrophe was introduced into printed English in the 1500s, borrowed from French and Italian printers. Its name comes from Greek apostrophos, 'turning away,' as the letter has turned away and left.\n\nWon't developed from 'wol not' or 'woll not,' older forms of will not, which explains the surprising o.",
+      "examples": [
+        {"good": "It's raining.", "bad": "Its raining.", "note": "It's = it is."},
+        {"good": "Fresh apples for sale!", "bad": "Fresh apple's for sale!", "note": "No apostrophe for plurals."},
+        {"good": "They're coming at nine.", "bad": "Theyre coming at nine.", "note": "They are → they're."}
+      ],
+      "trick": "The apostrophe is a little ghost standing where a letter used to be.",
+      "quiz": [
+        {"q": "Contraction of 'should not'?", "options": ["should'nt", "shouldn't", "shouldnt'", "shoud'not"], "answer": 1, "why": "The apostrophe replaces the o."},
+        {"q": "Which is correct?", "options": ["I have two cat's.", "I have two cats.", "I have two cats'.", "I have two cat'.s"], "answer": 1, "why": "Plurals don't use apostrophes."}
+      ]
+    },
+    {
+      "id": "semicolons",
+      "title": "Semicolons",
+      "tagline": "A super-comma that joins related sentences",
+      "story": [
+        {"who": "narrator", "line": "A mysterious ninja appears: a dot balanced on top of a comma."},
+        {"who": "kage", "line": "This is Semicolon, my most misunderstood student. Stronger than a comma, softer than a period."},
+        {"who": "hana", "line": "What's their job?"},
+        {"who": "kage", "line": "To join two complete sentences that are closely related: 'The storm grew stronger; the villagers hid inside.'"},
+        {"who": "kaito", "line": "Can I use it instead of a comma everywhere? It looks cool."},
+        {"who": "kage", "line": "No! Both sides must be full sentences, except in one case: complicated lists that already contain commas."}
+      ],
+      "parts": [
+        {"name": "Join two related sentences", "detail": "Both sides must be independent clauses.", "example": "I love winter; the snow is magical."},
+        {"name": "Before transition words", "detail": "however, therefore, otherwise + comma.", "example": "It rained; however, we still went."},
+        {"name": "Super-commas in lists", "detail": "When list items contain commas.", "example": "We visited Tokyo, Japan; Seoul, Korea; and Taipei, Taiwan."},
+        {"name": "Not with FANBOYS", "detail": "Use a comma with and/but/so instead.", "example": "I was tired, so I slept. (not tired; so I slept)"}
+      ],
+      "history": "The semicolon was introduced by the Venetian printer Aldus Manutius the Elder, who used it in Pietro Bembo's book 'De Aetna,' printed in the mid-1490s. He wanted a pause longer than a comma but shorter than a colon.\n\nFamous writers have strong feelings about it. Kurt Vonnegut joked that semicolons 'represent absolutely nothing,' while many poets and novelists adore them.",
+      "examples": [
+        {"good": "She studied hard; she passed easily.", "bad": "She studied hard; and passed easily.", "note": "The right side must be a full sentence."},
+        {"good": "I wanted to go; however, I was sick.", "bad": "I wanted to go, however, I was sick.", "note": "However between two sentences needs a semicolon."},
+        {"good": "The winners were Hana, first; Yumi, second; and Kaito, third.", "bad": null, "note": "Super-commas in a complex list."}
+      ],
+      "trick": "Cover the semicolon with your finger. If both sides could stand as sentences, it's correct.",
+      "quiz": [
+        {"q": "Which uses a semicolon correctly?", "options": ["I like tea; and coffee.", "I like tea; she likes coffee.", "I like; tea and coffee.", "Because I like tea; I drink it."], "answer": 1, "why": "Two complete, related sentences."},
+        {"q": "'It was late ___ however, we kept working.'", "options": [",", ";", ":", "no mark"], "answer": 1, "why": "Use a semicolon before however joining two sentences."}
+      ]
+    },
+    {
+      "id": "colons",
+      "title": "Colons",
+      "tagline": "Here comes the reveal: lists, explanations, quotes",
+      "story": [
+        {"who": "kage", "line": "Colon is the dramatic one. Two dots that say: 'Get ready, here it comes.'"},
+        {"who": "hana", "line": "Like a big anime reveal before the opening song?"},
+        {"who": "kage", "line": "Exactly. 'Hana had only one goal: to master English.' Before the colon, a complete sentence. After it, the reveal."},
+        {"who": "kaito", "line": "I need: a sword, a shield, and a snack."},
+        {"who": "kage", "line": "No! 'I need' isn't complete without its object. Write: 'I need three things: a sword, a shield, and a snack.'"}
+      ],
+      "parts": [
+        {"name": "Before a list", "detail": "After a complete sentence.", "example": "Bring three things: water, a map, and snacks."},
+        {"name": "Before an explanation", "detail": "The second part explains the first.", "example": "He was exhausted: he had trained all night."},
+        {"name": "Before a quote", "detail": "To introduce a formal quotation.", "example": "Sensei's advice was simple: 'Practice daily.'"},
+        {"name": "Times and ratios", "detail": "Practical uses.", "example": "7:30 a.m., a 3:1 ratio"},
+        {"name": "Not after a verb or preposition", "detail": "Don't split a sentence.", "example": "My favorites are ramen and sushi. (not are: ramen)"}
+      ],
+      "history": "The word colon comes from Greek kōlon, meaning 'limb' or 'part of a sentence.' In ancient times, the term described a section of a sentence, not a punctuation mark.\n\nOver the centuries, the mark that ended such a section took the name. In the 1600s and 1700s colons were used much more loosely, almost like semicolons. Their modern dramatic 'reveal' role settled in the 1800s.",
+      "examples": [
+        {"good": "I have one wish: peace.", "bad": "I have: one wish, peace.", "note": "The first part must be a complete sentence."},
+        {"good": "The recipe needs three things: rice, water, and salt.", "bad": "The recipe needs: rice, water, and salt.", "note": "Don't put a colon right after a verb."},
+        {"good": "The meeting starts at 10:15.", "bad": null, "note": "Times use colons."}
+      ],
+      "trick": "A colon is a drumroll. The words before it must be a full sentence, then the drum hits.",
+      "quiz": [
+        {"q": "Which is correct?", "options": ["My favorite colors are: red and blue.", "I have two favorite colors: red and blue.", "I have two: favorite colors red and blue.", "I: have red and blue."], "answer": 1, "why": "A complete sentence comes before the colon."},
+        {"q": "What does a colon usually signal?", "options": ["A question", "A strong pause before a reveal or list", "Possession", "The end of a story"], "answer": 1, "why": "Colons introduce what follows."}
+      ]
+    },
+    {
+      "id": "quotation-marks",
+      "title": "Quotation Marks",
+      "tagline": "Showing exactly what someone said",
+      "story": [
+        {"who": "kaito", "line": "Hana said I'm the best swordsman."},
+        {"who": "hana", "line": "I did NOT say that!"},
+        {"who": "kage", "line": "Quotation marks prove exactly what someone said. Show the real words: Hana said, “Kaito is the loudest swordsman.”"},
+        {"who": "yumi", "line": "Hehe. That's a lot more accurate."},
+        {"who": "kage", "line": "In American English, periods and commas go inside the closing quotation mark. British English often puts them outside if they aren't part of the quote."}
+      ],
+      "parts": [
+        {"name": "Direct speech", "detail": "Exact words go inside quotation marks.", "example": "She said, “I'm ready.”"},
+        {"name": "Commas and periods (US)", "detail": "Inside the closing mark.", "example": "“Let's go,” he said."},
+        {"name": "Question marks", "detail": "Inside if the quote is a question, outside if the whole sentence is.", "example": "She asked, “Why?” / Did he say “yes”?"},
+        {"name": "Titles of short works", "detail": "Songs, poems, chapters, articles.", "example": "We sang “Happy Birthday.”"},
+        {"name": "Quote inside a quote", "detail": "Use single marks inside double (US).", "example": "“She yelled 'Run!' and vanished,” he said."}
+      ],
+      "history": "Ancient Greek editors used a mark called the diplē (>) in the margin to point out important lines. Printers in the 1500s began using similar marks beside quoted text.\n\nBy the 1700s, quotation marks moved into the line itself, around the exact words. The American 'periods inside' rule began as a printer's preference: small periods and commas outside the quote marks were thought to look untidy or break off easily from metal type.",
+      "examples": [
+        {"good": "“I'm hungry,” said Kaito.", "bad": "“I'm hungry”, said Kaito.", "note": "American English: comma inside."},
+        {"good": "Yumi asked, “Who ate my mochi?”", "bad": "Yumi asked “Who ate my mochi”?", "note": "The quote itself is a question."},
+        {"good": "She said that she was tired.", "bad": "She said that “she was tired.”", "note": "Reported speech needs no quotation marks."}
+      ],
+      "trick": "Quotation marks are a recording: only the exact words go inside.",
+      "quiz": [
+        {"q": "Which is correct (American style)?", "options": ["“Hello”, she said.", "“Hello,” she said.", "“Hello” she said,", "Hello, “she said.”"], "answer": 1, "why": "Comma inside the closing mark."},
+        {"q": "Which needs quotation marks?", "options": ["He said he was busy.", "He said, I'm busy.", "He told me about his day.", "He was busy."], "answer": 1, "why": "Exact words: He said, “I'm busy.”"}
+      ]
+    },
+    {
+      "id": "hyphens-dashes",
+      "title": "Hyphens & Dashes",
+      "tagline": "Short joiners and long interrupters",
+      "story": [
+        {"who": "kage", "line": "Three ninjas look alike but have different jobs: the hyphen (-), the en dash (–), and the em dash (—)."},
+        {"who": "hana", "line": "They're just lines of different lengths!"},
+        {"who": "kage", "line": "The hyphen is shortest. It glues words together: a well-known ninja, a two-year-old cat."},
+        {"who": "kaito", "line": "And the longest one?"},
+        {"who": "kage", "line": "The em dash. It interrupts dramatically—like a ninja jumping from the shadows—and adds emphasis. The middle one, the en dash, shows ranges: pages 10–20."}
+      ],
+      "parts": [
+        {"name": "Hyphen (-)", "detail": "Joins compound words and adjectives before a noun.", "example": "a well-known author, mother-in-law, twenty-one"},
+        {"name": "Compound adjective rule", "detail": "Hyphenate before the noun, not usually after.", "example": "a part-time job / The job is part time."},
+        {"name": "En dash (–)", "detail": "Ranges of numbers, dates, or connections.", "example": "1990–2000, the Tokyo–Osaka train"},
+        {"name": "Em dash (—)", "detail": "A dramatic break, interruption or emphasis.", "example": "He opened the box—it was empty."}
+      ],
+      "history": "Hyphens have been used since ancient Greek times to show that two words belong together. Medieval scribes used them at the ends of lines to show that a word continued on the next line.\n\nThe en dash and em dash are named after printing measurements: an en is about the width of a capital N, and an em is about the width of a capital M.",
+      "examples": [
+        {"good": "She has a ten-year-old brother.", "bad": "She has a ten year old brother.", "note": "Hyphenate a compound adjective before a noun."},
+        {"good": "Her brother is ten years old.", "bad": "Her brother is ten-years-old.", "note": "No hyphens after the noun."},
+        {"good": "I knew one thing—I had to win.", "bad": null, "note": "An em dash adds drama."}
+      ],
+      "trick": "Hyphen = glue. En dash = 'to' (from 5–10). Em dash = a dramatic pause.",
+      "quiz": [
+        {"q": "Which is correct?", "options": ["a well known singer", "a well-known singer", "a well—known singer", "a well – known singer"], "answer": 1, "why": "Compound adjective before a noun: hyphen."},
+        {"q": "Which mark shows a range like 'pages 5 to 10'?", "options": ["Hyphen", "En dash", "Em dash", "Colon"], "answer": 1, "why": "Ranges use the en dash: 5–10."}
+      ]
+    }
+  ]
+}

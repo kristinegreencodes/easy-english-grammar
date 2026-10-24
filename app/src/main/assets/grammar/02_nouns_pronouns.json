@@ -1,0 +1,221 @@
+{
+  "id": "nouns-pronouns",
+  "order": 2,
+  "title": "Nouns & Pronouns",
+  "subtitle": "The Village of Many Names",
+  "emoji": "🏮",
+  "color": "#FFB74D",
+  "colorDark": "#BF360C",
+  "intro": "Names multiply, own things, and wear different masks depending on their job. In this village you will learn plurals, possession, and how to pick the right pronoun every time.",
+  "rules": [
+    {
+      "id": "plural-nouns",
+      "title": "Regular Plurals",
+      "tagline": "Add -s, -es or -ies to make more than one",
+      "story": [
+        {"who": "narrator", "line": "A merchant's stall is piled with goods. Hana must write the price list."},
+        {"who": "hana", "line": "One fox, two foxs? That looks wrong."},
+        {"who": "sensei", "line": "Say it aloud. Fox-es. When a word ends in a hissing sound (s, x, z, ch, sh), English adds a little extra syllable: -es."},
+        {"who": "yumi", "line": "And one berry, two berrys? Hehe."},
+        {"who": "sensei", "line": "Consonant plus y? The y turns into i and adds -es: berries. But a vowel plus y just adds -s: keys, days."},
+        {"who": "hana", "line": "So: cats, foxes, berries, keys. The price list is done!"}
+      ],
+      "parts": [
+        {"name": "Most nouns: add -s", "detail": "The default rule.", "example": "sword → swords, cat → cats"},
+        {"name": "Hissing endings: add -es", "detail": "Words ending in s, ss, x, z, ch, sh.", "example": "box → boxes, wish → wishes"},
+        {"name": "Consonant + y: change to -ies", "detail": "If a consonant comes before y.", "example": "city → cities, story → stories"},
+        {"name": "Vowel + y: just add -s", "detail": "If a vowel comes before y.", "example": "key → keys, boy → boys"},
+        {"name": "Some -f / -fe: change to -ves", "detail": "Old words that softened their sound.", "example": "knife → knives, wolf → wolves"}
+      ],
+      "history": "In Old English there were several ways to make plurals. One group of nouns used the ending -as: stān (stone) became stānas. After the Norman Conquest, this -as ending (which became -es and then -s) slowly took over almost all nouns, because it was the easiest pattern to remember.\n\nThe -es with an extra syllable survives after hissing sounds simply because 'foxs' is nearly impossible to say clearly.",
+      "examples": [
+        {"good": "The heroes visited three churches.", "bad": "The heros visited three churchs.", "note": "Hero → heroes, church → churches."},
+        {"good": "Two ladies bought new keys.", "bad": "Two ladys bought new keies.", "note": "Consonant + y → ies, vowel + y → s."},
+        {"good": "The wolves howled.", "bad": "The wolfs howled.", "note": "Wolf → wolves."}
+      ],
+      "trick": "If saying the plural makes you hiss twice (fox-es, wish-es), you need -es.",
+      "quiz": [
+        {"q": "Plural of 'dish'?", "options": ["dishs", "dishes", "dishies", "dish"], "answer": 1, "why": "Dish ends in sh, so add -es."},
+        {"q": "Plural of 'monkey'?", "options": ["monkies", "monkeys", "monkeyes", "monkey"], "answer": 1, "why": "A vowel (e) comes before y, so just add -s."}
+      ]
+    },
+    {
+      "id": "irregular-plurals",
+      "title": "Irregular Plurals",
+      "tagline": "The rebels: men, feet, mice, children",
+      "story": [
+        {"who": "kaito", "line": "I defeated two mouses and three gooses!"},
+        {"who": "yumi", "line": "Pfft! Mice and geese, warrior."},
+        {"who": "kaito", "line": "Why don't they follow the -s rule?!"},
+        {"who": "sensei", "line": "They are ancient rebels, older than the -s rule's victory. Long ago, a vowel inside the word changed instead: mouse, mice. Goose, geese. Foot, feet."},
+        {"who": "hana", "line": "And some never change at all, like sheep and deer?"},
+        {"who": "sensei", "line": "Exactly. One sheep, a hundred sheep. You must simply learn the rebels by heart."}
+      ],
+      "parts": [
+        {"name": "Vowel change", "detail": "man → men, woman → women, foot → feet, tooth → teeth, goose → geese, mouse → mice.", "example": "My feet hurt after the march."},
+        {"name": "-en plurals", "detail": "child → children, ox → oxen.", "example": "The children played."},
+        {"name": "No change", "detail": "sheep, deer, fish, series, species.", "example": "Two deer crossed the road."},
+        {"name": "Latin and Greek words", "detail": "cactus → cacti, crisis → crises, phenomenon → phenomena.", "example": "Several crises happened at once."}
+      ],
+      "history": "Vowel-change plurals come from a sound change called i-mutation that happened in early Germanic languages, over 1,300 years ago. An old plural ending with an 'i' sound pulled the vowel of the word forward, and later the ending itself disappeared, leaving only the changed vowel. German still does this: Fuß, Füße.\n\nChildren and oxen keep an old -en plural ending. Children is actually a double plural: Old English cildru plus an extra -en.",
+      "examples": [
+        {"good": "Two women and three children arrived.", "bad": "Two womans and three childs arrived.", "note": "Both are irregular."},
+        {"good": "The dentist cleaned my teeth.", "bad": "The dentist cleaned my tooths.", "note": "Tooth → teeth."},
+        {"good": "We saw five sheep.", "bad": "We saw five sheeps.", "note": "Sheep never changes."}
+      ],
+      "trick": "Rebel chant: 'One mouse in the house, two mice on the ice. One goose on the loose, two geese in the trees.'",
+      "quiz": [
+        {"q": "Plural of 'tooth'?", "options": ["tooths", "teeth", "teeths", "toothes"], "answer": 1, "why": "Tooth changes its vowel: teeth."},
+        {"q": "Which plural is correct?", "options": ["fishes swim", "childs play", "deer run", "mouses squeak"], "answer": 2, "why": "Deer stays the same in the plural."}
+      ]
+    },
+    {
+      "id": "possessive-nouns",
+      "title": "Possessive Nouns",
+      "tagline": "Use 's to show who owns what",
+      "story": [
+        {"who": "narrator", "line": "A sword lies in the grass. Everyone claims it."},
+        {"who": "kaito", "line": "That's Kaitos sword!"},
+        {"who": "sensei", "line": "Without the apostrophe, it looks like there are many Kaitos. Write Kaito's: apostrophe then s."},
+        {"who": "hana", "line": "What if two students own the same dojo?"},
+        {"who": "sensei", "line": "The plural already ends in s, so just add the apostrophe after it: the students' dojo."},
+        {"who": "yumi", "line": "And the children's toys? Children has no s!"},
+        {"who": "sensei", "line": "Then add 's as usual: children's."}
+      ],
+      "parts": [
+        {"name": "Singular noun: add 's", "detail": "Even if it ends in s, most style guides add 's.", "example": "the cat's tail, James's book"},
+        {"name": "Plural ending in s: add '", "detail": "Only the apostrophe.", "example": "the cats' tails"},
+        {"name": "Plural not ending in s: add 's", "detail": "Irregular plurals.", "example": "the women's team, the mice's nest"},
+        {"name": "Joint ownership", "detail": "Only the last name gets 's when they share one thing.", "example": "Hana and Kaito's dojo"}
+      ],
+      "history": "In Old English, a noun showed ownership with an ending, often -es: 'cynges' meant 'king's.' Over time the e vanished from both speech and writing.\n\nIn the 1500s and 1600s, printers began using an apostrophe to mark the missing letter. Some scholars even believed (wrongly) that 'the king's crown' was short for 'the king his crown.' The apostrophe stuck, and for plurals it moved after the s in the 1700s.",
+      "examples": [
+        {"good": "The dragon's eggs are hidden.", "bad": "The dragons eggs are hidden.", "note": "One dragon owns the eggs."},
+        {"good": "The players' uniforms are blue.", "bad": "The player's uniforms are blue.", "note": "Many players, so the apostrophe goes after the s."},
+        {"good": "The men's room is upstairs.", "bad": "The mens' room is upstairs.", "note": "Men is already plural, so add 's."}
+      ],
+      "trick": "Write the owner first, complete (dragon, players, men). Then add the apostrophe. If it doesn't end in s, add an s too.",
+      "quiz": [
+        {"q": "One teacher owns the desk:", "options": ["the teachers desk", "the teacher's desk", "the teachers' desk", "the teacher desk's"], "answer": 1, "why": "Singular owner: add 's."},
+        {"q": "Many birds share the nest:", "options": ["the bird's nest", "the birds nest", "the birds' nest", "the birds's nest"], "answer": 2, "why": "Plural ending in s: add only the apostrophe."}
+      ]
+    },
+    {
+      "id": "countable-uncountable",
+      "title": "Countable vs. Uncountable",
+      "tagline": "Some things you count, some you measure",
+      "story": [
+        {"who": "kaito", "line": "Innkeeper! Bring me three rices and two waters!"},
+        {"who": "yumi", "line": "Hahaha! Do you want him to count every grain?"},
+        {"who": "sensei", "line": "Rice and water are uncountable. They come as a mass, so you measure them: three bowls of rice, two glasses of water."},
+        {"who": "hana", "line": "But onigiri are countable. Three onigiri, please!"},
+        {"who": "sensei", "line": "Correct. Countable nouns take a, an, many, few. Uncountable nouns take much, little, some, and never a or an."}
+      ],
+      "parts": [
+        {"name": "Countable nouns", "detail": "Have singular and plural forms. Use a/an, many, few, a number.", "example": "a cookie, many cookies"},
+        {"name": "Uncountable nouns", "detail": "No plural form. Liquids, materials, ideas, and some collective things.", "example": "water, rice, advice, information, furniture"},
+        {"name": "Measure words", "detail": "Make uncountable nouns countable.", "example": "a piece of advice, two cups of tea"},
+        {"name": "Both!", "detail": "Some nouns switch meaning: 'a light' (a lamp) vs. 'light' (brightness).", "example": "Two coffees, please. (cups) / I love coffee. (the drink)"}
+      ],
+      "history": "English didn't decide this randomly. Nouns that name a substance or a mass without clear edges, like sand, water or gold, have always behaved as a single blob of stuff.\n\nSome surprises, like information, advice and furniture, came from French and Latin as mass words. Other languages count them freely (French says 'des informations'), which is why learners often write 'informations.' In English, they stayed uncountable.",
+      "examples": [
+        {"good": "Can you give me some advice?", "bad": "Can you give me an advice?", "note": "Advice is uncountable."},
+        {"good": "We bought new furniture.", "bad": "We bought new furnitures.", "note": "Furniture never takes -s."},
+        {"good": "She gave me three pieces of information.", "bad": null, "note": "Use a measure word to count."}
+      ],
+      "trick": "Ask: can I put a number right in front of it? 'Three cookies' works, 'three rices' doesn't. No number? Uncountable.",
+      "quiz": [
+        {"q": "Which is correct?", "options": ["How many money?", "How much money?", "How many moneys?", "How much moneys?"], "answer": 1, "why": "Money is uncountable, so use much."},
+        {"q": "Which noun is uncountable?", "options": ["chair", "idea", "luggage", "bag"], "answer": 2, "why": "Luggage is uncountable: a piece of luggage."}
+      ]
+    },
+    {
+      "id": "subject-object-pronouns",
+      "title": "I or Me? He or Him?",
+      "tagline": "Subject pronouns act, object pronouns receive",
+      "story": [
+        {"who": "kaito", "line": "Me and Hana defeated the boss!"},
+        {"who": "sensei", "line": "Remove Hana. Would you say 'Me defeated the boss'?"},
+        {"who": "kaito", "line": "No... 'I defeated the boss.' So it's 'Hana and I defeated the boss'!"},
+        {"who": "yumi", "line": "Then the boss gave a reward to Hana and I!"},
+        {"who": "sensei", "line": "Remove Hana again. 'The boss gave a reward to I'?"},
+        {"who": "yumi", "line": "Ugh. 'To me.' So: 'to Hana and me.' You win this time, owl."}
+      ],
+      "parts": [
+        {"name": "Subject pronouns", "detail": "Do the action: I, you, he, she, it, we, they.", "example": "She trained hard."},
+        {"name": "Object pronouns", "detail": "Receive the action or follow a preposition: me, you, him, her, it, us, them.", "example": "Sensei helped her."},
+        {"name": "The remove test", "detail": "Take away the other person and see which pronoun sounds right.", "example": "(Hana and) I went. / for (Hana and) me"},
+        {"name": "Politeness order", "detail": "Put yourself last.", "example": "Kaito and I, not I and Kaito."}
+      ],
+      "history": "Old English nouns and pronouns all changed form depending on whether they were the subject or the object. Over the centuries, nouns lost these changes, but pronouns held on: I/me, he/him, we/us, they/them.\n\nThat's why only pronouns cause this headache. 'Hana and I' feels fancy to some people, so they overuse it even after prepositions. Grammar teachers call this hypercorrection.",
+      "examples": [
+        {"good": "Hana and I went to the festival.", "bad": "Me and Hana went to the festival.", "note": "Subject: I."},
+        {"good": "Sensei invited Kaito and me.", "bad": "Sensei invited Kaito and I.", "note": "Object: me."},
+        {"good": "This is just between us.", "bad": "This is just between we.", "note": "After a preposition, use object pronouns."}
+      ],
+      "trick": "Cover up the other person with your thumb. Whatever sounds right alone is right in the pair.",
+      "quiz": [
+        {"q": "'___ and Yumi went shopping.'", "options": ["Me", "I", "Myself", "Mine"], "answer": 1, "why": "Remove Yumi: 'I went shopping.'"},
+        {"q": "'The teacher gave the scrolls to Kaito and ___.'", "options": ["I", "me", "myself", "mine"], "answer": 1, "why": "Remove Kaito: 'gave the scrolls to me.'"}
+      ]
+    },
+    {
+      "id": "who-whom",
+      "title": "Who vs. Whom",
+      "tagline": "Who is like he, whom is like him",
+      "story": [
+        {"who": "narrator", "line": "A secret letter arrives. It is addressed: 'To who it may concern.'"},
+        {"who": "sensei", "line": "This letter is a fake. A true scholar would never write 'to who.'"},
+        {"who": "hana", "line": "How can you tell so fast?"},
+        {"who": "sensei", "line": "Use the HE/HIM test. Answer the question with he or him. 'It may concern him.' Him has an M, so you need whoM."},
+        {"who": "hana", "line": "And 'Who stole the scroll?' becomes 'He stole the scroll.' No M, so who!"}
+      ],
+      "parts": [
+        {"name": "Who = subject", "detail": "Does the action, like he/she/they.", "example": "Who called you? (He called me.)"},
+        {"name": "Whom = object", "detail": "Receives the action or follows a preposition, like him/her/them.", "example": "Whom did you call? (I called him.)"},
+        {"name": "After prepositions", "detail": "To whom, for whom, with whom.", "example": "For whom does the bell toll?"},
+        {"name": "Everyday speech", "detail": "In casual talk, most people use who everywhere. Whom is for careful writing.", "example": "Who did you see? (casual)"}
+      ],
+      "history": "Who and whom come from Old English hwā and hwām. Hwām was the form used after prepositions and for objects, just like him and them, which share that same old -m ending.\n\nWhom has been fading from everyday speech for hundreds of years. Linguists expect it may eventually survive only in fixed phrases like 'to whom it may concern.'",
+      "examples": [
+        {"good": "Whom did the dragon choose?", "bad": "Who did the dragon choose?", "note": "Formal writing: the dragon chose him, so whom."},
+        {"good": "Who is knocking at the gate?", "bad": "Whom is knocking at the gate?", "note": "He is knocking, so who."},
+        {"good": "To whom should I give this?", "bad": "To who should I give this?", "note": "After a preposition, use whom."}
+      ],
+      "trick": "him = whom. Both end in M.",
+      "quiz": [
+        {"q": "'___ wrote this poem?'", "options": ["Who", "Whom"], "answer": 0, "why": "She wrote it, so who."},
+        {"q": "'With ___ are you traveling?'", "options": ["who", "whom"], "answer": 1, "why": "You travel with him, so whom."}
+      ]
+    },
+    {
+      "id": "pronoun-agreement",
+      "title": "Pronoun Agreement",
+      "tagline": "A pronoun must match the noun it replaces",
+      "story": [
+        {"who": "narrator", "line": "The dojo notice board reads: 'Every student must bring his or her own sword.'"},
+        {"who": "hana", "line": "That's long. Can we say 'their own sword'?"},
+        {"who": "sensei", "line": "Yes. Singular they, for a person whose gender is unknown or not important, has been used for more than 600 years."},
+        {"who": "kaito", "line": "But then there's this one: 'The team lost their way.' And 'The team lost its way.'"},
+        {"who": "sensei", "line": "Both are seen. American English usually treats a team as one unit, so it. British English often uses they for the members. Just stay consistent."}
+      ],
+      "parts": [
+        {"name": "Number", "detail": "Singular nouns get singular pronouns; plural nouns get plural pronouns.", "example": "The students lifted their swords."},
+        {"name": "Person", "detail": "Don't switch from 'one' or 'a person' to 'you' midway.", "example": "If a person trains, they improve."},
+        {"name": "Singular they", "detail": "For an unknown person or someone who uses they.", "example": "Someone left their umbrella."},
+        {"name": "Clear antecedent", "detail": "The reader must know which noun the pronoun means.", "example": "Hana told Yumi that Yumi was late."}
+      ],
+      "history": "Singular they appears in writing at least as far back as the 1300s, and writers like Chaucer, Shakespeare and Jane Austen used it.\n\nIn the 1700s some grammar writers decided 'he' should be the default for everyone. That rule was a fashion of its time. Today major style guides, including the Chicago Manual of Style and the AP Stylebook, accept singular they.",
+      "examples": [
+        {"good": "Each player has their own locker.", "bad": null, "note": "Singular they is standard today."},
+        {"good": "The dogs wagged their tails.", "bad": "The dogs wagged its tail.", "note": "Plural noun, plural pronoun."},
+        {"good": "When Hana met Yumi, Hana smiled.", "bad": "When Hana met Yumi, she smiled.", "note": "The second is unclear: who smiled?"}
+      ],
+      "trick": "Point at the pronoun and ask: who exactly are you? If the answer is fuzzy or doesn't match in number, fix it.",
+      "quiz": [
+        {"q": "'The kittens chased ___ tails.'", "options": ["its", "their", "it's", "there"], "answer": 1, "why": "Kittens is plural, so their."},
+        {"q": "Which sentence is unclear?", "options": ["Hana thanked Sensei.", "Kaito told Ren he was late.", "The cat ate its food.", "They found their seats."], "answer": 1, "why": "Who was late: Kaito or Ren?"}
+      ]
+    }
+  ]
+}

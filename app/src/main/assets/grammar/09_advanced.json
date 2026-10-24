@@ -1,0 +1,220 @@
+{
+  "id": "advanced",
+  "order": 9,
+  "title": "Conditionals & Advanced",
+  "subtitle": "The Crossroads of If",
+  "emoji": "🔮",
+  "color": "#FFD54F",
+  "colorDark": "#E65100",
+  "intro": "At the Crossroads of If, every path is a possibility: real, imagined, or lost in the past. Here you'll also learn to report what others said, connect ideas with who and which, and avoid the double-negative trap.",
+  "rules": [
+    {
+      "id": "zero-first-conditional",
+      "title": "Zero & First Conditionals",
+      "tagline": "Real facts and real possibilities",
+      "story": [
+        {"who": "narrator", "line": "Hana reaches a crossroads. A glowing crystal ball floats in the air."},
+        {"who": "sensei", "line": "If you heat ice, it melts. That is always true. We call it the zero conditional: if + present, present."},
+        {"who": "hana", "line": "And if I study hard, I will pass the test!"},
+        {"who": "sensei", "line": "That's the first conditional: a real possibility in the future. If + present, will + verb."},
+        {"who": "kaito", "line": "If I will win, I will be famous!"},
+        {"who": "sensei", "line": "No will in the if-part! 'If I win, I will be famous.'"}
+      ],
+      "parts": [
+        {"name": "Zero conditional", "detail": "General truths. If + present, present.", "example": "If you mix red and blue, you get purple."},
+        {"name": "First conditional", "detail": "Likely future. If + present, will + base verb.", "example": "If it rains, we will stay home."},
+        {"name": "No will after if", "detail": "Use present tense in the if-clause.", "example": "If she calls, I'll answer. (not If she will call)"},
+        {"name": "Comma rule", "detail": "Comma when the if-clause comes first; none when it comes second.", "example": "We'll stay home if it rains."},
+        {"name": "Unless = if not", "detail": "A handy variation.", "example": "Unless you hurry, you'll miss the train."}
+      ],
+      "history": "Conditionals in English are built from ordinary tenses rather than special endings. The rule 'no will in the if-clause' comes from the fact that will originally meant 'want': 'If you will come' once meant 'if you are willing to come.'\n\nThat older meaning still survives in polite phrases like 'If you will follow me, please,' which is why it's not totally wrong, just special.",
+      "examples": [
+        {"good": "If I see Yumi, I'll tell her.", "bad": "If I will see Yumi, I'll tell her.", "note": "No will after if."},
+        {"good": "Plants die if they don't get water.", "bad": null, "note": "Zero conditional: always true."},
+        {"good": "Unless you apologize, she won't forgive you.", "bad": null, "note": "Unless = if not."}
+      ],
+      "trick": "If is a gate. Will can't pass through the gate; it waits on the other side.",
+      "quiz": [
+        {"q": "'If it ___ tomorrow, we'll cancel the picnic.'", "options": ["will rain", "rains", "rained", "would rain"], "answer": 1, "why": "First conditional: if + present."},
+        {"q": "'If you freeze water, it ___.'", "options": ["will freezing", "turns to ice", "would turn to ice", "turned to ice"], "answer": 1, "why": "Zero conditional: a general fact."}
+      ]
+    },
+    {
+      "id": "second-conditional",
+      "title": "Second Conditional",
+      "tagline": "Imaginary present or future: If I were...",
+      "story": [
+        {"who": "kaito", "line": "If I had a dragon, I would ride it to school every day."},
+        {"who": "hana", "line": "But you don't have a dragon."},
+        {"who": "sensei", "line": "That's exactly why he uses the second conditional: an imaginary or unlikely situation. If + past simple, would + verb."},
+        {"who": "yumi", "line": "If I were the queen, I would ban homework! Hehe."},
+        {"who": "sensei", "line": "Notice: Yumi said 'If I were,' not 'If I was.' That's the subjunctive, used for unreal situations."}
+      ],
+      "parts": [
+        {"name": "Form", "detail": "If + past simple, would / could / might + base verb.", "example": "If I won the lottery, I would travel."},
+        {"name": "Meaning", "detail": "Unreal now, or very unlikely in the future.", "example": "If I had wings, I could fly."},
+        {"name": "Were for everyone", "detail": "In careful English, use were with all subjects.", "example": "If he were taller, he'd play basketball."},
+        {"name": "Advice", "detail": "If I were you...", "example": "If I were you, I'd apologize."}
+      ],
+      "history": "Using a past tense to talk about an imaginary present seems strange, but many languages do it. Linguists call it 'remoteness': the past form pushes the idea further away from reality, just as it pushes events further back in time.\n\nThe 'were' form is a survivor of the Old English subjunctive mood, which once had its own set of endings.",
+      "examples": [
+        {"good": "If I knew her number, I would call her.", "bad": "If I would know her number, I would call her.", "note": "No would in the if-clause."},
+        {"good": "If I were rich, I'd buy a castle.", "bad": null, "note": "Unreal situation."},
+        {"good": "What would you do if you saw a ghost?", "bad": null, "note": "An imaginary question."}
+      ],
+      "trick": "Second conditional = daydream mode. Past tense in the dream (if I had...), would in the result.",
+      "quiz": [
+        {"q": "'If I ___ more time, I would learn the guitar.'", "options": ["have", "had", "will have", "would have"], "answer": 1, "why": "If + past simple."},
+        {"q": "'If I were you, I ___ that.'", "options": ["won't do", "wouldn't do", "don't do", "didn't do"], "answer": 1, "why": "would + base verb in the result."}
+      ]
+    },
+    {
+      "id": "third-conditional",
+      "title": "Third Conditional",
+      "tagline": "Regrets about the past: If I had known...",
+      "story": [
+        {"who": "narrator", "line": "Kaito stares at a burnt cake."},
+        {"who": "kaito", "line": "If I had set a timer, I would have saved the cake..."},
+        {"who": "sensei", "line": "The third conditional: an imaginary past that didn't happen. If + had + past participle, would have + past participle."},
+        {"who": "hana", "line": "It's the grammar of regret!"},
+        {"who": "yumi", "line": "If you had asked me, I would have eaten it before it burned. Hehe."}
+      ],
+      "parts": [
+        {"name": "Form", "detail": "If + had + past participle, would have + past participle.", "example": "If I had studied, I would have passed."},
+        {"name": "Meaning", "detail": "The past can't change; we imagine a different version.", "example": "If we had left earlier, we wouldn't have missed the bus."},
+        {"name": "Could / might have", "detail": "Other modals work too.", "example": "If she had trained, she might have won."},
+        {"name": "Mixed conditional", "detail": "Past condition, present result.", "example": "If I had taken the job, I would be rich now."}
+      ],
+      "history": "This form stacks the past perfect inside the if-clause with 'would have' in the result. It's one of the most complex structures in everyday English.\n\nIn casual speech, people often say 'If I would have known,' especially in American English. It's common in speech, but teachers and editors still treat it as incorrect in writing.",
+      "examples": [
+        {"good": "If you had told me, I would have helped.", "bad": "If you would have told me, I would have helped.", "note": "Use had in the if-clause."},
+        {"good": "She wouldn't have been late if she had woken up on time.", "bad": null, "note": "Either clause can come first."},
+        {"good": "If I had saved money, I would be on vacation now.", "bad": null, "note": "Mixed: past cause, present result."}
+      ],
+      "trick": "Regret = HAD in the if, WOULD HAVE in the result. 'If I had... I would have...'",
+      "quiz": [
+        {"q": "'If I ___ the alarm, I wouldn't have overslept.'", "options": ["set", "had set", "would set", "have set"], "answer": 1, "why": "If + had + past participle."},
+        {"q": "'If she had practiced, she ___ the contest.'", "options": ["would win", "will win", "would have won", "won"], "answer": 2, "why": "would have + past participle."}
+      ]
+    },
+    {
+      "id": "reported-speech",
+      "title": "Reported Speech",
+      "tagline": "Telling what someone else said",
+      "story": [
+        {"who": "yumi", "line": "Sensei said, “I am tired.”"},
+        {"who": "hana", "line": "How do I report that without the quotes?"},
+        {"who": "sensei", "line": "Shift everything one step back in time: 'Sensei said that he was tired.' Am becomes was. I becomes he."},
+        {"who": "kaito", "line": "And if I said, “I will win tomorrow”?"},
+        {"who": "sensei", "line": "Kaito said that he would win the next day. Will → would. Tomorrow → the next day."}
+      ],
+      "parts": [
+        {"name": "Backshift tenses", "detail": "Move one step into the past.", "example": "am → was, will → would, can → could, have done → had done"},
+        {"name": "Change pronouns", "detail": "From the reporter's point of view.", "example": "“I love you” → She said she loved me."},
+        {"name": "Change time & place words", "detail": "now → then, today → that day, here → there.", "example": "“I'm here now” → He said he was there then."},
+        {"name": "Reported questions", "detail": "Use if/whether or the question word, and normal word order.", "example": "“Are you OK?” → She asked if I was OK."},
+        {"name": "No backshift needed", "detail": "When it's still true.", "example": "He said the earth is round."}
+      ],
+      "history": "Backshifting is called 'sequence of tenses' and it follows a logic found in Latin and many European languages: the reported words are placed in the time frame of the reporting verb.\n\nModern English is more relaxed than Latin. If the statement is still true or very recent, many speakers don't backshift at all: 'She said she's coming.'",
+      "examples": [
+        {"good": "He said he was hungry.", "bad": "He said that “he was hungry.”", "note": "No quotation marks in reported speech."},
+        {"good": "She asked where I lived.", "bad": "She asked where did I live.", "note": "Reported questions use normal word order."},
+        {"good": "They told me they would call.", "bad": "They told me they will call.", "note": "Will → would (unless still in the future)."}
+      ],
+      "trick": "Reporting is time travel: step the verb back one floor in Chrono's tower.",
+      "quiz": [
+        {"q": "“I can swim.” → She said she ___ swim.", "options": ["can", "could", "cans", "will"], "answer": 1, "why": "can → could."},
+        {"q": "“Where is the station?” → He asked ___.", "options": ["where is the station", "where the station was", "where was the station", "the station where"], "answer": 1, "why": "Normal word order in reported questions."}
+      ]
+    },
+    {
+      "id": "relative-clauses",
+      "title": "Relative Clauses: Who, Which, That",
+      "tagline": "Adding information about a noun",
+      "story": [
+        {"who": "hana", "line": "The sword that Kaito found is magic."},
+        {"who": "sensei", "line": "'That Kaito found' tells us which sword. It's essential, so no commas."},
+        {"who": "kaito", "line": "My sword, which I found in a cave, is magic!"},
+        {"who": "sensei", "line": "That 'which' clause is extra information. Remove it and we still know which sword. Extra info = commas + which."},
+        {"who": "yumi", "line": "And for people, use who! 'The kitsune who stole the sword is very cute.' Hehe."}
+      ],
+      "parts": [
+        {"name": "Who", "detail": "For people.", "example": "The girl who won is my friend."},
+        {"name": "Which", "detail": "For things and animals, especially extra info with commas.", "example": "My bike, which is red, was stolen."},
+        {"name": "That", "detail": "For things (and people informally) in essential clauses, no commas.", "example": "The bike that I bought is red."},
+        {"name": "Essential vs. extra", "detail": "Essential = identifies which one (no commas). Extra = bonus info (commas).", "example": "My brother who lives in Paris (I have several) vs. My brother, who lives in Paris, (I have one)"},
+        {"name": "Whose, where, when", "detail": "Possession, place, time.", "example": "the man whose car broke, the town where I grew up"}
+      ],
+      "history": "Who and which come from Old English question words (hwā, hwilc). That was originally a form of 'the.' For centuries writers used which and that interchangeably (the King James Bible says 'Our Father, which art in heaven').\n\nIn 1926, H. W. Fowler's 'A Dictionary of Modern English Usage' suggested using that for essential clauses and which for extra ones. American editors adopted his suggestion strongly; British writers are more relaxed and often use which for both.",
+      "examples": [
+        {"good": "The movie that we watched was scary.", "bad": "The movie, that we watched, was scary.", "note": "Don't put commas around a that-clause."},
+        {"good": "Tokyo, which is huge, never sleeps.", "bad": "Tokyo that is huge never sleeps.", "note": "There's only one Tokyo, so the info is extra."},
+        {"good": "The teacher who helped me retired.", "bad": "The teacher which helped me retired.", "note": "People get who."}
+      ],
+      "trick": "Which = a bonus scene (with comma curtains). That = part of the main plot (no curtains).",
+      "quiz": [
+        {"q": "'The cake ___ you made was delicious.'", "options": ["who", "that", ", which", "whose"], "answer": 1, "why": "Essential information about a thing."},
+        {"q": "'Mount Fuji, ___ is Japan's highest mountain, is beautiful.'", "options": ["that", "who", "which", "whom"], "answer": 2, "why": "Extra information with commas: which."}
+      ]
+    },
+    {
+      "id": "double-negatives",
+      "title": "Double Negatives",
+      "tagline": "Use one 'no' word per idea",
+      "story": [
+        {"who": "kaito", "line": "I didn't eat nothing!"},
+        {"who": "yumi", "line": "So you ate something! Hehe. Two negatives make a positive!"},
+        {"who": "kaito", "line": "That's not what I meant!"},
+        {"who": "sensei", "line": "In standard English, use one negative: 'I didn't eat anything' or 'I ate nothing.'"},
+        {"who": "hana", "line": "But songs say 'I can't get no satisfaction'!"},
+        {"who": "sensei", "line": "Many dialects and songs use double negatives for emphasis, and everyone understands them. In formal writing, though, one negative is the rule."}
+      ],
+      "parts": [
+        {"name": "Negative words", "detail": "not / n't, no, never, nothing, nobody, nowhere, none, neither.", "example": "I never lie."},
+        {"name": "Use any- after not", "detail": "anything, anybody, anywhere, any, ever.", "example": "I don't know anybody here."},
+        {"name": "Hidden negatives", "detail": "hardly, barely, scarcely are already negative.", "example": "I can hardly see. (not can't hardly)"},
+        {"name": "Litotes (on purpose)", "detail": "'Not un-' for gentle meaning is fine.", "example": "It's not unusual. (= it's fairly common)"}
+      ],
+      "history": "In Old and Middle English, double and even triple negatives were normal and simply made the 'no' stronger. Chaucer famously described a knight who 'never yet no villainy ne said / in all his life unto no manner wight': four negatives in two lines!\n\nIn the 1700s, grammarians such as Robert Lowth (1762) declared that two negatives cancel each other out, borrowing logic from mathematics and Latin. Their rule became standard in schools, while many spoken dialects kept the older style.",
+      "examples": [
+        {"good": "I don't have any money.", "bad": "I don't have no money.", "note": "One negative."},
+        {"good": "Nobody ever tells me anything.", "bad": "Nobody never tells me nothing.", "note": "One negative word, then any/ever."},
+        {"good": "I can hardly wait.", "bad": "I can't hardly wait.", "note": "Hardly is already negative."}
+      ],
+      "trick": "One 'no' per idea. After a negative, switch to 'any' words.",
+      "quiz": [
+        {"q": "Which is standard English?", "options": ["I didn't see nobody.", "I didn't see anybody.", "I didn't see no one.", "I not saw anybody."], "answer": 1, "why": "One negative + anybody."},
+        {"q": "Which is correct?", "options": ["She can't hardly hear.", "She can hardly hear.", "She can't not hear hardly.", "She hardly can't hear."], "answer": 1, "why": "Hardly is already negative."}
+      ]
+    },
+    {
+      "id": "question-tags",
+      "title": "Question Tags",
+      "tagline": "..., isn't it? ..., don't you?",
+      "story": [
+        {"who": "yumi", "line": "You love me, don't you, Kaito?"},
+        {"who": "kaito", "line": "Why are you asking me a question at the end of a sentence?"},
+        {"who": "sensei", "line": "That's a question tag. A tiny question attached to a statement, to check or invite agreement."},
+        {"who": "hana", "line": "Positive sentence, negative tag. Negative sentence, positive tag. 'It's cold, isn't it?' 'You aren't scared, are you?'"},
+        {"who": "sensei", "line": "And the tag copies the helper verb. If there's no helper, use do, does or did."}
+      ],
+      "parts": [
+        {"name": "Opposite polarity", "detail": "Positive → negative tag; negative → positive tag.", "example": "She's nice, isn't she? / He can't swim, can he?"},
+        {"name": "Copy the helper", "detail": "be, have, modals, or do.", "example": "You've finished, haven't you?"},
+        {"name": "No helper? Use do", "detail": "Match the tense.", "example": "You like tea, don't you? / He went, didn't he?"},
+        {"name": "Special cases", "detail": "I am → aren't I? / Let's → shall we?", "example": "I'm late, aren't I? Let's go, shall we?"}
+      ],
+      "history": "Tags like 'is it not?' already appear in Shakespeare's plays. As contractions spread in the 1600s and 1700s, they shrank into the quick forms we use today, like 'isn't it?'\n\nMany languages have a single simple tag, like Japanese 'ne?', French 'n'est-ce pas?' or German 'oder?'. English is unusual because its tags change to match each sentence's verb, which makes them tricky but very expressive.",
+      "examples": [
+        {"good": "It's a beautiful day, isn't it?", "bad": "It's a beautiful day, is it?", "note": "Positive statement → negative tag."},
+        {"good": "You don't like spiders, do you?", "bad": "You don't like spiders, don't you?", "note": "Negative statement → positive tag."},
+        {"good": "She plays tennis, doesn't she?", "bad": "She plays tennis, isn't she?", "note": "No helper → use does."}
+      ],
+      "trick": "Tags are mirrors: they flip positive and negative, and copy the helper verb.",
+      "quiz": [
+        {"q": "'You're coming, ___?'", "options": ["are you", "aren't you", "don't you", "isn't it"], "answer": 1, "why": "Positive → negative tag, copy are."},
+        {"q": "'He didn't call, ___?'", "options": ["didn't he", "did he", "does he", "was he"], "answer": 1, "why": "Negative → positive tag."}
+      ]
+    }
+  ]
+}

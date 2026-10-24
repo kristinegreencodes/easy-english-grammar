@@ -1,0 +1,217 @@
+{
+  "id": "little-words",
+  "order": 7,
+  "title": "Articles & Prepositions",
+  "subtitle": "The Tiny Spirits Who Run Everything",
+  "emoji": "🧚",
+  "color": "#CE93D8",
+  "colorDark": "#4A148C",
+  "intro": "They're small, but they're everywhere. The tiny spirits a, an, the, in, on and at appear in almost every sentence. Master them and your English instantly sounds more natural.",
+  "rules": [
+    {
+      "id": "a-vs-an",
+      "title": "A vs. An",
+      "tagline": "It's about the sound, not the letter",
+      "story": [
+        {"who": "kaito", "line": "I found a apple and an unicorn!"},
+        {"who": "yumi", "line": "An apple and a unicorn. Hehe. Say them out loud."},
+        {"who": "sensei", "line": "Use an before a vowel SOUND, and a before a consonant SOUND. Apple starts with an 'a' sound, so an apple."},
+        {"who": "hana", "line": "But unicorn starts with u!"},
+        {"who": "sensei", "line": "Listen: 'yoo-nicorn.' It starts with a 'y' sound, a consonant sound. So: a unicorn. And hour starts with a silent h, so: an hour."}
+      ],
+      "parts": [
+        {"name": "a + consonant sound", "detail": "Including 'yoo' and 'w' sounds.", "example": "a cat, a university, a one-time offer"},
+        {"name": "an + vowel sound", "detail": "Including silent h.", "example": "an egg, an hour, an honest man"},
+        {"name": "Letters and acronyms", "detail": "Follow how the letter is said.", "example": "an MRI (em-ar-eye), a UFO (yoo-ef-oh), an FBI agent"},
+        {"name": "Only for one countable thing", "detail": "Not with plurals or uncountable nouns.", "example": "a book (not a books, not a water)"}
+      ],
+      "history": "A and an both come from the Old English word ān, which meant 'one.' Over time, the n dropped off before consonant sounds because 'an cat' was awkward to say, while 'an apple' kept it to stop two vowels from bumping together.\n\nThis split also explains some strange words: 'a napron' was misheard as 'an apron,' and 'a nadder' became 'an adder' (a type of snake)!",
+      "examples": [
+        {"good": "It took an hour.", "bad": "It took a hour.", "note": "The h is silent."},
+        {"good": "She goes to a university.", "bad": "She goes to an university.", "note": "University starts with a 'y' sound."},
+        {"good": "He's an honest person.", "bad": "He's a honest person.", "note": "Silent h."}
+      ],
+      "trick": "Trust your ears, not your eyes. Say the next word; if it starts with a vowel sound, add an n.",
+      "quiz": [
+        {"q": "'___ umbrella'", "options": ["a", "an"], "answer": 1, "why": "Umbrella starts with an 'uh' vowel sound."},
+        {"q": "'___ European city'", "options": ["a", "an"], "answer": 0, "why": "European starts with a 'yoo' sound."}
+      ]
+    },
+    {
+      "id": "the-article",
+      "title": "The (Definite Article)",
+      "tagline": "The specific one we both know about",
+      "story": [
+        {"who": "hana", "line": "I saw a cat in the garden. The cat was wearing a hat!"},
+        {"who": "sensei", "line": "Notice what you did. First a cat, any cat, new to the listener. Then the cat, because now we both know which one."},
+        {"who": "kaito", "line": "So I say 'the sun,' because there's only one?"},
+        {"who": "sensei", "line": "Yes. Use the when the listener knows which one: it's been mentioned, it's unique, or it's obvious from the situation."},
+        {"who": "yumi", "line": "Pass me the salt. Not a salt. The one right there! Hehe."}
+      ],
+      "parts": [
+        {"name": "Second mention", "detail": "First a, then the.", "example": "I bought a book. The book is great."},
+        {"name": "Unique things", "detail": "Only one exists.", "example": "the sun, the moon, the internet"},
+        {"name": "Obvious from context", "detail": "Both people know which one.", "example": "Close the door, please."},
+        {"name": "Superlatives & ordinals", "detail": "the best, the first, the last.", "example": "the tallest tower"},
+        {"name": "Some place names", "detail": "Rivers, oceans, mountain ranges, plural countries.", "example": "the Nile, the Pacific, the Alps, the United States"}
+      ],
+      "history": "Old English had a whole family of words for 'the' that changed with gender and case: se, sēo, þæt and more. During the Middle English period, these collapsed into one simple form, þe, which became 'the.'\n\nThe old word þæt survives too: it became 'that.' And the 'ye' in 'Ye Olde Shoppe' is really 'the,' because the old letter þ (thorn) looked like a y in some printing.",
+      "examples": [
+        {"good": "The moon is bright tonight.", "bad": "A moon is bright tonight.", "note": "There's only one moon."},
+        {"good": "She is the best student.", "bad": "She is best student.", "note": "Superlatives need the."},
+        {"good": "We swam in the Pacific Ocean.", "bad": "We swam in Pacific Ocean.", "note": "Oceans take the."}
+      ],
+      "trick": "A = 'one of many, you don't know which yet.' The = 'that one, you know the one.'",
+      "quiz": [
+        {"q": "'I have a dog. ___ dog is named Mochi.'", "options": ["A", "The", "An", "no article"], "answer": 1, "why": "Second mention."},
+        {"q": "'He climbed ___ highest mountain.'", "options": ["a", "an", "the", "no article"], "answer": 2, "why": "Superlatives take the."}
+      ]
+    },
+    {
+      "id": "zero-article",
+      "title": "No Article at All",
+      "tagline": "When to say nothing before a noun",
+      "story": [
+        {"who": "kaito", "line": "I love the ramen! The life is the beautiful!"},
+        {"who": "hana", "line": "Too many 'the's! It sounds like a strange translation."},
+        {"who": "sensei", "line": "When you speak about things in general, use no article. 'I love ramen.' 'Life is beautiful.'"},
+        {"who": "kaito", "line": "But I can say 'the ramen at this shop is amazing'?"},
+        {"who": "sensei", "line": "Yes! That's a specific ramen. General = no article. Specific = the."}
+      ],
+      "parts": [
+        {"name": "General plurals", "detail": "Talking about all of them.", "example": "Cats are curious."},
+        {"name": "General uncountables", "detail": "Ideas, substances.", "example": "Water is important. Love is strange."},
+        {"name": "Names", "detail": "Most people, cities, countries, languages.", "example": "Hana lives in Kyoto and speaks Japanese."},
+        {"name": "Meals, sports, school subjects", "detail": "Usually no article.", "example": "We had lunch. I play tennis. I study math."},
+        {"name": "Fixed phrases", "detail": "go to bed, go to school, at home, by train.", "example": "She goes to school by bus."}
+      ],
+      "history": "Old English often used no article at all, and early English used 'the' far less than it does today. Over centuries, 'the' spread into many places where it had not been used before.\n\nThe general-versus-specific split is surprisingly hard for speakers of languages like Japanese, Korean, Chinese or Russian, which don't have articles at all, and for speakers of Spanish or French, which use the article for general statements ('La vida es bella').",
+      "examples": [
+        {"good": "Dogs are loyal.", "bad": "The dogs are loyal.", "note": "General statement about all dogs."},
+        {"good": "I go to school by bus.", "bad": "I go to the school by the bus.", "note": "Fixed phrases."},
+        {"good": "She speaks French.", "bad": "She speaks the French.", "note": "Languages have no article."}
+      ],
+      "trick": "If you could add 'in general' to the end, drop the article: 'Music is fun (in general).'",
+      "quiz": [
+        {"q": "'___ honesty is the best policy.'", "options": ["The", "A", "An", "no article"], "answer": 3, "why": "Honesty in general."},
+        {"q": "'I usually have ___ breakfast at 7.'", "options": ["a", "the", "no article", "an"], "answer": 2, "why": "Meals usually take no article."}
+      ]
+    },
+    {
+      "id": "quantifiers",
+      "title": "Much, Many, Few & Little",
+      "tagline": "Counting words for countable and uncountable nouns",
+      "story": [
+        {"who": "kaito", "line": "How much onigiri do you have? I have much friends!"},
+        {"who": "hana", "line": "How many onigiri. And many friends!"},
+        {"who": "sensei", "line": "Countable nouns use many and few. Uncountable nouns use much and little."},
+        {"who": "yumi", "line": "So I have little patience and few friends? Rude!"},
+        {"who": "sensei", "line": "Careful, Yumi. 'A few' and 'a little' mean 'some, enough.' 'Few' and 'little' alone mean 'almost none.' The a changes the mood!"}
+      ],
+      "parts": [
+        {"name": "Countable", "detail": "many, few, a few, a number of, several.", "example": "many books, a few friends"},
+        {"name": "Uncountable", "detail": "much, little, a little, a great deal of.", "example": "much time, a little sugar"},
+        {"name": "Both", "detail": "some, any, a lot of, lots of, plenty of, no.", "example": "a lot of books, a lot of water"},
+        {"name": "Few vs. a few", "detail": "Few = not enough (negative). A few = some (positive).", "example": "Few people came (sad). A few people came (okay!)."}
+      ],
+      "history": "Many comes from Old English manig, and much from mycel (which meant 'big'). Mycel also gave Scots the word 'mickle.'\n\nIn modern speech, much sounds stiff in positive sentences. People say 'a lot of time' instead of 'much time,' but much is still natural in questions and negatives: 'Do you have much time?'",
+      "examples": [
+        {"good": "How many people are coming?", "bad": "How much people are coming?", "note": "People is countable."},
+        {"good": "There isn't much milk left.", "bad": "There isn't many milk left.", "note": "Milk is uncountable."},
+        {"good": "I have a few questions.", "bad": "I have a little questions.", "note": "Questions are countable."}
+      ],
+      "trick": "Many = more than you can count on your fingers. Much = more than fits in your bowl.",
+      "quiz": [
+        {"q": "'There are too ___ cars on the road.'", "options": ["much", "many", "little", "less"], "answer": 1, "why": "Cars are countable."},
+        {"q": "'Hurry! We have very ___ time.'", "options": ["few", "little", "many", "a few"], "answer": 1, "why": "Time is uncountable."}
+      ]
+    },
+    {
+      "id": "in-on-at-time",
+      "title": "In, On, At (Time)",
+      "tagline": "The triangle of time: from big to small",
+      "story": [
+        {"who": "chrono", "line": "Hana, imagine an upside-down triangle. At the top, the wide part, is IN."},
+        {"who": "hana", "line": "Big time periods: in 2026, in October, in summer, in the morning!"},
+        {"who": "chrono", "line": "In the middle is ON: specific days and dates. On Monday, on my birthday, on October 24th."},
+        {"who": "kaito", "line": "And the sharp tip is AT! At 7 o'clock, at noon, at midnight!"},
+        {"who": "chrono", "line": "Bigger box, IN. Day, ON. Exact point, AT."}
+      ],
+      "parts": [
+        {"name": "IN (big periods)", "detail": "Years, months, seasons, centuries, parts of the day.", "example": "in 1999, in June, in winter, in the evening"},
+        {"name": "ON (days and dates)", "detail": "Days of the week, dates, special days.", "example": "on Friday, on July 4th, on New Year's Day"},
+        {"name": "AT (exact times)", "detail": "Clock times, and some fixed phrases.", "example": "at 6:30, at noon, at night, at the weekend (UK)"},
+        {"name": "No preposition", "detail": "Before this, next, last, every.", "example": "I'll see you next Friday. (not on next Friday)"}
+      ],
+      "history": "In, on and at all come from Old English (in, on, æt) and were originally about physical space. Over time English borrowed space words to talk about time. Linguists call this a metaphor: we imagine time as a place we move through.\n\nThat's why the time rules mirror the place rules: a big container (in), a surface (on), and an exact point (at).",
+      "examples": [
+        {"good": "I was born in 2001.", "bad": "I was born on 2001.", "note": "Years take in."},
+        {"good": "The party is on Saturday.", "bad": "The party is in Saturday.", "note": "Days take on."},
+        {"good": "The movie starts at 8 p.m.", "bad": "The movie starts on 8 p.m.", "note": "Clock times take at."}
+      ],
+      "trick": "The time triangle: IN (big) → ON (day) → AT (point).",
+      "quiz": [
+        {"q": "'My birthday is ___ May.'", "options": ["in", "on", "at"], "answer": 0, "why": "Months take in."},
+        {"q": "'Let's meet ___ Tuesday ___ 3 p.m.'", "options": ["in / on", "on / at", "at / in", "on / in"], "answer": 1, "why": "On a day, at a time."}
+      ]
+    },
+    {
+      "id": "in-on-at-place",
+      "title": "In, On, At (Place)",
+      "tagline": "Inside, on a surface, or at a point",
+      "story": [
+        {"who": "yumi", "line": "Where's Kaito? He's in the dojo, on the roof, at the door?"},
+        {"who": "hana", "line": "Those all mean different places!"},
+        {"who": "sensei", "line": "IN = inside something with edges: in the box, in Tokyo. ON = on a surface or line: on the table, on the wall, on the train. AT = a point or a location for an activity: at the door, at school, at the bus stop."},
+        {"who": "kaito", "line": "I'm on the roof! Help! I'm stuck!"},
+        {"who": "yumi", "line": "Hehe, I'll be at the ramen shop if anyone needs me."}
+      ],
+      "parts": [
+        {"name": "IN: enclosed spaces", "detail": "Rooms, buildings, cities, countries, water.", "example": "in the kitchen, in Japan, in the sea"},
+        {"name": "ON: surfaces and lines", "detail": "Tables, walls, floors, streets, public transport.", "example": "on the desk, on Main Street, on the bus"},
+        {"name": "AT: points and activities", "detail": "Specific spots, addresses, events.", "example": "at the corner, at 10 Main Street, at a concert"},
+        {"name": "Cars vs. buses", "detail": "Small vehicles: in. Big ones you can walk in: on.", "example": "in a car, in a taxi / on a bus, on a plane"}
+      ],
+      "history": "These three prepositions have described space since Old English times. Ideas like 'on the bus' (but 'in the car') developed much later, once people rode public transport.\n\nOne theory: you can stand up and walk around on a bus, train or plane, like on a floor or platform, but you just sit inside a car.",
+      "examples": [
+        {"good": "She lives in London.", "bad": "She lives at London.", "note": "Cities take in."},
+        {"good": "The picture is on the wall.", "bad": "The picture is in the wall.", "note": "Surface → on."},
+        {"good": "I'll wait for you at the station.", "bad": null, "note": "A meeting point → at."}
+      ],
+      "trick": "IN = a box around you. ON = a floor under you. AT = a pin on the map.",
+      "quiz": [
+        {"q": "'The keys are ___ the table.'", "options": ["in", "on", "at"], "answer": 1, "why": "On a surface."},
+        {"q": "'We got ___ the bus.'", "options": ["in", "on", "at"], "answer": 1, "why": "Big vehicles take on."}
+      ]
+    },
+    {
+      "id": "ending-with-preposition",
+      "title": "Ending a Sentence with a Preposition",
+      "tagline": "A myth that grammar spirits love to argue about",
+      "story": [
+        {"who": "narrator", "line": "A strict ghost appears in the library, waving a ruler."},
+        {"who": "kaito", "line": "Who are you talking to?"},
+        {"who": "sensei", "line": "The ghost insists you must say 'To whom are you talking?' because 'to' cannot end a sentence."},
+        {"who": "hana", "line": "But 'Who are you talking to?' sounds totally normal!"},
+        {"who": "sensei", "line": "Because it is normal. This 'rule' was invented by a poet who loved Latin. English has ended sentences with prepositions for over a thousand years."},
+        {"who": "yumi", "line": "Ghost-san, that's something you'll just have to put up with. Hehe."}
+      ],
+      "parts": [
+        {"name": "Totally fine", "detail": "Questions, relative clauses, passives and phrasal verbs often end in a preposition.", "example": "What are you looking at? This is the house I grew up in."},
+        {"name": "Formal option", "detail": "In very formal writing you may move the preposition earlier.", "example": "This is the house in which I grew up."},
+        {"name": "Avoid extra prepositions", "detail": "Don't add a preposition that isn't needed.", "example": "Where are you? (not Where are you at?) in formal writing"}
+      ],
+      "history": "In 1672, the poet John Dryden criticized Ben Jonson for ending a line with a preposition. Dryden admired Latin, where a preposition can't end a sentence, so he wanted English to follow suit.\n\nSchoolteachers repeated his opinion for centuries. But great writers including Shakespeare and Jane Austen ignored it. A well-known joke, often (and probably wrongly) credited to Winston Churchill, mocks the rule: 'This is the sort of nonsense up with which I will not put!'",
+      "examples": [
+        {"good": "What are you afraid of?", "bad": null, "note": "Natural English."},
+        {"good": "That's the friend I told you about.", "bad": null, "note": "Natural English."},
+        {"good": "Where is the station?", "bad": "Where is the station at?", "note": "The extra 'at' adds nothing."}
+      ],
+      "trick": "If moving the preposition makes you sound like a Victorian ghost, leave it at the end.",
+      "quiz": [
+        {"q": "Is 'Who did you go with?' correct English?", "options": ["Yes", "No, it must be 'With whom did you go?'"], "answer": 0, "why": "Ending with a preposition is standard English."},
+        {"q": "Who popularized the 'no preposition at the end' idea?", "options": ["Shakespeare", "John Dryden", "Jane Austen", "Julius Caesar"], "answer": 1, "why": "Dryden, in 1672."}
+      ]
+    }
+  ]
+}

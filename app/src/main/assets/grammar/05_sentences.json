@@ -1,0 +1,784 @@
+{
+  "id": "sentences",
+  "order": 5,
+  "title": "Sentence Structure",
+  "subtitle": "Building the Sentence Castle",
+  "emoji": "🏰",
+  "color": "#64B5F6",
+  "colorDark": "#0D47A1",
+  "intro": "Words are bricks; sentences are castles. Here Hana learns how to build sentences that stand strong: subjects and verbs that agree, clauses that connect, and no crumbling fragments or runaway run-ons.",
+  "rules": [
+    {
+      "id": "subject-predicate",
+      "title": "Subject + Predicate",
+      "tagline": "Every complete sentence needs a who and a does",
+      "story": [
+        {
+          "who": "narrator",
+          "line": "Hana tries to build a wall. The bricks keep falling."
+        },
+        {
+          "who": "hana",
+          "line": "My sentence keeps collapsing! 'Ran through the forest.'"
+        },
+        {
+          "who": "sensei",
+          "line": "Who ran? A sentence needs two pillars. The subject is who or what. The predicate is what they do or are."
+        },
+        {
+          "who": "hana",
+          "line": "Kaito ran through the forest!"
+        },
+        {
+          "who": "sensei",
+          "line": "Now it stands. Kaito is the subject. 'Ran through the forest' is the predicate."
+        },
+        {
+          "who": "kaito",
+          "line": "Why am I always the one running?"
+        }
+      ],
+      "parts": [
+        {
+          "name": "Subject",
+          "detail": "Who or what the sentence is about. Usually a noun or pronoun.",
+          "example": "The old monk smiled."
+        },
+        {
+          "name": "Predicate",
+          "detail": "The verb plus everything that tells about the subject.",
+          "example": "The old monk smiled at the children."
+        },
+        {
+          "name": "Simple subject / verb",
+          "detail": "The core noun and core verb.",
+          "example": "monk / smiled"
+        },
+        {
+          "name": "Hidden subject",
+          "detail": "Commands have an invisible 'you.'",
+          "example": "(You) Sit down."
+        }
+      ],
+      "history": "The idea of splitting a sentence into two halves comes from ancient Greek logic. Aristotle talked about a 'subject' (what you speak about) and a 'predicate' (what you say about it).\n\nGrammarians borrowed his logic words, which is why grammar sounds a bit like philosophy class.",
+      "examples": [
+        {
+          "good": "The lanterns glowed.",
+          "bad": "Glowed brightly.",
+          "note": "The second has no subject."
+        },
+        {
+          "good": "Close the door.",
+          "bad": null,
+          "note": "A command: the subject 'you' is understood."
+        },
+        {
+          "good": "My best friend from school lives in Osaka.",
+          "bad": null,
+          "note": "Subject: My best friend from school. Predicate: lives in Osaka."
+        }
+      ],
+      "trick": "Two pillars: WHO? and DOES WHAT? If either is missing, the castle falls.",
+      "quiz": [
+        {
+          "q": "What is the subject? 'The tired cat slept on the roof.'",
+          "options": [
+            "tired",
+            "The tired cat",
+            "slept",
+            "on the roof"
+          ],
+          "answer": 1,
+          "why": "The sentence is about the tired cat."
+        },
+        {
+          "q": "Which is a complete sentence?",
+          "options": [
+            "Running in the rain.",
+            "The girl laughed.",
+            "Under the bridge.",
+            "Because it was late."
+          ],
+          "answer": 1,
+          "why": "It has a subject (girl) and a verb (laughed)."
+        }
+      ]
+    },
+    {
+      "id": "word-order",
+      "title": "Word Order (S-V-O)",
+      "tagline": "Subject, then verb, then object",
+      "story": [
+        {
+          "who": "yumi",
+          "line": "The dog bit the man. The man bit the dog. Same words, different story! Hehe."
+        },
+        {
+          "who": "hana",
+          "line": "Whoa. Just switching the order changes who bit who!"
+        },
+        {
+          "who": "sensei",
+          "line": "In English, word order does the work. Subject, Verb, Object. The doer comes first, the receiver comes after the verb."
+        },
+        {
+          "who": "kaito",
+          "line": "In Japanese, the verb comes at the end! Kaito ramen eats."
+        },
+        {
+          "who": "sensei",
+          "line": "Yes, Japanese is S-O-V and uses little markers like 'ga' and 'wo.' English lost most of its markers, so order must carry the meaning."
+        }
+      ],
+      "parts": [
+        {
+          "name": "S-V-O",
+          "detail": "Subject + Verb + Object.",
+          "example": "Hana (S) reads (V) manga (O)."
+        },
+        {
+          "name": "Adding places and times",
+          "detail": "Usually after the object: place, then time.",
+          "example": "She studied English at school yesterday."
+        },
+        {
+          "name": "Indirect objects",
+          "detail": "Give someone something: S-V-IO-O or S-V-O-to-IO.",
+          "example": "He gave Yumi a gift. / He gave a gift to Yumi."
+        },
+        {
+          "name": "Questions flip",
+          "detail": "The helper verb jumps before the subject.",
+          "example": "She is ready. → Is she ready?"
+        }
+      ],
+      "history": "Old English had case endings like German or Latin, so word order could be freer. 'Se hund bāt þone mann' and 'þone mann bāt se hund' both meant 'the dog bit the man,' because the endings marked who did what.\n\nAfter 1066, those endings wore away, and English had to rely on position instead. By around 1400, S-V-O had become the standard order.",
+      "examples": [
+        {
+          "good": "I bought a new phone yesterday.",
+          "bad": "I bought yesterday a new phone.",
+          "note": "Object before time."
+        },
+        {
+          "good": "She speaks English very well.",
+          "bad": "She speaks very well English.",
+          "note": "Don't put words between the verb and its object."
+        },
+        {
+          "good": "We met our friends at the cafe.",
+          "bad": null,
+          "note": "S-V-O, then place."
+        }
+      ],
+      "trick": "Doer → Doing → Done-to. Then add Where, then When.",
+      "quiz": [
+        {
+          "q": "Which order is correct?",
+          "options": [
+            "I every day drink tea.",
+            "I drink tea every day.",
+            "Drink I tea every day.",
+            "I drink every day tea."
+          ],
+          "answer": 1,
+          "why": "S-V-O, then time."
+        },
+        {
+          "q": "In 'The cat chased the mouse,' who did the chasing?",
+          "options": [
+            "the mouse",
+            "the cat",
+            "both",
+            "unclear"
+          ],
+          "answer": 1,
+          "why": "The subject comes first."
+        }
+      ]
+    },
+    {
+      "id": "subject-verb-agreement",
+      "title": "Subject–Verb Agreement",
+      "tagline": "Singular subjects get singular verbs",
+      "story": [
+        {
+          "who": "kaito",
+          "line": "The group of warriors are ready!"
+        },
+        {
+          "who": "sensei",
+          "line": "Find the true subject. Is it the warriors, or the group?"
+        },
+        {
+          "who": "hana",
+          "line": "Of warriors is just a decoration. The real subject is group, and it's singular. 'The group of warriors IS ready.'"
+        },
+        {
+          "who": "sensei",
+          "line": "Excellent. Don't let words between the subject and verb trick you."
+        },
+        {
+          "who": "yumi",
+          "line": "What about 'Neither Kaito nor his friends is ready'?"
+        },
+        {
+          "who": "sensei",
+          "line": "With or and nor, the verb agrees with the closer subject: neither Kaito nor his friends ARE ready."
+        }
+      ],
+      "parts": [
+        {
+          "name": "Basic rule",
+          "detail": "Singular subject → verb with -s (present). Plural subject → no -s.",
+          "example": "The dog barks. The dogs bark."
+        },
+        {
+          "name": "Ignore the middle",
+          "detail": "Phrases between subject and verb don't count.",
+          "example": "The box of chocolates is on the table."
+        },
+        {
+          "name": "And = plural",
+          "detail": "Two subjects joined by and.",
+          "example": "Hana and Kaito are friends."
+        },
+        {
+          "name": "Or / nor = nearest",
+          "detail": "Match the closer subject.",
+          "example": "Either the cats or the dog is hungry."
+        },
+        {
+          "name": "Each, every, everyone = singular",
+          "detail": "Even though they feel like many.",
+          "example": "Everyone is here."
+        }
+      ],
+      "history": "Old English verbs matched their subjects with many different endings. Modern English has only one leftover in the present tense, the -s for he, she and it, plus the was/were split.\n\nBecause there's so little left, it's easy to slip. That's why agreement errors are among the most common mistakes even for native speakers.",
+      "examples": [
+        {
+          "good": "The list of names is long.",
+          "bad": "The list of names are long.",
+          "note": "The subject is list."
+        },
+        {
+          "good": "Each of the students has a book.",
+          "bad": "Each of the students have a book.",
+          "note": "Each is singular."
+        },
+        {
+          "good": "There are three cats outside.",
+          "bad": "There's three cats outside.",
+          "note": "With there is / there are, the subject comes after the verb."
+        }
+      ],
+      "trick": "Cross out everything between the subject and the verb, then check if they match.",
+      "quiz": [
+        {
+          "q": "'The color of the flowers ___ beautiful.'",
+          "options": [
+            "are",
+            "is",
+            "were",
+            "be"
+          ],
+          "answer": 1,
+          "why": "The subject is color (singular)."
+        },
+        {
+          "q": "'Neither the teacher nor the students ___ here.'",
+          "options": [
+            "is",
+            "are",
+            "was",
+            "has"
+          ],
+          "answer": 1,
+          "why": "Students is closer to the verb, so plural."
+        }
+      ]
+    },
+    {
+      "id": "sentence-types",
+      "title": "Simple, Compound & Complex",
+      "tagline": "Clauses: the rooms of the castle",
+      "story": [
+        {
+          "who": "sensei",
+          "line": "A clause is a group of words with its own subject and verb. Think of it as a room in your castle."
+        },
+        {
+          "who": "hana",
+          "line": "One room: 'I trained.' That's a simple sentence."
+        },
+        {
+          "who": "sensei",
+          "line": "Two equal rooms joined by a FANBOYS bridge: 'I trained, and Kaito slept.' Compound."
+        },
+        {
+          "who": "kaito",
+          "line": "Hey! Okay: 'Because I was tired, I slept.'"
+        },
+        {
+          "who": "sensei",
+          "line": "That's complex: a main room (I slept) plus a dependent room (because I was tired) that can't stand alone."
+        }
+      ],
+      "parts": [
+        {
+          "name": "Independent clause",
+          "detail": "Can stand alone as a sentence.",
+          "example": "The rain stopped."
+        },
+        {
+          "name": "Dependent clause",
+          "detail": "Starts with a word like because, when, if, although; cannot stand alone.",
+          "example": "when the rain stopped"
+        },
+        {
+          "name": "Simple sentence",
+          "detail": "One independent clause.",
+          "example": "The rain stopped."
+        },
+        {
+          "name": "Compound sentence",
+          "detail": "Two independent clauses + comma + FANBOYS (or a semicolon).",
+          "example": "The rain stopped, so we went outside."
+        },
+        {
+          "name": "Complex sentence",
+          "detail": "Independent + dependent clause.",
+          "example": "When the rain stopped, we went outside."
+        }
+      ],
+      "history": "Latin and Greek teachers loved long, layered sentences. In the 1600s and 1700s, English writers imitated them, producing sentences that could fill a whole page.\n\nModern English style prefers mixing short and long sentences. Knowing the three types lets you control rhythm, like a director choosing fast cuts or slow scenes.",
+      "examples": [
+        {
+          "good": "I studied, but I failed the test.",
+          "bad": null,
+          "note": "Compound: two independent clauses + but."
+        },
+        {
+          "good": "Although I studied, I failed the test.",
+          "bad": null,
+          "note": "Complex: although starts a dependent clause."
+        },
+        {
+          "good": "If it rains, we'll stay home.",
+          "bad": null,
+          "note": "Put a comma after a dependent clause that comes first."
+        }
+      ],
+      "trick": "Can it stand alone and make sense? It's an independent room. Does it start with because, if, when? It's a dependent room that needs a main room to lean on.",
+      "quiz": [
+        {
+          "q": "Which is a complex sentence?",
+          "options": [
+            "I ran.",
+            "I ran, and she walked.",
+            "After I ran, I rested.",
+            "I ran and jumped."
+          ],
+          "answer": 2,
+          "why": "It has a dependent clause starting with after."
+        },
+        {
+          "q": "Which is a dependent clause?",
+          "options": [
+            "The sun set.",
+            "because the sun set",
+            "We left.",
+            "Birds sing."
+          ],
+          "answer": 1,
+          "why": "It starts with because and can't stand alone."
+        }
+      ]
+    },
+    {
+      "id": "sentence-fragments",
+      "title": "Sentence Fragments",
+      "tagline": "Broken pieces that pretend to be sentences",
+      "story": [
+        {
+          "who": "narrator",
+          "line": "Shards of a broken scroll lie on the floor."
+        },
+        {
+          "who": "hana",
+          "line": "'Because the dragon was hungry.' 'Running through the village.' 'The shiny red sword.'"
+        },
+        {
+          "who": "sensei",
+          "line": "Fragments. Each has a capital letter and a period, but something is missing: a subject, a verb, or a main clause."
+        },
+        {
+          "who": "hana",
+          "line": "Let me fix them! 'Because the dragon was hungry, it ate the crops.' 'The children were running through the village.' 'Kaito lost the shiny red sword.'"
+        },
+        {
+          "who": "kaito",
+          "line": "WHY is it always me?"
+        }
+      ],
+      "parts": [
+        {
+          "name": "Missing subject",
+          "detail": "Who is doing it?",
+          "example": "Went to the store. → I went to the store."
+        },
+        {
+          "name": "Missing verb",
+          "detail": "What happened?",
+          "example": "The big blue whale. → The big blue whale swam by."
+        },
+        {
+          "name": "Lonely dependent clause",
+          "detail": "Attach it to an independent clause.",
+          "example": "Because I was late. → I ran because I was late."
+        },
+        {
+          "name": "Style fragments",
+          "detail": "Writers sometimes use fragments on purpose for effect, especially in dialogue or ads.",
+          "example": "Silence. Then a scream."
+        }
+      ],
+      "history": "Fragments are perfectly normal in speech. If someone asks 'Where are you going?' you answer 'Home.' Nobody says 'I am going home' every time.\n\nIn formal writing, teachers began strictly banning fragments in the 1800s as school grammar became standardized. Novelists and poets still break this rule on purpose for drama.",
+      "examples": [
+        {
+          "good": "We stayed inside because it was raining.",
+          "bad": "We stayed inside. Because it was raining.",
+          "note": "Attach the because-clause."
+        },
+        {
+          "good": "She left early to catch the train.",
+          "bad": "She left early. To catch the train.",
+          "note": "The second piece has no subject or main verb."
+        },
+        {
+          "good": "Hana, a brave student, entered the cave.",
+          "bad": "Hana entered the cave. A brave student.",
+          "note": "Attach the description."
+        }
+      ],
+      "trick": "Read the piece alone, out loud, as if it's the first thing anyone ever said. If it leaves people asking 'What?', it's a fragment.",
+      "quiz": [
+        {
+          "q": "Which is a fragment?",
+          "options": [
+            "She smiled.",
+            "When the bell rang.",
+            "Dogs bark.",
+            "I am here."
+          ],
+          "answer": 1,
+          "why": "It's a dependent clause on its own."
+        },
+        {
+          "q": "Best fix for 'Walking to school in the snow.'",
+          "options": [
+            "Walking to school, in the snow.",
+            "I was walking to school in the snow.",
+            "Walking. To school in the snow.",
+            "In the snow walking to school."
+          ],
+          "answer": 1,
+          "why": "Adds a subject and a full verb."
+        }
+      ]
+    },
+    {
+      "id": "run-ons",
+      "title": "Run-ons & Comma Splices",
+      "tagline": "When sentences crash into each other",
+      "story": [
+        {
+          "who": "kaito",
+          "line": "I woke up I ate breakfast I went to the dojo I trained all day I was tired!"
+        },
+        {
+          "who": "yumi",
+          "line": "Breathe, warrior, breathe."
+        },
+        {
+          "who": "sensei",
+          "line": "That's a run-on: independent clauses smashed together with nothing between them."
+        },
+        {
+          "who": "kaito",
+          "line": "Then I'll add commas! I woke up, I ate breakfast, I went to the dojo."
+        },
+        {
+          "who": "sensei",
+          "line": "Now it's a comma splice. A comma alone is too weak to hold two sentences. Use a period, a semicolon, or a comma plus FANBOYS."
+        }
+      ],
+      "parts": [
+        {
+          "name": "Run-on (fused sentence)",
+          "detail": "Two clauses with no punctuation.",
+          "example": "It's late I'm going home."
+        },
+        {
+          "name": "Comma splice",
+          "detail": "Two clauses joined by only a comma.",
+          "example": "It's late, I'm going home."
+        },
+        {
+          "name": "Fix 1: period",
+          "detail": "Make two sentences.",
+          "example": "It's late. I'm going home."
+        },
+        {
+          "name": "Fix 2: semicolon",
+          "detail": "Join closely related ideas.",
+          "example": "It's late; I'm going home."
+        },
+        {
+          "name": "Fix 3: comma + FANBOYS, or because",
+          "detail": "Add a joining word.",
+          "example": "It's late, so I'm going home. / I'm going home because it's late."
+        }
+      ],
+      "history": "Writers like Charles Dickens and Jane Austen sometimes used comma splices, especially in dialogue. In the 1800s and 1900s, school style guides made the rule much stricter.\n\nToday comma splices are still common in casual messages, but in essays, exams and work emails, teachers and editors treat them as errors.",
+      "examples": [
+        {
+          "good": "I love ramen, but Yumi prefers sushi.",
+          "bad": "I love ramen, Yumi prefers sushi.",
+          "note": "Comma splice fixed with but."
+        },
+        {
+          "good": "The festival starts at six; don't be late.",
+          "bad": "The festival starts at six don't be late.",
+          "note": "Run-on fixed with a semicolon."
+        },
+        {
+          "good": "She was tired. She went to bed.",
+          "bad": "She was tired she went to bed.",
+          "note": "Fixed with a period."
+        }
+      ],
+      "trick": "A comma is a little fence; it can't hold back two sentences. Use a wall (period), a gate (semicolon), or a fence plus a guard (comma + FANBOYS).",
+      "quiz": [
+        {
+          "q": "Which is a comma splice?",
+          "options": [
+            "I ran, and I won.",
+            "I ran, I won.",
+            "I ran; I won.",
+            "I ran. I won."
+          ],
+          "answer": 1,
+          "why": "Two independent clauses with only a comma."
+        },
+        {
+          "q": "Which correctly fixes 'He was hungry he ate.'?",
+          "options": [
+            "He was hungry, he ate.",
+            "He was hungry, so he ate.",
+            "He was hungry so, he ate.",
+            "He was, hungry he ate."
+          ],
+          "answer": 1,
+          "why": "Comma + FANBOYS word so."
+        }
+      ]
+    },
+    {
+      "id": "parallel-structure",
+      "title": "Parallel Structure",
+      "tagline": "Keep lists and pairs in matching form",
+      "story": [
+        {
+          "who": "hana",
+          "line": "I like swimming, to hike, and riding bikes."
+        },
+        {
+          "who": "sensei",
+          "line": "Your list is like a team where one member wears a different uniform."
+        },
+        {
+          "who": "hana",
+          "line": "Oh! Swimming, hiking, and riding bikes. All -ing!"
+        },
+        {
+          "who": "sensei",
+          "line": "Parallel structure. When items do the same job, give them the same grammatical form. It sounds balanced, like a drumbeat."
+        },
+        {
+          "who": "kaito",
+          "line": "I came, I saw, I conquered!"
+        },
+        {
+          "who": "sensei",
+          "line": "Julius Caesar's famous parallel line. Short, matching, unforgettable."
+        }
+      ],
+      "parts": [
+        {
+          "name": "Lists",
+          "detail": "All nouns, all -ing, all to-verbs, all clauses.",
+          "example": "She likes reading, writing, and drawing."
+        },
+        {
+          "name": "Pairs",
+          "detail": "Both sides of and/or/but should match.",
+          "example": "He is smart and kind. (not smart and has kindness)"
+        },
+        {
+          "name": "Correlative pairs",
+          "detail": "Either/or, not only/but also: match what follows each.",
+          "example": "Not only fast but also strong."
+        },
+        {
+          "name": "Comparisons",
+          "detail": "Compare like with like.",
+          "example": "Swimming is harder than running. (not than to run)"
+        }
+      ],
+      "history": "Parallelism is one of the oldest tricks in rhetoric. Ancient Greek and Roman speakers trained in it, and Julius Caesar's 'Veni, vidi, vici' ('I came, I saw, I conquered,' 47 BC) is the classic example.\n\nLater, famous speeches used it to be remembered: Abraham Lincoln's 'government of the people, by the people, for the people' (1863). Matching patterns are easier for brains to store.",
+      "examples": [
+        {
+          "good": "The job requires speed, accuracy, and patience.",
+          "bad": "The job requires speed, being accurate, and to be patient.",
+          "note": "All nouns."
+        },
+        {
+          "good": "She wants to travel and to learn.",
+          "bad": "She wants to travel and learning.",
+          "note": "Match the forms."
+        },
+        {
+          "good": "He not only sings but also dances.",
+          "bad": "He not only sings but also is dancing.",
+          "note": "Match after each part of the pair."
+        }
+      ],
+      "trick": "Read only the first word of each list item. They should sound like the same kind of drumbeat: reading, writing, drawing.",
+      "quiz": [
+        {
+          "q": "Which is parallel?",
+          "options": [
+            "I like to cook, bake, and eating.",
+            "I like cooking, baking, and eating.",
+            "I like to cook, baking, and eat.",
+            "I like cook, to bake, and eating."
+          ],
+          "answer": 1,
+          "why": "All -ing forms."
+        },
+        {
+          "q": "Fix: 'She is talented, friendly, and works hard.'",
+          "options": [
+            "talented, friendly, and hardworking",
+            "talented, friendly, and working hard",
+            "talented, being friendly, and hardworking",
+            "No change"
+          ],
+          "answer": 0,
+          "why": "All adjectives."
+        }
+      ]
+    },
+    {
+      "id": "modifiers",
+      "title": "Misplaced & Dangling Modifiers",
+      "tagline": "Keep describing words next to what they describe",
+      "story": [
+        {
+          "who": "yumi",
+          "line": "I read a sign today: 'Walking through the park, the trees were beautiful.'"
+        },
+        {
+          "who": "hana",
+          "line": "Trees walking through the park? Like ents?!"
+        },
+        {
+          "who": "sensei",
+          "line": "A dangling modifier. The describing phrase has no correct person to attach to, so it grabs the nearest noun: the trees."
+        },
+        {
+          "who": "hana",
+          "line": "Fix: 'Walking through the park, I thought the trees were beautiful.'"
+        },
+        {
+          "who": "kaito",
+          "line": "I saw a dog in my pajamas!"
+        },
+        {
+          "who": "yumi",
+          "line": "Hehe. The dog was wearing your pajamas? That one's misplaced. 'In my pajamas, I saw a dog.'"
+        }
+      ],
+      "parts": [
+        {
+          "name": "Modifier",
+          "detail": "A word or phrase that describes something.",
+          "example": "Covered in mud, the dog ran inside."
+        },
+        {
+          "name": "Misplaced",
+          "detail": "The modifier is too far from what it describes.",
+          "example": "She served cake to the kids on paper plates."
+        },
+        {
+          "name": "Dangling",
+          "detail": "The thing being described isn't in the sentence at all.",
+          "example": "After eating dinner, the dishes were washed."
+        },
+        {
+          "name": "Fix",
+          "detail": "Put the doer right after the introductory phrase, or move the modifier.",
+          "example": "After eating dinner, we washed the dishes."
+        },
+        {
+          "name": "Little word: only",
+          "detail": "Its position changes meaning.",
+          "example": "Only I ate cake. / I only ate cake. / I ate only cake."
+        }
+      ],
+      "history": "Because English relies on word order (see S-V-O), a modifier attaches to whatever is closest. Languages with case endings can mark which word is described, but English can't.\n\nGrammar books of the early 1900s collected funny dangling modifiers to teach this rule, and newspaper editors still trade them as jokes.",
+      "examples": [
+        {
+          "good": "Running late, I forgot my keys.",
+          "bad": "Running late, my keys were forgotten.",
+          "note": "Who was running late? I was."
+        },
+        {
+          "good": "She ate almost the whole pizza.",
+          "bad": "She almost ate the whole pizza.",
+          "note": "If you mean she ate most of it, put almost next to whole. 'Almost ate' means she nearly ate it but didn't."
+        },
+        {
+          "good": "Hana found a gold ring in the river.",
+          "bad": "Hana found a ring in the river that was gold.",
+          "note": "The river wasn't gold! Keep the description next to the ring."
+        }
+      ],
+      "trick": "The phrase at the start of a sentence describes the very next noun. Make sure that noun is the right one.",
+      "quiz": [
+        {
+          "q": "Which sentence has a dangling modifier?",
+          "options": [
+            "Tired, I went to bed.",
+            "Tired, the bed looked inviting.",
+            "I was tired, so I went to bed.",
+            "The bed looked inviting to me."
+          ],
+          "answer": 1,
+          "why": "The bed wasn't tired."
+        },
+        {
+          "q": "Fix: 'Having finished the test, the room was quiet.'",
+          "options": [
+            "Having finished the test, the students sat quietly.",
+            "The room, having finished the test, was quiet.",
+            "Having finished the room, the test was quiet.",
+            "No change needed"
+          ],
+          "answer": 0,
+          "why": "The students finished the test."
+        }
+      ]
+    }
+  ]
+}

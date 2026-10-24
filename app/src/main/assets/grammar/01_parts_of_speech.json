@@ -1,0 +1,247 @@
+{
+  "id": "parts-of-speech",
+  "order": 1,
+  "title": "Parts of Speech",
+  "subtitle": "The Eight Clans of Wordland",
+  "emoji": "🏯",
+  "color": "#FF7EB6",
+  "colorDark": "#7B2CBF",
+  "intro": "In Wordland, every word belongs to a clan, and each clan has one job. Learn the eight clans and every sentence becomes a team you can read at a glance.",
+  "rules": [
+    {
+      "id": "nouns",
+      "title": "Nouns",
+      "tagline": "The Name Clan: people, places, things and ideas",
+      "story": [
+        {"who": "narrator", "line": "Hana arrives at the gates of the Grammar Shrine. A giant owl blocks the path."},
+        {"who": "sensei", "line": "Halt, traveler! Before you enter, you must give me your name."},
+        {"who": "hana", "line": "I'm Hana! I came from the village to learn every rule of English."},
+        {"who": "sensei", "line": "Then you have already used the first clan. Hana, village, rule: each one names something. They are nouns."},
+        {"who": "kaito", "line": "Hmph. So a noun is just a person?"},
+        {"who": "sensei", "line": "A person, a place, a thing, or even an idea you cannot touch, like courage or friendship."}
+      ],
+      "parts": [
+        {"name": "Common nouns", "detail": "General names for any member of a group. They start with a lowercase letter.", "example": "The girl climbed a mountain."},
+        {"name": "Proper nouns", "detail": "The special name of one particular person, place or thing. Always capitalized.", "example": "Hana climbed Mount Fuji."},
+        {"name": "Concrete vs. abstract", "detail": "Concrete nouns can be sensed (sword, rain). Abstract nouns are ideas or feelings (courage, time).", "example": "Her courage was stronger than the storm."},
+        {"name": "Collective nouns", "detail": "One word for a group: team, family, flock, class.", "example": "The team trains at dawn."}
+      ],
+      "history": "The word noun comes from Latin nomen, which simply means name.\n\nAbout 2,100 years ago, a Greek scholar named Dionysius Thrax wrote a short grammar book that sorted Greek words into eight parts of speech. Roman teachers copied his list for Latin, and English schoolbooks copied the Romans. That is why English still talks about eight word clans today, and why nouns are always the first one you meet.",
+      "examples": [
+        {"good": "Tokyo is a busy city.", "bad": "tokyo is a busy City.", "note": "Tokyo is a proper noun, so it is capitalized. City is common, so it is not."},
+        {"good": "Friendship gave Hana strength.", "bad": null, "note": "Friendship and strength are abstract nouns: you can't touch them, but they are still things."},
+        {"good": "A flock of birds circled the shrine.", "bad": null, "note": "Flock is a collective noun for many birds."}
+      ],
+      "trick": "If you can put 'a', 'the' or 'my' in front of it, it is probably a noun: a sword, the shrine, my courage.",
+      "quiz": [
+        {"q": "Which word is a noun? 'The brave girl smiled.'", "options": ["brave", "girl", "smiled", "the"], "answer": 1, "why": "Girl names a person."},
+        {"q": "Which is a proper noun?", "options": ["river", "Japan", "happiness", "team"], "answer": 1, "why": "Japan is the special name of one place, so it is proper and capitalized."}
+      ]
+    },
+    {
+      "id": "pronouns",
+      "title": "Pronouns",
+      "tagline": "The Shadow Clan that stands in for nouns",
+      "story": [
+        {"who": "kaito", "line": "Kaito drew Kaito's sword, and Kaito swung Kaito's sword at Kaito's enemy!"},
+        {"who": "yumi", "line": "Ehehe, you said your own name four times. Are you trying to summon yourself?"},
+        {"who": "sensei", "line": "Call the Shadow Clan. They take a noun's place so you don't repeat it."},
+        {"who": "kaito", "line": "Fine. Kaito drew his sword, and he swung it at his enemy."},
+        {"who": "hana", "line": "He, his, it: they are like shadows that follow the noun around!"}
+      ],
+      "parts": [
+        {"name": "Personal", "detail": "I, you, he, she, it, we, they (and me, him, her, us, them).", "example": "She gave it to them."},
+        {"name": "Possessive", "detail": "Show ownership: mine, yours, his, hers, ours, theirs. No apostrophes!", "example": "The victory is ours."},
+        {"name": "Reflexive", "detail": "Point back to the subject: myself, yourself, himself, themselves.", "example": "Kaito trained himself."},
+        {"name": "Demonstrative & relative", "detail": "Point or connect: this, that, these, those, who, which, that.", "example": "This is the sword that never breaks."},
+        {"name": "Antecedent", "detail": "The noun a pronoun replaces. The pronoun must match it in number.", "example": "The students lifted their swords."}
+      ],
+      "history": "Pronoun comes from Latin pro nomine, meaning 'for a name' or 'in place of a noun.'\n\nOld English had many more pronoun forms because every word changed its ending depending on its job. Most of those forms disappeared, but pronouns kept theirs. That is why we still say he, him, his, while nouns like sword barely change at all. Pronouns are the last survivors of the old case system.",
+      "examples": [
+        {"good": "Hana lost her map, so she asked for help.", "bad": "Hana lost Hana's map, so Hana asked for help.", "note": "Her and she replace Hana."},
+        {"good": "Is this book yours?", "bad": "Is this book your's?", "note": "Possessive pronouns never use apostrophes."},
+        {"good": "Each student brought their own lunch.", "bad": null, "note": "Singular they has been used in English for over 600 years."}
+      ],
+      "trick": "Pronouns are shadows: they can't exist without the noun they follow. If a reader can't tell who 'he' is, the shadow has lost its owner.",
+      "quiz": [
+        {"q": "Choose the correct possessive: 'The dragon guarded ___ treasure.'", "options": ["it's", "its", "its'", "it"], "answer": 1, "why": "Its (no apostrophe) shows possession."},
+        {"q": "Which sentence uses a reflexive pronoun correctly?", "options": ["Myself went home.", "She hurt herself.", "Give it to myself.", "Him and myself trained."], "answer": 1, "why": "Reflexive pronouns point back to the subject: she ... herself."}
+      ]
+    },
+    {
+      "id": "verbs",
+      "title": "Verbs",
+      "tagline": "The Action Clan: the heartbeat of every sentence",
+      "story": [
+        {"who": "narrator", "line": "In the training yard, Kaito stands frozen like a statue."},
+        {"who": "hana", "line": "Kaito, why aren't you moving?"},
+        {"who": "kaito", "line": "Someone wrote my sentence as 'Kaito the sword.' There's no action word, so I can't do anything!"},
+        {"who": "sensei", "line": "Without a verb, a sentence has no heartbeat. Give him one, Hana."},
+        {"who": "hana", "line": "Kaito swings the sword!"},
+        {"who": "kaito", "line": "I'm free! Hyaaah!"},
+        {"who": "sensei", "line": "Remember: some verbs are quiet. 'Kaito is tired' has a verb too. Is shows a state of being."}
+      ],
+      "parts": [
+        {"name": "Action verbs", "detail": "Show something being done: run, fight, think, write.", "example": "The dragon flies over the city."},
+        {"name": "Linking verbs", "detail": "Connect the subject to a description: be, seem, become, feel, look.", "example": "The sky became dark."},
+        {"name": "Helping verbs", "detail": "Team up with a main verb to show time or mood: be, have, do, will, can, must.", "example": "She has trained for years."},
+        {"name": "Tense", "detail": "Verbs change form to show when something happens: walk, walked, will walk.", "example": "Yesterday he walked; today he walks."}
+      ],
+      "history": "Verb comes from Latin verbum, which means simply 'word.' The Romans thought the verb was so important that it was THE word of a sentence.\n\nEnglish verbs used to have many more endings. In Shakespeare's time people said 'he walketh' and 'thou walkest.' Over the 1500s and 1600s the -s ending, which had spread down from northern England, replaced -eth, leaving us with 'he walks.'",
+      "examples": [
+        {"good": "Yumi laughs at the joke.", "bad": null, "note": "Laughs is an action verb."},
+        {"good": "The shrine seems quiet tonight.", "bad": null, "note": "Seems is a linking verb: it describes the shrine, not an action."},
+        {"good": "We will win the tournament.", "bad": "We win will the tournament.", "note": "Helping verb will comes before the main verb win."}
+      ],
+      "trick": "Try putting 'I', 'you' or 'they' in front of the word. If it makes sense (I run, they think), it can be a verb.",
+      "quiz": [
+        {"q": "Find the verb: 'The ninja vanished into the mist.'", "options": ["ninja", "vanished", "into", "mist"], "answer": 1, "why": "Vanished is the action."},
+        {"q": "In 'Hana feels happy,' what kind of verb is 'feels'?", "options": ["Action verb", "Linking verb", "Helping verb", "Not a verb"], "answer": 1, "why": "It links Hana to the description happy."}
+      ]
+    },
+    {
+      "id": "adjectives",
+      "title": "Adjectives",
+      "tagline": "The Color Clan that describes nouns",
+      "story": [
+        {"who": "narrator", "line": "A mysterious scroll appears. It reads: 'Beware the dragon.'"},
+        {"who": "kaito", "line": "A dragon? I'll fight it! ...Wait, what kind of dragon?"},
+        {"who": "yumi", "line": "Hehe. A tiny, sleepy, pink dragon. Or maybe a huge, angry, ancient one."},
+        {"who": "hana", "line": "Those describing words change everything!"},
+        {"who": "sensei", "line": "They are adjectives. They paint color onto nouns and tell you which one, what kind, or how many."}
+      ],
+      "parts": [
+        {"name": "Describing", "detail": "What kind? red, ancient, brave, sleepy.", "example": "an ancient temple"},
+        {"name": "Quantity", "detail": "How many or how much? three, several, many, few.", "example": "three swords"},
+        {"name": "Position", "detail": "Usually before the noun, or after a linking verb.", "example": "the brave hero / The hero is brave."},
+        {"name": "Comparison", "detail": "Adjectives can compare: tall, taller, tallest.", "example": "the tallest tower"}
+      ],
+      "history": "Adjective comes from Latin adiectivum, meaning 'something added.' Roman grammarians saw these words as extras thrown onto a noun.\n\nIn Old English, adjectives changed their endings to match the noun they described, just like in German today. After the Norman Conquest in 1066, those endings wore away. Modern English adjectives never change for number: one red lantern, two red lanterns.",
+      "examples": [
+        {"good": "She carried two red lanterns.", "bad": "She carried two reds lanterns.", "note": "English adjectives never take a plural -s."},
+        {"good": "The night was cold.", "bad": null, "note": "Cold follows the linking verb was and still describes night."},
+        {"good": "A small, quiet village", "bad": null, "note": "Two adjectives describe one noun."}
+      ],
+      "trick": "Adjectives answer the three questions of a curious kitsune: Which one? What kind? How many?",
+      "quiz": [
+        {"q": "Which word is an adjective? 'The fierce tiger slept.'", "options": ["The", "fierce", "tiger", "slept"], "answer": 1, "why": "Fierce describes the tiger."},
+        {"q": "Which is correct?", "options": ["three blues birds", "three blue birds", "three bluess birds", "three birds blues"], "answer": 1, "why": "Adjectives stay the same even when the noun is plural."}
+      ]
+    },
+    {
+      "id": "adverbs",
+      "title": "Adverbs",
+      "tagline": "The Wind Clan that describes how, when and where",
+      "story": [
+        {"who": "kaito", "line": "I attacked!"},
+        {"who": "sensei", "line": "How? When? Where? Your story is a blank wall, Kaito."},
+        {"who": "kaito", "line": "Uh... I attacked quickly. Yesterday. Outside."},
+        {"who": "hana", "line": "Quickly, yesterday, outside! They describe the verb, like wind giving it speed and direction."},
+        {"who": "sensei", "line": "Adverbs can even describe adjectives and other adverbs: very fast, extremely quickly."}
+      ],
+      "parts": [
+        {"name": "How (manner)", "detail": "Often end in -ly: quickly, quietly, bravely.", "example": "She whispered softly."},
+        {"name": "When (time)", "detail": "now, later, yesterday, soon, already.", "example": "We leave tomorrow."},
+        {"name": "Where (place)", "detail": "here, there, outside, everywhere.", "example": "The cat sleeps upstairs."},
+        {"name": "How much (degree)", "detail": "very, too, almost, extremely. They power up adjectives and adverbs.", "example": "He was extremely tired."},
+        {"name": "How often (frequency)", "detail": "always, usually, sometimes, never.", "example": "Yumi never tells the truth."}
+      ],
+      "history": "The -ly ending comes from the Old English word lic, which meant 'body' or 'form.' So 'bravely' once meant something like 'in a brave form.'\n\nThe same word lic also became the modern word like. That is why 'friendly' and 'friend-like' feel so similar. They are twins separated at birth!",
+      "examples": [
+        {"good": "Hana runs quickly.", "bad": "Hana runs quick.", "note": "Quickly describes how she runs. Quick is the adjective form."},
+        {"good": "The dragon is very large.", "bad": null, "note": "Very boosts the adjective large."},
+        {"good": "She always trains at dawn.", "bad": null, "note": "Frequency adverbs usually sit before the main verb."}
+      ],
+      "trick": "Ask the verb three wind questions: How? When? Where? Whatever answers is an adverb.",
+      "quiz": [
+        {"q": "Which word is an adverb? 'The ninja moved silently.'", "options": ["ninja", "moved", "silently", "The"], "answer": 2, "why": "Silently tells how the ninja moved."},
+        {"q": "Which sentence is correct?", "options": ["He sings beautiful.", "He sings beautifully.", "He beautiful sings.", "He sings beauty."], "answer": 1, "why": "Use the adverb beautifully to describe the verb sings."}
+      ]
+    },
+    {
+      "id": "prepositions",
+      "title": "Prepositions",
+      "tagline": "The Map Clan that shows position and connection",
+      "story": [
+        {"who": "narrator", "line": "Hana searches for the hidden key."},
+        {"who": "yumi", "line": "The key is... somewhere. Fufufu."},
+        {"who": "hana", "line": "That's useless! Is it in the box? Under the box? Behind the box?"},
+        {"who": "sensei", "line": "You have discovered the Map Clan. In, under, behind: prepositions show where things are and how they connect."},
+        {"who": "yumi", "line": "Fine, fine. It's under the cushion, beside the lantern, in the tea room."}
+      ],
+      "parts": [
+        {"name": "Place", "detail": "in, on, under, between, behind, above.", "example": "The cat is under the table."},
+        {"name": "Time", "detail": "at, on, in, before, after, during, since.", "example": "We meet after class."},
+        {"name": "Direction", "detail": "to, into, toward, through, across.", "example": "She ran through the forest."},
+        {"name": "Prepositional phrase", "detail": "A preposition plus its object (a noun or pronoun).", "example": "with my friends"}
+      ],
+      "history": "Preposition comes from Latin praepositio, meaning 'placed before,' because it sits before its noun.\n\nOld English used word endings to show many relationships, like 'to the king' being shown just by changing the ending of 'king.' As those endings disappeared after 1066, English leaned more and more on little words like to, of and with to do that job. That's why modern English has so many prepositions.",
+      "examples": [
+        {"good": "The scroll is on the shelf.", "bad": null, "note": "On shows position."},
+        {"good": "We trained during the storm.", "bad": null, "note": "During shows time."},
+        {"good": "Between you and me, Yumi lies a lot.", "bad": "Between you and I, Yumi lies a lot.", "note": "After a preposition, use object pronouns: me, him, her, us, them."}
+      ],
+      "trick": "Think of a box and a cat. Anything the cat can do to the box (in, on, under, beside, around) is a preposition.",
+      "quiz": [
+        {"q": "Find the preposition: 'The ninja hid behind the wall.'", "options": ["ninja", "hid", "behind", "wall"], "answer": 2, "why": "Behind shows where the ninja hid."},
+        {"q": "Choose the correct one: 'This is between you and ___.'", "options": ["I", "me", "myself", "mine"], "answer": 1, "why": "Prepositions take object pronouns, so 'between you and me.'"}
+      ]
+    },
+    {
+      "id": "conjunctions",
+      "title": "Conjunctions",
+      "tagline": "The Bridge Clan that joins words and ideas",
+      "story": [
+        {"who": "kaito", "line": "I'm hungry. I'm tired. I want ramen. The shop is closed."},
+        {"who": "hana", "line": "You sound like a robot."},
+        {"who": "sensei", "line": "Use the Bridge Clan. Join your thoughts."},
+        {"who": "kaito", "line": "I'm hungry and tired, so I want ramen, but the shop is closed because it's midnight."},
+        {"who": "yumi", "line": "Ooh, and, so, but, because. Now it sounds like a sad anime episode."}
+      ],
+      "parts": [
+        {"name": "Coordinating (FANBOYS)", "detail": "For, And, Nor, But, Or, Yet, So. They join equal parts.", "example": "I like tea, but she likes coffee."},
+        {"name": "Subordinating", "detail": "Begin a dependent idea: because, although, when, if, since, unless.", "example": "We stayed inside because it rained."},
+        {"name": "Correlative pairs", "detail": "Work in pairs: either/or, neither/nor, both/and, not only/but also.", "example": "Either we fight, or we run."}
+      ],
+      "history": "Conjunction comes from Latin coniungere, 'to join together.' The same root gives us the word junction, where roads meet.\n\nMany old grammar books once taught that you must never start a sentence with and or but. That was a classroom habit, not a real rule. Writers from the Old English era to the King James Bible to modern novels have started sentences with And and But.",
+      "examples": [
+        {"good": "I wanted to go, but I was sick.", "bad": null, "note": "Use a comma before a FANBOYS word joining two full sentences."},
+        {"good": "Although it was late, we kept training.", "bad": null, "note": "Although starts a dependent clause."},
+        {"good": "Neither Kaito nor Yumi finished the homework.", "bad": "Neither Kaito or Yumi finished the homework.", "note": "Neither pairs with nor."}
+      ],
+      "trick": "Remember the FANBOYS: For, And, Nor, But, Or, Yet, So. They are the seven bridges of the kingdom.",
+      "quiz": [
+        {"q": "Which is a coordinating conjunction?", "options": ["because", "although", "yet", "when"], "answer": 2, "why": "Yet is one of the FANBOYS."},
+        {"q": "Complete: 'Either you study, ___ you fail.'", "options": ["nor", "or", "and", "but"], "answer": 1, "why": "Either pairs with or."}
+      ]
+    },
+    {
+      "id": "interjections",
+      "title": "Interjections",
+      "tagline": "The Spirit Clan of sudden feelings",
+      "story": [
+        {"who": "narrator", "line": "A giant spider drops from the ceiling."},
+        {"who": "kaito", "line": "Aaah! Yikes!"},
+        {"who": "yumi", "line": "Wow. Brave warrior, huh?"},
+        {"who": "hana", "line": "Oops, I think that was just Sensei's toy."},
+        {"who": "sensei", "line": "Aah, yikes, wow, oops: interjections burst out with feelings. They stand alone and need no grammar friends."}
+      ],
+      "parts": [
+        {"name": "Strong feelings", "detail": "Usually followed by an exclamation mark.", "example": "Ouch! That hurt."},
+        {"name": "Mild feelings", "detail": "Can be followed by a comma.", "example": "Oh, I didn't see you there."},
+        {"name": "Greetings and responses", "detail": "Hello, yes, no, thanks, hey.", "example": "Hey, wait for me!"}
+      ],
+      "history": "Interjection comes from Latin interiectio, meaning 'something thrown in between.' Ancient grammarians noticed these words get tossed into speech without connecting to the rest of the sentence.\n\nInterjections change fast with fashion. Shakespeare's characters cry 'Alas!' and 'Fie!', while today we might say 'Oops' or 'Yikes.'",
+      "examples": [
+        {"good": "Wow! You won the tournament!", "bad": null, "note": "Strong feeling, exclamation mark."},
+        {"good": "Well, I suppose you're right.", "bad": null, "note": "Mild feeling, comma."},
+        {"good": "Oh no, I forgot my sword.", "bad": null, "note": "Interjections often start a sentence."}
+      ],
+      "trick": "If you could shout it in an anime reaction shot, it's an interjection.",
+      "quiz": [
+        {"q": "Which word is an interjection?", "options": ["quickly", "hooray", "under", "because"], "answer": 1, "why": "Hooray expresses a sudden feeling."},
+        {"q": "Best punctuation: 'Ouch ___ I stepped on a tack.'", "options": ["!", ";", ":", "no mark"], "answer": 0, "why": "A strong feeling gets an exclamation mark."}
+      ]
+    }
+  ]
+}

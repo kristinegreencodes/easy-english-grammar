@@ -1,0 +1,278 @@
+{
+  "id": "confusing-words",
+  "order": 10,
+  "title": "Commonly Confused Words",
+  "subtitle": "Yumi's Trickster Forest",
+  "emoji": "🦊",
+  "color": "#FFAB40",
+  "colorDark": "#4E342E",
+  "intro": "Welcome to Yumi's forest, where words wear disguises. They sound the same, look almost the same, and love to trick you. Learn their secret identities and the kitsune can't fool you anymore.",
+  "rules": [
+    {
+      "id": "their-there-theyre",
+      "title": "Their, There, They're",
+      "tagline": "Owning, place, and 'they are'",
+      "story": [
+        {"who": "yumi", "line": "Welcome to my forest! Here, three twins look identical when you hear them: their, there, they're. Hehe."},
+        {"who": "hana", "line": "Their ninja is over there, and they're watching us!"},
+        {"who": "yumi", "line": "Hmph. You got all three right."},
+        {"who": "sensei", "line": "Their owns things. There points to a place (it contains the word 'here'). They're is short for they are."}
+      ],
+      "parts": [
+        {"name": "Their", "detail": "Belonging to them.", "example": "Their house is blue."},
+        {"name": "There", "detail": "A place, or 'there is / there are.'", "example": "Put it there. There are two cats."},
+        {"name": "They're", "detail": "They are.", "example": "They're late again."}
+      ],
+      "history": "Their and they both came into English from Old Norse, the language of Viking settlers in northern England. Old Norse had þeir ('they') and þeira ('their'). They gradually replaced the Old English pronouns hīe and hiera, which sounded confusingly like he and her.\n\nThere is native Old English (þǣr). And they're is a modern contraction. Three different origins, one identical sound!",
+      "examples": [
+        {"good": "They're bringing their dog over there.", "bad": "Their bringing they're dog over their.", "note": "All three in one sentence."},
+        {"good": "There is a problem.", "bad": "Their is a problem.", "note": "There is / there are."},
+        {"good": "I like their style.", "bad": "I like there style.", "note": "Ownership: their."}
+      ],
+      "trick": "tHEIR has HEIR (someone who inherits = owns). tHERE has HERE (a place). THEY'RE = THEY ARE.",
+      "quiz": [
+        {"q": "'___ going to the beach.'", "options": ["Their", "There", "They're"], "answer": 2, "why": "They are going."},
+        {"q": "'The students left ___ bags.'", "options": ["their", "there", "they're"], "answer": 0, "why": "The bags belong to them."}
+      ]
+    },
+    {
+      "id": "your-youre",
+      "title": "Your vs. You're",
+      "tagline": "Ownership vs. 'you are'",
+      "story": [
+        {"who": "yumi", "line": "I left you a note: 'Your the best!' Hehe."},
+        {"who": "hana", "line": "'Your the best'? The best... what? My the best?"},
+        {"who": "sensei", "line": "Yumi means 'you're,' you are. Your shows something belongs to you: your sword, your idea."},
+        {"who": "yumi", "line": "Fine! 'You're the best, and your grammar is scary.'"}
+      ],
+      "parts": [
+        {"name": "Your", "detail": "Belonging to you.", "example": "Is this your bag?"},
+        {"name": "You're", "detail": "You are.", "example": "You're very kind."}
+      ],
+      "history": "Your comes from Old English ēower. You're is a contraction that appeared once writers began marking missing letters with apostrophes, in the 1600s and 1700s.\n\nBecause they sound the same in fast speech, people confuse them constantly online. It's one of the most searched spelling questions in English.",
+      "examples": [
+        {"good": "You're going to love your gift.", "bad": "Your going to love you're gift.", "note": "You are going ... your gift."},
+        {"good": "Your cat is cute.", "bad": "You're cat is cute.", "note": "Ownership."},
+        {"good": "Thanks, you're a lifesaver!", "bad": "Thanks, your a lifesaver!", "note": "You are a lifesaver."}
+      ],
+      "trick": "Try 'you are.' If it works, use you're. If not, use your.",
+      "quiz": [
+        {"q": "'___ late again!'", "options": ["Your", "You're"], "answer": 1, "why": "You are late."},
+        {"q": "'Did you finish ___ homework?'", "options": ["your", "you're"], "answer": 0, "why": "Ownership."}
+      ]
+    },
+    {
+      "id": "its-its",
+      "title": "Its vs. It's",
+      "tagline": "The one possessive with no apostrophe",
+      "story": [
+        {"who": "yumi", "line": "The dragon wagged it's tail! See, apostrophe for owning, like Kaito's!"},
+        {"who": "sensei", "line": "A clever trap, but wrong. It's ALWAYS means it is or it has. The possessive is its, with no apostrophe."},
+        {"who": "hana", "line": "Just like his and hers! They don't have apostrophes either."},
+        {"who": "kaito", "line": "So: 'It's a dragon. Its tail is long.'"}
+      ],
+      "parts": [
+        {"name": "Its", "detail": "Belonging to it (like his, hers).", "example": "The company changed its logo."},
+        {"name": "It's", "detail": "It is / it has.", "example": "It's raining. It's been a long day."}
+      ],
+      "history": "Strangely, the possessive used to be written it's! In the 1600s and 1700s, both forms were common. Before that, English used 'his' for things too: the King James Bible (1611) says 'if the salt have lost his savour.'\n\nBy the early 1800s, printers settled on its for possession and it's for the contraction, so the two could be told apart.",
+      "examples": [
+        {"good": "It's time to feed the cat its dinner.", "bad": "Its time to feed the cat it's dinner.", "note": "It is time ... its dinner."},
+        {"good": "The tree lost its leaves.", "bad": "The tree lost it's leaves.", "note": "Possession: its."},
+        {"good": "It's been a great year.", "bad": null, "note": "It has been."}
+      ],
+      "trick": "Expand it: if 'it is' or 'it has' works, use it's. Otherwise, its. (his, hers, its: no apostrophes!)",
+      "quiz": [
+        {"q": "'The bird built ___ nest.'", "options": ["its", "it's"], "answer": 0, "why": "Possession."},
+        {"q": "'___ been raining all day.'", "options": ["Its", "It's"], "answer": 1, "why": "It has been."}
+      ]
+    },
+    {
+      "id": "to-too-two",
+      "title": "To, Too, Two",
+      "tagline": "Direction, also/excessive, and the number 2",
+      "story": [
+        {"who": "kaito", "line": "I want to eat two bowls of ramen too!"},
+        {"who": "yumi", "line": "Wow, he got all three right. Did someone help him?"},
+        {"who": "sensei", "line": "To shows direction or makes an infinitive. Too means also or excessively. Two is the number."},
+        {"who": "hana", "line": "Too has an extra o because it's 'too much o!'"}
+      ],
+      "parts": [
+        {"name": "To", "detail": "Direction, or before a verb.", "example": "Go to school. I want to sleep."},
+        {"name": "Too", "detail": "Also, or more than enough.", "example": "Me too! It's too hot."},
+        {"name": "Two", "detail": "The number 2.", "example": "two cats"}
+      ],
+      "history": "To and too were once the same word. In the 1500s, writers began spelling the stressed version (meaning 'also' or 'excessively') with a double o to show it was pronounced fully.\n\nTwo comes from Old English twā. The silent w is a fossil of an older pronunciation, related to words like twin, twice and twelve.",
+      "examples": [
+        {"good": "I'm going to the store.", "bad": "I'm going too the store.", "note": "Direction: to."},
+        {"good": "This tea is too hot.", "bad": "This tea is to hot.", "note": "Excessive: too."},
+        {"good": "I have two brothers.", "bad": "I have too brothers.", "note": "Number: two."}
+      ],
+      "trick": "Too has one o too many. Two has a w like in twin and twice.",
+      "quiz": [
+        {"q": "'This box is ___ heavy.'", "options": ["to", "too", "two"], "answer": 1, "why": "Excessively."},
+        {"q": "'I need ___ tickets.'", "options": ["to", "too", "two"], "answer": 2, "why": "The number."}
+      ]
+    },
+    {
+      "id": "affect-effect",
+      "title": "Affect vs. Effect",
+      "tagline": "Affect is the Action, Effect is the End result",
+      "story": [
+        {"who": "yumi", "line": "My magic will effect the weather! Hehe."},
+        {"who": "sensei", "line": "Your magic will AFFECT the weather. Affect is usually a verb: to influence."},
+        {"who": "hana", "line": "And effect is the result: 'The magic had a big effect.'"},
+        {"who": "sensei", "line": "Yes. Affect = action (verb). Effect = end result (noun)."}
+      ],
+      "parts": [
+        {"name": "Affect (verb)", "detail": "To influence or change.", "example": "The rain affected the game."},
+        {"name": "Effect (noun)", "detail": "A result.", "example": "The rain had an effect on the game."},
+        {"name": "Rare uses", "detail": "Effect as a verb = to bring about; affect as a noun = emotion (psychology).", "example": "to effect change"}
+      ],
+      "history": "Both words come from Latin. Affect comes from afficere ('to act on, influence') and effect from efficere ('to bring about, accomplish'). The prefixes ad- ('to') and ex- ('out') made the difference.\n\nBecause the first syllable is weak in fast English speech, the words sound almost the same, so the confusion is very common.",
+      "examples": [
+        {"good": "Stress can affect your sleep.", "bad": "Stress can effect your sleep.", "note": "Verb: affect."},
+        {"good": "The medicine had no side effects.", "bad": "The medicine had no side affects.", "note": "Noun: effect."},
+        {"good": "How did the movie affect you?", "bad": null, "note": "Influence → affect."}
+      ],
+      "trick": "RAVEN: Remember, Affect = Verb, Effect = Noun.",
+      "quiz": [
+        {"q": "'The cold weather ___ my mood.'", "options": ["affects", "effects"], "answer": 0, "why": "Verb: influences."},
+        {"q": "'The special ___ were amazing.'", "options": ["affects", "effects"], "answer": 1, "why": "Noun: results."}
+      ]
+    },
+    {
+      "id": "then-than",
+      "title": "Then vs. Than",
+      "tagline": "Time vs. comparison",
+      "story": [
+        {"who": "kaito", "line": "I'm stronger then you!"},
+        {"who": "yumi", "line": "Stronger then... what happens next? Hehe."},
+        {"who": "sensei", "line": "Then is about time: first this, then that. Than is for comparing: stronger than you."},
+        {"who": "kaito", "line": "I'm stronger than you, and then I'll prove it!"}
+      ],
+      "parts": [
+        {"name": "Than", "detail": "Comparisons.", "example": "Tea is better than coffee."},
+        {"name": "Then", "detail": "Time or sequence; also 'in that case.'", "example": "We ate, then we left. If you're ready, then let's go."}
+      ],
+      "history": "For centuries then and than were the same word with spellings used interchangeably. Old English 'þonne' served both purposes.\n\nOnly around 1700 did writers firmly separate the spellings: than for comparisons, then for time.",
+      "examples": [
+        {"good": "She is taller than her brother.", "bad": "She is taller then her brother.", "note": "Comparison."},
+        {"good": "Finish your homework, then you can play.", "bad": "Finish your homework, than you can play.", "note": "Sequence."},
+        {"good": "I'd rather walk than drive.", "bad": null, "note": "Rather ... than compares."}
+      ],
+      "trick": "thAn for compArison; thEn for whEn.",
+      "quiz": [
+        {"q": "'Cats are quieter ___ dogs.'", "options": ["then", "than"], "answer": 1, "why": "Comparison."},
+        {"q": "'Brush your teeth, ___ go to bed.'", "options": ["then", "than"], "answer": 0, "why": "Sequence."}
+      ]
+    },
+    {
+      "id": "fewer-less",
+      "title": "Fewer vs. Less",
+      "tagline": "Fewer things you count, less stuff you measure",
+      "story": [
+        {"who": "narrator", "line": "At the shop, a sign says: '10 items or less.'"},
+        {"who": "sensei", "line": "That sign makes grammar teachers twitch. Items are countable, so the traditional rule is: fewer items."},
+        {"who": "hana", "line": "And for uncountable things: less sugar, less time."},
+        {"who": "yumi", "line": "Fewer friends, less patience. Like Kaito! Hehe."}
+      ],
+      "parts": [
+        {"name": "Fewer", "detail": "Countable plural nouns.", "example": "fewer people, fewer cookies"},
+        {"name": "Less", "detail": "Uncountable nouns.", "example": "less water, less noise"},
+        {"name": "Exceptions", "detail": "Time, money, distance and numbers alone often use less.", "example": "less than 10 dollars, less than five miles, 'one less thing'"}
+      ],
+      "history": "The rule traces back to a single writer. In 1770, Robert Baker wrote in his 'Reflections on the English Language' that 'fewer' would be more elegant for countable things, though he admitted 'less' was common.\n\nHis personal preference was repeated in grammar books until it became a 'rule.' Before that, writers like King Alfred around 888 AD used less with countable nouns.",
+      "examples": [
+        {"good": "There are fewer students this year.", "bad": "There are less students this year.", "note": "Countable."},
+        {"good": "I drink less coffee now.", "bad": "I drink fewer coffee now.", "note": "Uncountable."},
+        {"good": "It costs less than $20.", "bad": null, "note": "Money amounts use less."}
+      ],
+      "trick": "Can you count them one by one? Fewer. Is it a pile of stuff? Less.",
+      "quiz": [
+        {"q": "'There are ___ cars on the road today.'", "options": ["fewer", "less"], "answer": 0, "why": "Cars are countable."},
+        {"q": "'Please use ___ salt.'", "options": ["fewer", "less"], "answer": 1, "why": "Salt is uncountable."}
+      ]
+    },
+    {
+      "id": "lie-lay",
+      "title": "Lie vs. Lay",
+      "tagline": "You lie down; you lay something down",
+      "story": [
+        {"who": "kaito", "line": "I'm going to lay down for a nap."},
+        {"who": "yumi", "line": "Lay down what? Your sword? Your dignity? Hehe."},
+        {"who": "sensei", "line": "Lay needs an object: you lay something down. Lie has no object: you lie down yourself."},
+        {"who": "hana", "line": "So: 'I lie on the bed. I lay the book on the table.'"},
+        {"who": "sensei", "line": "And the twist: the past of lie is... lay. Yesterday I lay down. This is the hardest trap in Yumi's forest."}
+      ],
+      "parts": [
+        {"name": "Lie (rest, no object)", "detail": "lie – lay – lain – lying", "example": "I lie down. Yesterday I lay down. I have lain here for hours."},
+        {"name": "Lay (put, needs an object)", "detail": "lay – laid – laid – laying", "example": "Lay the baby in the crib. She laid the book down."},
+        {"name": "Lie (tell untruths)", "detail": "lie – lied – lied – lying", "example": "He lied about his age."}
+      ],
+      "history": "These come from two Old English verbs: licgan ('to lie, recline') and lecgan ('to lay, put down'). Lecgan was a 'causative' of licgan: to lay something is to make it lie.\n\nThe same pattern exists with sit/set and rise/raise. To set a cup down is to make it sit; to raise a flag is to make it rise.",
+      "examples": [
+        {"good": "I'm going to lie down.", "bad": "I'm going to lay down.", "note": "No object: lie."},
+        {"good": "Please lay the papers on my desk.", "bad": "Please lie the papers on my desk.", "note": "Object (papers): lay."},
+        {"good": "The cat lay in the sun all afternoon.", "bad": "The cat laid in the sun all afternoon.", "note": "Past of lie = lay."}
+      ],
+      "trick": "LAy = pLAce (needs an object). LIe = recLIne.",
+      "quiz": [
+        {"q": "'I feel dizzy. I need to ___ down.'", "options": ["lie", "lay"], "answer": 0, "why": "No object."},
+        {"q": "'She ___ the keys on the table yesterday.'", "options": ["lay", "laid", "lied", "lain"], "answer": 1, "why": "Past of lay (with an object) is laid."}
+      ]
+    },
+    {
+      "id": "whose-whos",
+      "title": "Whose vs. Who's",
+      "tagline": "Possession vs. 'who is / who has'",
+      "story": [
+        {"who": "kaito", "line": "Who's sword is this?"},
+        {"who": "sensei", "line": "Who is sword is this? That doesn't work. You need whose, the possessive."},
+        {"who": "yumi", "line": "And who's knocking at the door? That's 'who is.' Hehe, it's probably your ramen delivery."},
+        {"who": "hana", "line": "Same pattern as its/it's: the possessive has no apostrophe!"}
+      ],
+      "parts": [
+        {"name": "Whose", "detail": "Possessive: belonging to whom.", "example": "Whose phone is ringing?"},
+        {"name": "Who's", "detail": "Who is / who has.", "example": "Who's there? Who's seen my keys?"}
+      ],
+      "history": "Whose comes from Old English hwæs, the possessive form of hwā (who). Who's is a modern contraction.\n\nLike its/it's and your/you're, it follows a general rule: possessive pronouns never use apostrophes. Apostrophes in pronouns always mean letters are missing.",
+      "examples": [
+        {"good": "Whose turn is it?", "bad": "Who's turn is it?", "note": "Possession."},
+        {"good": "Who's coming to the party?", "bad": "Whose coming to the party?", "note": "Who is coming."},
+        {"good": "The girl whose cat ran away is sad.", "bad": null, "note": "Whose works for relative clauses too."}
+      ],
+      "trick": "Pronoun + apostrophe = missing letters. Never ownership.",
+      "quiz": [
+        {"q": "'___ bag is this?'", "options": ["Whose", "Who's"], "answer": 0, "why": "Possession."},
+        {"q": "'___ ready for lunch?'", "options": ["Whose", "Who's"], "answer": 1, "why": "Who is ready."}
+      ]
+    },
+    {
+      "id": "lose-loose",
+      "title": "Lose vs. Loose",
+      "tagline": "Misplace or fail vs. not tight",
+      "story": [
+        {"who": "kaito", "line": "If I loose this match, I'll be so embarrassed."},
+        {"who": "yumi", "line": "If you loose it? Is the match a belt? Hehe."},
+        {"who": "sensei", "line": "Lose (one o) means to fail or misplace. Loose (two o's) means not tight."},
+        {"who": "hana", "line": "So Kaito might lose the match because his armor is too loose!"}
+      ],
+      "parts": [
+        {"name": "Lose (verb)", "detail": "To misplace, or not win. Rhymes with choose.", "example": "Don't lose your keys."},
+        {"name": "Loose (adjective)", "detail": "Not tight or not fixed. Rhymes with goose.", "example": "My shoelace is loose."}
+      ],
+      "history": "Lose comes from Old English losian ('to perish, be lost'). Loose came from Old Norse lauss ('free, untied'), brought to England by Viking settlers.\n\nTwo different origins with similar spelling. The extra o in loose matches its longer 'oo' sound, like goose and moose.",
+      "examples": [
+        {"good": "I always lose my umbrella.", "bad": "I always loose my umbrella.", "note": "Misplace: lose."},
+        {"good": "These pants are too loose.", "bad": "These pants are too lose.", "note": "Not tight: loose."},
+        {"good": "Don't lose hope!", "bad": "Don't loose hope!", "note": "Lose hope."}
+      ],
+      "trick": "Lose lost an o. Loose is as loose as a goose.",
+      "quiz": [
+        {"q": "'I don't want to ___ the game.'", "options": ["lose", "loose"], "answer": 0, "why": "Not win."},
+        {"q": "'One of my teeth is ___.'", "options": ["lose", "loose"], "answer": 1, "why": "Not tight."}
+      ]
+    }
+  ]
+}

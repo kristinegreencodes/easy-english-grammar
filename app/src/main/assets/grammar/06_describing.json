@@ -1,0 +1,136 @@
+{
+  "id": "describing",
+  "order": 6,
+  "title": "Describing Words",
+  "subtitle": "The Painter's Garden",
+  "emoji": "🎨",
+  "color": "#F48FB1",
+  "colorDark": "#880E4F",
+  "intro": "In the Painter's Garden, adjectives and adverbs mix their colors. Learn the secret order of adjectives, how to compare things, and when to say good or well.",
+  "rules": [
+    {
+      "id": "adjective-order",
+      "title": "Order of Adjectives",
+      "tagline": "Opinion, size, age, shape, color, origin, material, purpose",
+      "story": [
+        {"who": "kaito", "line": "Behold my wooden old big beautiful sword!"},
+        {"who": "yumi", "line": "Pfft, that sounds broken. Like a robot sneezing."},
+        {"who": "sensei", "line": "Native speakers feel a secret order, even if they can't explain it. Opinion, size, age, shape, color, origin, material, purpose."},
+        {"who": "hana", "line": "So: my beautiful big old wooden sword!"},
+        {"who": "kaito", "line": "...That does sound way cooler."},
+        {"who": "sensei", "line": "Most sentences use only two or three adjectives, but the order still applies."}
+      ],
+      "parts": [
+        {"name": "1. Opinion", "detail": "beautiful, ugly, lovely, strange", "example": "a lovely ..."},
+        {"name": "2. Size", "detail": "big, tiny, tall", "example": "a lovely little ..."},
+        {"name": "3. Age", "detail": "old, new, ancient, young", "example": "a lovely little old ..."},
+        {"name": "4. Shape", "detail": "round, square, flat", "example": "a lovely little old round ..."},
+        {"name": "5. Color", "detail": "red, green, silver", "example": "a lovely little old round red ..."},
+        {"name": "6–8. Origin, material, purpose", "detail": "Japanese, wooden, sleeping (bag)", "example": "a lovely little old round red Japanese lacquer tea box"}
+      ],
+      "history": "Nobody officially invented this order. It grew naturally, and native speakers follow it without being taught. Linguists think it reflects how 'built-in' a quality is: opinions change easily, so they go far from the noun; materials and purposes are almost part of the thing, so they sit right next to it.\n\nIn 2016, a passage from Mark Forsyth's book 'The Elements of Eloquence' (2013) went viral online, and suddenly millions of native speakers learned they had been following this rule all their lives.",
+      "examples": [
+        {"good": "a cute little black cat", "bad": "a black little cute cat", "note": "Opinion → size → color."},
+        {"good": "an old Italian leather bag", "bad": "a leather Italian old bag", "note": "Age → origin → material."},
+        {"good": "a big round wooden table", "bad": "a wooden round big table", "note": "Size → shape → material."}
+      ],
+      "trick": "OSASCOMP: Opinion, Size, Age, Shape, Color, Origin, Material, Purpose. Say it like a ninja spell: 'O-SAS-COMP!'",
+      "quiz": [
+        {"q": "Which is correct?", "options": ["a red big balloon", "a big red balloon", "a balloon big red", "a red balloon big"], "answer": 1, "why": "Size before color."},
+        {"q": "Which is correct?", "options": ["a silk beautiful Chinese dress", "a beautiful Chinese silk dress", "a Chinese silk beautiful dress", "a silk Chinese beautiful dress"], "answer": 1, "why": "Opinion → origin → material."}
+      ]
+    },
+    {
+      "id": "comparatives-superlatives",
+      "title": "Comparatives & Superlatives",
+      "tagline": "fast, faster, fastest / good, better, best",
+      "story": [
+        {"who": "narrator", "line": "A race begins: Hana, Kaito and Yumi."},
+        {"who": "kaito", "line": "I'm fast! I'm more fast than Hana!"},
+        {"who": "hana", "line": "Faster, Kaito. Short words add -er."},
+        {"who": "yumi", "line": "And I'm the fastest of all! Hehe. Also the most intelligent."},
+        {"who": "sensei", "line": "Yumi knows: long words use more and most. Intelligent → more intelligent → the most intelligent."},
+        {"who": "kaito", "line": "Fine. But I'm the most best!"},
+        {"who": "sensei", "line": "Never double up. Best is already the top."}
+      ],
+      "parts": [
+        {"name": "One syllable: -er / -est", "detail": "Compare two with -er + than; the top of a group with the -est.", "example": "tall, taller than, the tallest"},
+        {"name": "Ending in -y: -ier / -iest", "detail": "Two-syllable words ending in y.", "example": "happy, happier, the happiest"},
+        {"name": "Long words: more / most", "detail": "Two or more syllables (most).", "example": "beautiful, more beautiful, the most beautiful"},
+        {"name": "Irregular", "detail": "Learn these by heart.", "example": "good-better-best, bad-worse-worst, far-further-furthest"},
+        {"name": "No doubling", "detail": "Never use more with -er.", "example": "not more taller"}
+      ],
+      "history": "The -er and -est endings come straight from Old English (-ra and -ost). For a long time English used them on long words too, so writers wrote 'beautifullest.'\n\nUnder the influence of French and Latin, which compare with words like 'plus,' English began using more and most. By the 1700s, grammarians had settled on the modern split: short words take endings, long ones take more and most. Shakespeare could still write 'the most unkindest cut of all' for dramatic effect!",
+      "examples": [
+        {"good": "This test is easier than the last one.", "bad": "This test is more easy than the last one.", "note": "Easy → easier."},
+        {"good": "She is the most talented singer here.", "bad": "She is the talentedest singer here.", "note": "Long word → most."},
+        {"good": "My cooking is worse than yours.", "bad": "My cooking is badder than yours.", "note": "Bad → worse."}
+      ],
+      "trick": "Short word? Stick on a tail (-er, -est). Long word? Give it a hat (more, most). Never both.",
+      "quiz": [
+        {"q": "'Tokyo is ___ than Kyoto.'", "options": ["more big", "bigger", "biggest", "more bigger"], "answer": 1, "why": "One syllable: -er (double the g)."},
+        {"q": "'That was the ___ day of my life!'", "options": ["goodest", "most good", "best", "better"], "answer": 2, "why": "Good → better → best."}
+      ]
+    },
+    {
+      "id": "good-vs-well",
+      "title": "Good vs. Well",
+      "tagline": "Good describes nouns; well describes actions",
+      "story": [
+        {"who": "kaito", "line": "Sensei! Did I fight good today?"},
+        {"who": "sensei", "line": "You fought well. Fight is a verb, so it needs the adverb well."},
+        {"who": "kaito", "line": "So I'm not a good fighter?"},
+        {"who": "sensei", "line": "You are a good fighter. Fighter is a noun, so the adjective good is correct."},
+        {"who": "hana", "line": "What about 'I feel good'?"},
+        {"who": "sensei", "line": "Feel is a linking verb, so 'I feel good' (happy) is right. 'I feel well' usually means 'I'm not sick.' Both work, with different meanings."}
+      ],
+      "parts": [
+        {"name": "Good = adjective", "detail": "Describes a noun or follows a linking verb.", "example": "a good book; The food smells good."},
+        {"name": "Well = adverb", "detail": "Describes how an action is done.", "example": "She sings well."},
+        {"name": "Well = healthy", "detail": "Well can also be an adjective meaning healthy.", "example": "I'm not well today."},
+        {"name": "Same pattern", "detail": "Other adjective/adverb pairs work the same way.", "example": "real/really, bad/badly, quick/quickly"}
+      ],
+      "history": "Good and well have been separate words since Old English (gōd and wel). Well was always an adverb, just as it is today.\n\nIn casual American speech, 'You did good' became common in the 1900s, especially in sports. It's widely heard but still considered informal; in writing, 'You did well' is the safe choice.",
+      "examples": [
+        {"good": "You did well on the test.", "bad": "You did good on the test.", "note": "Did is an action verb → well (formal writing)."},
+        {"good": "This soup tastes good.", "bad": "This soup tastes well.", "note": "Tastes is a linking verb → good."},
+        {"good": "I feel bad about it.", "bad": "I feel badly about it.", "note": "Linking verb feel → adjective bad."}
+      ],
+      "trick": "Superman does good; you do well. Actions get well, things are good.",
+      "quiz": [
+        {"q": "'Hana speaks English very ___.'", "options": ["good", "well"], "answer": 1, "why": "Speaks is an action verb."},
+        {"q": "'This is a ___ idea.'", "options": ["good", "well"], "answer": 0, "why": "Idea is a noun."}
+      ]
+    },
+    {
+      "id": "adverb-placement",
+      "title": "Where Adverbs Go",
+      "tagline": "Frequency adverbs before the main verb, after be",
+      "story": [
+        {"who": "yumi", "line": "I tell always the truth!"},
+        {"who": "hana", "line": "Hmm, both the grammar and the statement are suspicious."},
+        {"who": "sensei", "line": "Frequency adverbs like always, often, never usually sit right before the main verb: I always tell the truth."},
+        {"who": "kaito", "line": "But 'I am always hungry' has always after am!"},
+        {"who": "sensei", "line": "Correct! With the verb be, the adverb comes after it. And with helpers: I have never seen a dragon."}
+      ],
+      "parts": [
+        {"name": "Before the main verb", "detail": "always, usually, often, sometimes, rarely, never.", "example": "She often reads at night."},
+        {"name": "After be", "detail": "am, is, are, was, were.", "example": "He is never late."},
+        {"name": "After the first helper", "detail": "With have, will, can, etc.", "example": "I have always wanted a cat."},
+        {"name": "Manner at the end", "detail": "How adverbs usually go after the verb and object.", "example": "She closed the door quietly."},
+        {"name": "Not between verb and object", "detail": "Don't split a verb from its object.", "example": "He speaks English fluently. (not speaks fluently English)"}
+      ],
+      "history": "English adverbs are some of the most mobile words in the language. Old English placed them quite freely.\n\nAs word order became fixed (subject-verb-object), adverbs got squeezed into certain slots so they wouldn't break the S-V-O chain. That's why 'I like very much sushi' sounds wrong: it splits the verb from its object.",
+      "examples": [
+        {"good": "I usually wake up at seven.", "bad": "I wake up usually at seven.", "note": "Before the main verb."},
+        {"good": "They are always happy.", "bad": "They always are happy.", "note": "After be (unless you're stressing it)."},
+        {"good": "I like sushi very much.", "bad": "I like very much sushi.", "note": "Don't split verb and object."}
+      ],
+      "trick": "Adverb of frequency = a little bodyguard. It stands in front of action verbs, but behind the king verb 'be.'",
+      "quiz": [
+        {"q": "Which is correct?", "options": ["She drinks never coffee.", "She never drinks coffee.", "She drinks coffee never always.", "Never she drinks coffee."], "answer": 1, "why": "Before the main verb."},
+        {"q": "Which is correct?", "options": ["He often is late.", "He is often late.", "He is late often always.", "Often he is lately."], "answer": 1, "why": "After be."}
+      ]
+    }
+  ]
+}

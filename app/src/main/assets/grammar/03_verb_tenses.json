@@ -1,0 +1,308 @@
+{
+  "id": "verb-tenses",
+  "order": 3,
+  "title": "Verb Tenses",
+  "subtitle": "Chrono's Tower of Time",
+  "emoji": "⏳",
+  "color": "#4DD0E1",
+  "colorDark": "#1A237E",
+  "intro": "Chrono the time wizard guards a tower with twelve rooms, one for each English tense. Climb it floor by floor: past, present and future, each in simple, continuous, perfect and perfect continuous forms.",
+  "rules": [
+    {
+      "id": "simple-present",
+      "title": "Simple Present",
+      "tagline": "Habits, facts and things that are always true",
+      "story": [
+        {"who": "chrono", "line": "Welcome to the ground floor of my tower, the Room of Always."},
+        {"who": "hana", "line": "Why is it called that?"},
+        {"who": "chrono", "line": "Because here we speak of habits and facts. The sun rises in the east. Kaito eats ramen every day."},
+        {"who": "kaito", "line": "True. I eat ramen every day."},
+        {"who": "chrono", "line": "Notice: I eat, you eat, but he eats. With he, she or it, the verb grows an -s. That is the one trick of this room."}
+      ],
+      "parts": [
+        {"name": "Form", "detail": "Base verb. Add -s or -es for he/she/it.", "example": "I walk, she walks, it goes"},
+        {"name": "Negative", "detail": "do not / does not + base verb.", "example": "He doesn't like spiders."},
+        {"name": "Question", "detail": "Do / Does + subject + base verb?", "example": "Does she train on Sundays?"},
+        {"name": "Uses", "detail": "Habits, facts, schedules, and feelings.", "example": "The train leaves at 8. Water boils at 100°C."}
+      ],
+      "history": "Old English verbs had different endings for every person: ic singe, þū singest, hē singeþ (I sing, thou singest, he singeth). Over time almost all of them wore away.\n\nThe only survivor is the third-person -s. It spread from the dialects of northern England, and by about 1600 it had beaten the southern -eth ending. That's why he walks has an -s while I walk doesn't. It's a fossil!",
+      "examples": [
+        {"good": "She speaks three languages.", "bad": "She speak three languages.", "note": "He/she/it needs -s."},
+        {"good": "He doesn't eat meat.", "bad": "He doesn't eats meat.", "note": "After does, use the base verb with no -s."},
+        {"good": "Cats sleep a lot.", "bad": null, "note": "A general fact."}
+      ],
+      "trick": "He, she, it: the S is lit! (he runs, she sings, it works)",
+      "quiz": [
+        {"q": "'My brother ___ the guitar.'", "options": ["play", "plays", "playing", "is play"], "answer": 1, "why": "My brother = he, so add -s."},
+        {"q": "'___ she live in Osaka?'", "options": ["Do", "Does", "Is", "Are"], "answer": 1, "why": "Use does for he/she/it questions."}
+      ]
+    },
+    {
+      "id": "present-continuous",
+      "title": "Present Continuous",
+      "tagline": "Happening right now: am / is / are + -ing",
+      "story": [
+        {"who": "narrator", "line": "On the second floor, everything is in motion. Clocks spin. Water flows upward."},
+        {"who": "chrono", "line": "This is the Room of Right Now. What are you doing, Hana?"},
+        {"who": "hana", "line": "I am climbing your tower!"},
+        {"who": "chrono", "line": "Am climbing. A form of be, plus a verb wearing -ing. The action is in progress, like a movie paused mid-scene."},
+        {"who": "yumi", "line": "And I'm planning a prank for later. Hehe."},
+        {"who": "chrono", "line": "Yes, this room can also show future plans that are already arranged."}
+      ],
+      "parts": [
+        {"name": "Form", "detail": "am / is / are + verb-ing.", "example": "They are training."},
+        {"name": "Now", "detail": "An action happening at this moment.", "example": "Look! It's snowing."},
+        {"name": "Temporary", "detail": "A situation that isn't permanent.", "example": "I'm staying with my aunt this week."},
+        {"name": "Planned future", "detail": "Arranged plans.", "example": "We're leaving tomorrow."},
+        {"name": "Stative verbs", "detail": "Verbs of state (know, like, want, believe) don't usually take -ing.", "example": "I know the answer. (not I'm knowing)"}
+      ],
+      "history": "Forms like 'he is reading' existed in Old English but were rare. The continuous really took off between about 1500 and 1800.\n\nEven the passive version 'the house is being built' is fairly young. It first appeared in the late 1700s, and some grammarians attacked it as ugly. Before that, people said 'the house is building' to mean the same thing.",
+      "examples": [
+        {"good": "I am reading a manga.", "bad": "I reading a manga.", "note": "Don't forget am / is / are."},
+        {"good": "She is studying abroad this year.", "bad": null, "note": "Temporary situation."},
+        {"good": "I want some tea.", "bad": "I am wanting some tea.", "note": "Want is a stative verb."}
+      ],
+      "trick": "If you could film it happening right now, use be + -ing.",
+      "quiz": [
+        {"q": "'Shh! The baby ___.'", "options": ["sleeps", "is sleeping", "sleep", "sleeping"], "answer": 1, "why": "It's happening now."},
+        {"q": "Which is correct?", "options": ["I am knowing him.", "I know him.", "I knowing him.", "I am know him."], "answer": 1, "why": "Know is a stative verb, so use simple present."}
+      ]
+    },
+    {
+      "id": "simple-past",
+      "title": "Simple Past",
+      "tagline": "Finished actions: walked, played, saw",
+      "story": [
+        {"who": "chrono", "line": "Look through this window. It shows the past."},
+        {"who": "hana", "line": "That's me yesterday! I walked to the shrine and I trained."},
+        {"who": "chrono", "line": "Walked, trained. Regular verbs add -ed to travel into the past."},
+        {"who": "kaito", "line": "And I goed to the ramen shop!"},
+        {"who": "chrono", "line": "Ah, go is a rebel. It becomes went. We will meet the rebels on the next floor."},
+        {"who": "chrono", "line": "And questions and negatives use did: Did you go? I didn't go. After did, the verb returns to its base form."}
+      ],
+      "parts": [
+        {"name": "Regular form", "detail": "Add -ed (or -d if the verb ends in e).", "example": "jump → jumped, love → loved"},
+        {"name": "Spelling changes", "detail": "Consonant + y → -ied; short vowel + consonant → double it.", "example": "study → studied, stop → stopped"},
+        {"name": "Negative & questions", "detail": "did / didn't + base verb.", "example": "Did you see it? I didn't see it."},
+        {"name": "Use", "detail": "Finished actions at a known past time.", "example": "We met in 2020."}
+      ],
+      "history": "The -ed ending comes from a very old Germanic ending -da or -ta, which some scholars believe was once a form of the verb 'do.' If that's right, 'I walked' started out as something like 'I walk-did.'\n\nThis -ed method is called the 'weak' past tense. It became the default for new verbs, which is why modern words like texted, googled and emailed all use it.",
+      "examples": [
+        {"good": "She studied all night.", "bad": "She studyed all night.", "note": "Consonant + y → ied."},
+        {"good": "Did you finish your homework?", "bad": "Did you finished your homework?", "note": "After did, use the base verb."},
+        {"good": "The bus stopped suddenly.", "bad": "The bus stoped suddenly.", "note": "Short vowel + consonant: double it."}
+      ],
+      "trick": "Did is a time machine for the whole sentence. Once did goes to the past, the verb can stay home in its base form.",
+      "quiz": [
+        {"q": "Past of 'plan'?", "options": ["planed", "planned", "planted", "plann"], "answer": 1, "why": "Short vowel + consonant: double the n."},
+        {"q": "'She didn't ___ the email.'", "options": ["sent", "send", "sends", "sending"], "answer": 1, "why": "After didn't, use the base verb."}
+      ]
+    },
+    {
+      "id": "irregular-verbs",
+      "title": "Irregular Verbs",
+      "tagline": "The rebel verbs: go-went-gone, see-saw-seen",
+      "story": [
+        {"who": "narrator", "line": "The third floor is a battlefield. Rebel verbs refuse to wear -ed."},
+        {"who": "kaito", "line": "I teached them a lesson! I catched them all!"},
+        {"who": "yumi", "line": "Taught. Caught. You're a walking grammar mistake."},
+        {"who": "chrono", "line": "These rebels are among the oldest words in English. Instead of adding -ed, they change their vowel: sing, sang, sung. Drink, drank, drunk."},
+        {"who": "hana", "line": "So I just have to memorize them?"},
+        {"who": "chrono", "line": "Yes, but most belong to families that follow patterns. Learn the families and the battle gets easier."}
+      ],
+      "parts": [
+        {"name": "Three forms", "detail": "Base, past, past participle.", "example": "write – wrote – written"},
+        {"name": "Vowel-change family", "detail": "sing-sang-sung, ring-rang-rung, swim-swam-swum.", "example": "She swam across the river."},
+        {"name": "-ought / -aught family", "detail": "buy-bought, think-thought, teach-taught, catch-caught.", "example": "I bought a new sword."},
+        {"name": "No-change family", "detail": "cut, put, hit, set, let, cost.", "example": "Yesterday I cut my hair."},
+        {"name": "Total rebels", "detail": "go-went-gone, be-was/were-been.", "example": "He went home."}
+      ],
+      "history": "Irregular verbs are what linguists call 'strong verbs.' They come from Proto-Germanic, spoken over 2,000 years ago, where changing the vowel (called ablaut) was the normal way to make a past tense.\n\nOld English had hundreds of strong verbs. Over the centuries many switched to -ed: 'help' once had the past 'healp' and 'holpen.' The ones that survive are the verbs people use most often, because frequent words are remembered and resist change. Went is a special thief: it was stolen from the old verb 'wend' (to go).",
+      "examples": [
+        {"good": "I have written three letters.", "bad": "I have wrote three letters.", "note": "After have, use the past participle."},
+        {"good": "She brought snacks.", "bad": "She bringed snacks.", "note": "Bring → brought."},
+        {"good": "The vase broke.", "bad": "The vase breaked.", "note": "Break → broke → broken."}
+      ],
+      "trick": "Learn them in rhyming families, like a theme song: sing-sang-sung, ring-rang-rung, drink-drank-drunk.",
+      "quiz": [
+        {"q": "Past of 'think'?", "options": ["thinked", "thank", "thought", "thunk"], "answer": 2, "why": "Think belongs to the -ought family."},
+        {"q": "'I have ___ this movie before.'", "options": ["saw", "seen", "seed", "see"], "answer": 1, "why": "After have, use the past participle: seen."}
+      ]
+    },
+    {
+      "id": "past-continuous",
+      "title": "Past Continuous",
+      "tagline": "In progress in the past: was / were + -ing",
+      "story": [
+        {"who": "chrono", "line": "On this floor, the past is frozen mid-motion."},
+        {"who": "hana", "line": "Look, it's last night! I was sleeping when the alarm rang."},
+        {"who": "chrono", "line": "Was sleeping is the long background action. Rang is the short event that interrupted it."},
+        {"who": "kaito", "line": "And I was eating ramen while Yumi was stealing my egg!"},
+        {"who": "chrono", "line": "Two long actions at the same time. Use while for that."}
+      ],
+      "parts": [
+        {"name": "Form", "detail": "was / were + verb-ing.", "example": "They were laughing."},
+        {"name": "Interrupted action", "detail": "Long action (past continuous) + short action (simple past).", "example": "I was cooking when the phone rang."},
+        {"name": "Parallel actions", "detail": "Two things in progress at once, often with while.", "example": "While she was reading, he was painting."},
+        {"name": "Scene setting", "detail": "Describes the background of a story.", "example": "The wind was howling and the lanterns were flickering."}
+      ],
+      "history": "Like the present continuous, this form grew popular in Early Modern English (1500s to 1700s). Writers loved it for storytelling, because it lets them paint a background scene and then drop an event into it.\n\nThis 'background + event' pattern is so useful that storytellers today still begin with it: 'It was raining when the stranger arrived.'",
+      "examples": [
+        {"good": "We were walking home when it started to rain.", "bad": "We walked home when it was starting to rain.", "note": "The long action is walking; the interruption is started."},
+        {"good": "While Hana was studying, Kaito was sleeping.", "bad": null, "note": "Two parallel actions."},
+        {"good": "They were watching anime at 9 p.m.", "bad": "They was watching anime at 9 p.m.", "note": "They → were."}
+      ],
+      "trick": "Long action = was/were + -ing (the background music). Short action = simple past (the sound effect).",
+      "quiz": [
+        {"q": "'I ___ a shower when you called.'", "options": ["took", "was taking", "am taking", "take"], "answer": 1, "why": "The shower was the long action interrupted by the call."},
+        {"q": "'You ___ sleeping in class!'", "options": ["was", "were", "are being", "did"], "answer": 1, "why": "You always takes were."}
+      ]
+    },
+    {
+      "id": "present-perfect",
+      "title": "Present Perfect",
+      "tagline": "Past actions connected to now: have / has + past participle",
+      "story": [
+        {"who": "chrono", "line": "This floor is a bridge. One end touches the past, the other touches now."},
+        {"who": "hana", "line": "I have visited Kyoto three times!"},
+        {"who": "chrono", "line": "Perfect. We don't care exactly when. We care that it's part of your life up to now."},
+        {"who": "kaito", "line": "I have visited Kyoto yesterday!"},
+        {"who": "chrono", "line": "No! Yesterday is a finished time. Once you name a finished time, cross back to simple past: I visited Kyoto yesterday."}
+      ],
+      "parts": [
+        {"name": "Form", "detail": "have / has + past participle.", "example": "She has finished."},
+        {"name": "Life experience", "detail": "At some time up to now; the exact time doesn't matter.", "example": "I have seen that movie."},
+        {"name": "Unfinished time", "detail": "Started in the past and still true, with for or since.", "example": "I have lived here for five years."},
+        {"name": "Recent news", "detail": "With just, already, yet.", "example": "He has just left."},
+        {"name": "Never with finished time", "detail": "Not with yesterday, last week, in 2019.", "example": "I saw it last week. (not I have seen it last week)"}
+      ],
+      "history": "The present perfect started as a possession phrase. In Old English, 'ic hæbbe þone fisc gefangenne' meant roughly 'I have the fish (in a) caught (state).' You literally possessed the result.\n\nOver time 'have' lost its meaning of owning and became a helper verb, and the word order shifted to 'I have caught the fish.' It's a sentence that slowly turned into a tense.",
+      "examples": [
+        {"good": "I have never eaten sushi.", "bad": "I never have ate sushi.", "note": "Have + past participle eaten."},
+        {"good": "She has worked here since 2020.", "bad": "She works here since 2020.", "note": "Since + a starting point needs the present perfect."},
+        {"good": "I lost my keys yesterday.", "bad": "I have lost my keys yesterday.", "note": "Yesterday is finished time."}
+      ],
+      "trick": "Present perfect is a bridge. If you can see a finished time word (yesterday, ago, last year), the bridge collapses: use simple past.",
+      "quiz": [
+        {"q": "'I ___ that book twice.'", "options": ["have read", "has read", "have readed", "had read yesterday"], "answer": 0, "why": "Life experience, no specific time."},
+        {"q": "Which is correct?", "options": ["She has called me an hour ago.", "She called me an hour ago.", "She has call me an hour ago.", "She calling me an hour ago."], "answer": 1, "why": "An hour ago is a finished time."}
+      ]
+    },
+    {
+      "id": "past-perfect",
+      "title": "Past Perfect",
+      "tagline": "The past before the past: had + past participle",
+      "story": [
+        {"who": "narrator", "line": "Hana reaches a room with two windows into the past, one behind the other."},
+        {"who": "hana", "line": "When I arrived at the station, the train had left."},
+        {"who": "chrono", "line": "Two past events. Which came first?"},
+        {"who": "hana", "line": "The train left first, then I arrived. So the earlier one gets had."},
+        {"who": "chrono", "line": "Exactly. Had + past participle is the deeper past. It's how storytellers do flashbacks."}
+      ],
+      "parts": [
+        {"name": "Form", "detail": "had + past participle (same for every subject).", "example": "They had eaten."},
+        {"name": "Earlier past", "detail": "The action that happened before another past action.", "example": "She had finished when I came."},
+        {"name": "With by, already, before", "detail": "Common partners.", "example": "By noon, we had climbed the mountain."},
+        {"name": "Third conditional", "detail": "Appears in 'if' regrets.", "example": "If I had known, I would have helped."}
+      ],
+      "history": "The past perfect developed alongside the present perfect, from 'had' plus a participle. Old English already used it, and translators of Latin found it handy for the Latin pluperfect tense, whose name means 'more than perfect.'\n\nIn everyday speech today, people often skip it when words like before or after already make the order clear: 'I ate before I left' is fine.",
+      "examples": [
+        {"good": "When we got there, the movie had started.", "bad": "When we got there, the movie started.", "note": "Without had, it sounds like it started at the moment we arrived."},
+        {"good": "She had never seen snow before that trip.", "bad": null, "note": "Experience up to a past moment."},
+        {"good": "By the time Kaito woke up, Yumi had eaten his breakfast.", "bad": null, "note": "Yumi ate first."}
+      ],
+      "trick": "Had = 'had already happened.' It's the flashback inside your flashback.",
+      "quiz": [
+        {"q": "'I couldn't get in because I ___ my keys.'", "options": ["lost", "had lost", "have lost", "was losing"], "answer": 1, "why": "Losing the keys happened before not getting in."},
+        {"q": "'By 2010, they ___ married for 20 years.'", "options": ["have been", "had been", "were being", "are"], "answer": 1, "why": "Duration up to a past moment: had been."}
+      ]
+    },
+    {
+      "id": "future-forms",
+      "title": "Will vs. Going To",
+      "tagline": "Talking about the future",
+      "story": [
+        {"who": "chrono", "line": "The top floors show the future. But English has no single future tense. It borrows helpers."},
+        {"who": "kaito", "line": "I will become the strongest swordsman!"},
+        {"who": "chrono", "line": "Will: a promise, a decision made right now, or a prediction."},
+        {"who": "hana", "line": "I'm going to visit my grandmother next week. I already bought the ticket."},
+        {"who": "chrono", "line": "Going to: a plan you already made, or a prediction with evidence. Look at those clouds. It's going to rain!"}
+      ],
+      "parts": [
+        {"name": "will + base verb", "detail": "Quick decisions, promises, offers, general predictions.", "example": "I'll help you. It will be fine."},
+        {"name": "be going to + base verb", "detail": "Plans made before now; predictions based on what you can see.", "example": "Watch out! You're going to fall."},
+        {"name": "Present continuous", "detail": "Fixed arrangements with a time and place.", "example": "I'm meeting Yumi at six."},
+        {"name": "Simple present", "detail": "Timetables and schedules.", "example": "The festival starts on Friday."}
+      ],
+      "history": "Old English had no future tense at all. People used the present tense and context.\n\nWill comes from Old English willan, 'to want.' Shall comes from sculan, 'to owe or be obliged.' Over centuries these words lost their meanings of wanting and owing and became future helpers. 'Going to' joined in the late 1400s, when 'I am going (on a journey) to do something' turned into a way of describing plans.",
+      "examples": [
+        {"good": "The phone is ringing. I'll get it!", "bad": "The phone is ringing. I'm going to get it!", "note": "A decision made right now → will."},
+        {"good": "We're going to move to Osaka in May.", "bad": null, "note": "A plan already made."},
+        {"good": "Look at that wave! It's going to crash!", "bad": null, "note": "Prediction with evidence."}
+      ],
+      "trick": "Will = a sudden spark. Going to = a plan already in your pocket.",
+      "quiz": [
+        {"q": "'It's cold in here.' 'OK, I ___ close the window.'", "options": ["will", "am going to", "go to", "closing"], "answer": 0, "why": "A decision made at that moment."},
+        {"q": "'I ___ study medicine. I've already applied.'", "options": ["will", "am going to", "would", "shall to"], "answer": 1, "why": "A plan made before now."}
+      ]
+    },
+    {
+      "id": "future-continuous-perfect",
+      "title": "Future Continuous & Future Perfect",
+      "tagline": "will be doing / will have done",
+      "story": [
+        {"who": "chrono", "line": "Final floors. Let's look into the future."},
+        {"who": "hana", "line": "At 8 p.m. tomorrow, I will be performing at the festival!"},
+        {"who": "chrono", "line": "Will be + -ing: an action in progress at a future moment. The future continuous."},
+        {"who": "kaito", "line": "By the end of the year, I will have defeated 100 opponents!"},
+        {"who": "chrono", "line": "Will have + past participle: something finished before a future deadline. The future perfect. Words like by are its best friends."}
+      ],
+      "parts": [
+        {"name": "Future continuous", "detail": "will be + verb-ing. In progress at a future time.", "example": "This time next week, I'll be lying on a beach."},
+        {"name": "Future perfect", "detail": "will have + past participle. Finished before a future time.", "example": "By 2030, she will have graduated."},
+        {"name": "Signal words", "detail": "this time tomorrow (continuous); by, by the time (perfect).", "example": "By the time you arrive, we'll have eaten."}
+      ],
+      "history": "These tenses are built like Lego from pieces English already had: will (future) + be + -ing (continuous) or will + have + participle (perfect).\n\nThat's why English can express time so precisely without inventing new endings. Latin needed special verb endings for its future perfect; English just stacks helper verbs.",
+      "examples": [
+        {"good": "Don't call at 9. I'll be sleeping.", "bad": null, "note": "In progress at 9."},
+        {"good": "By Friday, I'll have finished the project.", "bad": "By Friday, I'll finish the project.", "note": "Finished before Friday."},
+        {"good": "She will have worked here for ten years next month.", "bad": null, "note": "Duration up to a future point."}
+      ],
+      "trick": "See 'by + future time'? Reach for will have + done.",
+      "quiz": [
+        {"q": "'By next June, I ___ my degree.'", "options": ["will finish", "will have finished", "will be finishing", "finished"], "answer": 1, "why": "Finished before a future deadline."},
+        {"q": "'At noon tomorrow we ___ over the ocean.'", "options": ["will fly", "will have flown", "will be flying", "fly"], "answer": 2, "why": "In progress at that moment."}
+      ]
+    },
+    {
+      "id": "perfect-continuous",
+      "title": "Perfect Continuous Tenses",
+      "tagline": "How long something has been going on",
+      "story": [
+        {"who": "narrator", "line": "Kaito stumbles in, drenched in sweat."},
+        {"who": "hana", "line": "What happened to you?"},
+        {"who": "kaito", "line": "I have been training for six hours!"},
+        {"who": "chrono", "line": "Have been + -ing. It focuses on the duration, and often on visible results, like that sweat."},
+        {"who": "chrono", "line": "Move it into the past: he had been training for six hours when he collapsed. Or the future: by midnight, he will have been training for ten hours."},
+        {"who": "yumi", "line": "And I have been laughing at him for six hours."}
+      ],
+      "parts": [
+        {"name": "Present perfect continuous", "detail": "have / has been + -ing. Started in the past, still going or just stopped.", "example": "It has been raining all day."},
+        {"name": "Past perfect continuous", "detail": "had been + -ing. Duration before a past moment.", "example": "She had been waiting for an hour when the bus came."},
+        {"name": "Future perfect continuous", "detail": "will have been + -ing. Duration up to a future moment.", "example": "In May, I'll have been studying English for a year."},
+        {"name": "Signal words", "detail": "for, since, all day, how long.", "example": "How long have you been learning?"}
+      ],
+      "history": "These are the youngest and longest English tenses, combining the perfect (have + participle) with the continuous (be + -ing). They became common in the 1700s and 1800s as the continuous spread throughout the language.\n\nWith these, English can say four-word verb phrases like 'will have been studying,' which would surprise an Old English speaker who had just two simple tenses: present and past.",
+      "examples": [
+        {"good": "I've been waiting for 20 minutes!", "bad": "I'm waiting for 20 minutes!", "note": "Duration up to now."},
+        {"good": "Her eyes were red. She had been crying.", "bad": null, "note": "A past result with a cause before it."},
+        {"good": "How long have you been living here?", "bad": "How long are you living here?", "note": "Ask about duration with have been."}
+      ],
+      "trick": "When the question is 'how long?', the answer usually wears been + -ing.",
+      "quiz": [
+        {"q": "'We ___ for two hours. Let's take a break.'", "options": ["are walking", "have been walking", "walk", "had walked"], "answer": 1, "why": "Duration up to now."},
+        {"q": "'He was tired because he ___ all night.'", "options": ["has been working", "had been working", "will have been working", "works"], "answer": 1, "why": "Duration before a past moment."}
+      ]
+    }
+  ]
+}

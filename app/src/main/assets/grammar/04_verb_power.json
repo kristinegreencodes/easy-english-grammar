@@ -1,0 +1,192 @@
+{
+  "id": "verb-power",
+  "order": 4,
+  "title": "Verb Power-Ups",
+  "subtitle": "The Dojo of Special Moves",
+  "emoji": "🥋",
+  "color": "#69F0AE",
+  "colorDark": "#1B5E20",
+  "intro": "Verbs can do more than show time. In the dojo, they learn special moves: helpers that show ability and duty, the passive flip, the -ing and to- forms, phrasal combos, and the rare subjunctive.",
+  "rules": [
+    {
+      "id": "modal-verbs",
+      "title": "Modal Verbs",
+      "tagline": "can, could, may, might, must, should, will, would, shall",
+      "story": [
+        {"who": "sensei", "line": "Today you learn the nine modal verbs. They are power-ups for other verbs."},
+        {"who": "kaito", "line": "I can fight! I must win! I should rest... maybe."},
+        {"who": "sensei", "line": "Good. Can shows ability. Must shows strong necessity. Should gives advice. Might shows a small possibility."},
+        {"who": "hana", "line": "Do they ever change? Like 'he cans'?"},
+        {"who": "sensei", "line": "Never. Modals never take -s, -ing or -ed, and the verb after them is always in its base form, with no 'to.' He can swim. Not he can to swim."}
+      ],
+      "parts": [
+        {"name": "Ability", "detail": "can, could (past ability).", "example": "She can speak Japanese. I could swim at five."},
+        {"name": "Permission & requests", "detail": "can, could, may.", "example": "May I come in? Could you help me?"},
+        {"name": "Possibility", "detail": "may, might, could.", "example": "It might snow tonight."},
+        {"name": "Necessity & advice", "detail": "must (strong), should / ought to (advice).", "example": "You must wear a helmet. You should rest."},
+        {"name": "Golden rule", "detail": "Modal + base verb. No -s, no to.", "example": "He should go. (not He shoulds go / He should to go)"}
+      ],
+      "history": "Most modals are 'preterite-present' verbs. That fancy name means their present-tense forms were originally past tenses in ancient Germanic! That's why they never take the -s ending: the -s belongs to present tenses, and these were never truly present.\n\nMust comes from moste, the past of an old verb motan ('to be allowed'). Could, would and should were the pasts of can, will and shall. The L in could isn't even original: it was added in the 1500s to match would and should.",
+      "examples": [
+        {"good": "She can play the piano.", "bad": "She cans play the piano.", "note": "Modals never take -s."},
+        {"good": "You must be tired.", "bad": "You must to be tired.", "note": "No to after must."},
+        {"good": "You should see a doctor.", "bad": null, "note": "Advice."}
+      ],
+      "trick": "Modals are proud: they never change their outfit (no -s, -ed, -ing), and the verb behind them always stands bare.",
+      "quiz": [
+        {"q": "Which is correct?", "options": ["He can drives.", "He can drive.", "He cans drive.", "He can to drive."], "answer": 1, "why": "Modal + base verb."},
+        {"q": "Strongest necessity?", "options": ["might", "could", "must", "may"], "answer": 2, "why": "Must shows strong necessity."}
+      ]
+    },
+    {
+      "id": "passive-voice",
+      "title": "Active vs. Passive Voice",
+      "tagline": "Who did it? Or what was done?",
+      "story": [
+        {"who": "narrator", "line": "The shrine's sacred bell has been stolen."},
+        {"who": "kaito", "line": "Yumi stole the bell!"},
+        {"who": "yumi", "line": "Rude. Let's say: 'The bell was stolen.' See? No name. Much nicer."},
+        {"who": "sensei", "line": "Yumi used the passive voice. The thing that received the action moves to the front, and the doer can disappear."},
+        {"who": "hana", "line": "So active is 'Yumi stole the bell' and passive is 'The bell was stolen by Yumi'!"},
+        {"who": "sensei", "line": "Correct. Passive is useful when the doer is unknown or unimportant, but it can also hide who is responsible. Watch for it."}
+      ],
+      "parts": [
+        {"name": "Active", "detail": "Subject does the action.", "example": "The cat chased the mouse."},
+        {"name": "Passive", "detail": "be + past participle. The receiver becomes the subject.", "example": "The mouse was chased (by the cat)."},
+        {"name": "Any tense", "detail": "Change the form of be.", "example": "is made, was made, has been made, will be made"},
+        {"name": "When to use passive", "detail": "Unknown doer, obvious doer, or focus on the result.", "example": "My bike was stolen. Rice is grown in Japan."}
+      ],
+      "history": "Old English had a passive too, but it often used the verb weorþan ('to become') instead of be: 'hē wearþ ofslægen' meant 'he was slain.' Weorþan later disappeared from English, leaving be to do the job (German still uses werden).\n\nIn the 1900s, writing guides like Strunk and White's 'The Elements of Style' (1959) told writers to avoid the passive. That's good advice for lively writing, but scientists and news reporters still use it when the action matters more than who did it.",
+      "examples": [
+        {"good": "The letter was written in 1850.", "bad": null, "note": "Passive: the writer is unknown."},
+        {"good": "Hana won the race.", "bad": "The race was won by Hana.", "note": "Both are correct, but active is stronger here."},
+        {"good": "The bridge is being repaired.", "bad": "The bridge is repairing.", "note": "Passive continuous: is being + participle."}
+      ],
+      "trick": "The zombie test: if you can add 'by zombies' after the verb and it makes sense, it's passive. 'The bell was stolen ... by zombies!'",
+      "quiz": [
+        {"q": "Which sentence is passive?", "options": ["Kaito broke the vase.", "The vase was broken.", "The vase fell.", "Kaito is breaking it."], "answer": 1, "why": "Was + past participle; the vase receives the action."},
+        {"q": "Make it passive: 'They build cars here.'", "options": ["Cars build here.", "Cars are built here.", "Cars were build here.", "Cars is built here."], "answer": 1, "why": "are + past participle built."}
+      ]
+    },
+    {
+      "id": "gerunds-infinitives",
+      "title": "Gerunds & Infinitives",
+      "tagline": "enjoy doing vs. want to do",
+      "story": [
+        {"who": "kaito", "line": "I enjoy to fight and I want fighting!"},
+        {"who": "hana", "line": "That sounds backwards."},
+        {"who": "sensei", "line": "Some verbs prefer the -ing form, called a gerund: enjoy fighting. Others prefer to + verb, called an infinitive: want to fight."},
+        {"who": "kaito", "line": "Is there a pattern or do I have to memorize everything?"},
+        {"who": "sensei", "line": "A loose pattern: to often points forward to the future (want to, hope to, plan to). -ing often looks at something real or ongoing (enjoy, finish, avoid)."},
+        {"who": "yumi", "line": "And some change meaning! I stopped to eat (I paused so I could eat) versus I stopped eating (I quit eating)."}
+      ],
+      "parts": [
+        {"name": "Gerund (-ing as a noun)", "detail": "Can be a subject or object.", "example": "Swimming is fun."},
+        {"name": "Verbs + -ing", "detail": "enjoy, finish, avoid, mind, keep, practice, suggest, consider.", "example": "She finished writing."},
+        {"name": "Verbs + to", "detail": "want, hope, plan, decide, promise, need, agree, learn.", "example": "He decided to leave."},
+        {"name": "After prepositions: always -ing", "detail": "interested in, good at, before, after.", "example": "She's good at drawing."},
+        {"name": "Meaning changers", "detail": "stop, remember, forget, try.", "example": "Remember to lock the door. / I remember locking it."}
+      ],
+      "history": "The -ing ending has a double ancestry. Old English had nouns ending in -ung or -ing (like 'leornung,' learning) and also a participle ending -ende (like 'singende,' singing). In Middle English, these two endings merged into one: -ing.\n\nThe 'to' before infinitives comes from Old English 'tō,' which originally meant direction, toward. So 'I want to go' once carried the feeling of 'I want toward going.' That's one reason to-infinitives still feel future-facing.",
+      "examples": [
+        {"good": "I enjoy reading manga.", "bad": "I enjoy to read manga.", "note": "Enjoy + -ing."},
+        {"good": "We decided to stay.", "bad": "We decided staying.", "note": "Decide + to."},
+        {"good": "Thanks for helping me.", "bad": "Thanks for help me.", "note": "After a preposition, use -ing."}
+      ],
+      "trick": "To = a road toward the future (want to, plan to). -ing = already in the experience (enjoy, finish, avoid).",
+      "quiz": [
+        {"q": "'She avoided ___ the question.'", "options": ["to answer", "answering", "answer", "answered"], "answer": 1, "why": "Avoid + -ing."},
+        {"q": "'They hope ___ next year.'", "options": ["visiting", "to visit", "visit", "visited"], "answer": 1, "why": "Hope + to."}
+      ]
+    },
+    {
+      "id": "phrasal-verbs",
+      "title": "Phrasal Verbs",
+      "tagline": "Verb + little word = brand new meaning",
+      "story": [
+        {"who": "yumi", "line": "Hana, don't give up! Look it up! Figure it out!"},
+        {"who": "hana", "line": "Give... up? Up where? Look up at the sky?"},
+        {"who": "sensei", "line": "These are phrasal verbs. A verb teams up with a small word like up, out, off or on, and together they mean something new."},
+        {"who": "sensei", "line": "Give up means quit. Look up means search for information. Figure out means understand."},
+        {"who": "kaito", "line": "So when the alarm goes off, I should get up, not... go off myself?"},
+        {"who": "yumi", "line": "Hehe. Please go off. Somewhere far away."}
+      ],
+      "parts": [
+        {"name": "Verb + particle", "detail": "The particle (up, out, off, in, on, down, away) changes the meaning.", "example": "turn on, turn off, turn down"},
+        {"name": "Separable", "detail": "An object can go in the middle; pronouns MUST go in the middle.", "example": "Turn off the light. Turn the light off. Turn it off."},
+        {"name": "Inseparable", "detail": "The object always comes after.", "example": "Look after the cat. (not Look the cat after)"},
+        {"name": "Intransitive", "detail": "No object at all.", "example": "The plane took off."}
+      ],
+      "history": "Old English made new verbs by adding prefixes, like 'ūpstīgan' (to go up). In Middle English, these prefixes faded and speakers moved the little word after the verb instead.\n\nViking settlers, whose language (Old Norse) also liked verb-plus-particle combos, may have helped this shift along. Today English has thousands of phrasal verbs, and new ones keep appearing: log in, sign up, zoom out.",
+      "examples": [
+        {"good": "Please pick it up.", "bad": "Please pick up it.", "note": "With a pronoun, the particle goes after it."},
+        {"good": "I ran into an old friend.", "bad": null, "note": "Run into = meet by chance."},
+        {"good": "The meeting was called off.", "bad": null, "note": "Call off = cancel."}
+      ],
+      "trick": "Pronoun sandwich: when the object is a pronoun (it, them, her), put it between the verb and particle: turn IT off.",
+      "quiz": [
+        {"q": "What does 'put off' usually mean?", "options": ["wear", "postpone", "extinguish", "insult"], "answer": 1, "why": "Put off = delay or postpone."},
+        {"q": "Which is correct?", "options": ["Turn on it.", "Turn it on.", "It turn on.", "On turn it."], "answer": 1, "why": "Pronouns go between the verb and particle."}
+      ]
+    },
+    {
+      "id": "do-support",
+      "title": "Questions & Negatives with Do",
+      "tagline": "Why we say 'Do you know?' and not 'Know you?'",
+      "story": [
+        {"who": "narrator", "line": "An ancient samurai ghost appears in the dojo."},
+        {"who": "kaito", "line": "Ghost! Know you the way out?"},
+        {"who": "sensei", "line": "Ha! You speak like Shakespeare. Modern English needs a helper: Do you know the way out?"},
+        {"who": "hana", "line": "And the negative isn't 'I know not.' It's 'I don't know.'"},
+        {"who": "sensei", "line": "Exactly. When there's no other helper verb, do steps in to make questions and negatives. Do, does, did."}
+      ],
+      "parts": [
+        {"name": "Questions", "detail": "Do / Does / Did + subject + base verb.", "example": "Does she like cats?"},
+        {"name": "Negatives", "detail": "do not / does not / did not + base verb.", "example": "They didn't come."},
+        {"name": "Other helpers don't need do", "detail": "With be, have (as a helper) and modals, just flip or add not.", "example": "Are you ready? I can't swim."},
+        {"name": "Emphasis", "detail": "Do can add strength to a positive.", "example": "I do love ramen!"}
+      ],
+      "history": "Around 1400–1700, English went through a big change called 'do-support.' Before it, people asked 'Know you the answer?' and said 'I know not.' Shakespeare used both the old and new styles.\n\nBy the 1700s the do-style had won for most verbs. Scholars think one reason was to keep the subject before the main verb, a pattern English likes. A few old forms survive in fixed phrases like 'How goes it?'",
+      "examples": [
+        {"good": "Do you like sushi?", "bad": "Like you sushi?", "note": "Use do in questions."},
+        {"good": "He doesn't play tennis.", "bad": "He plays not tennis.", "note": "Use does not."},
+        {"good": "Can you swim?", "bad": "Do you can swim?", "note": "Modals don't need do."}
+      ],
+      "trick": "No helper in the sentence? Call Do to the rescue. Already have a helper (is, can, have)? Do stays home.",
+      "quiz": [
+        {"q": "Make a question: 'She speaks Korean.'", "options": ["Speaks she Korean?", "Does she speak Korean?", "Does she speaks Korean?", "Do she speak Korean?"], "answer": 1, "why": "Does + she + base verb."},
+        {"q": "Which is correct?", "options": ["I not like it.", "I don't like it.", "I doesn't like it.", "I like not it."], "answer": 1, "why": "I + don't + base verb."}
+      ]
+    },
+    {
+      "id": "subjunctive",
+      "title": "The Subjunctive Mood",
+      "tagline": "If I were a dragon... wishes and demands",
+      "story": [
+        {"who": "kaito", "line": "If I was a dragon, I would fly to the ramen shop."},
+        {"who": "sensei", "line": "If I were a dragon. You are not a dragon. When something is imaginary, English uses were, even with I and he."},
+        {"who": "hana", "line": "Like 'I wish it were Saturday'?"},
+        {"who": "sensei", "line": "Yes. And there's a second form: after demands and suggestions, the verb stays bare. 'Sensei insists that Kaito be quiet.'"},
+        {"who": "kaito", "line": "Wait, not 'Kaito is quiet'?"},
+        {"who": "yumi", "line": "Nobody believes Kaito IS quiet. That's why it's subjunctive. Hehe."}
+      ],
+      "parts": [
+        {"name": "Were for unreal situations", "detail": "After if, wish, as if, for imagined things.", "example": "If I were rich, I'd travel."},
+        {"name": "Base verb after demands", "detail": "After insist, suggest, recommend, demand, it's important that.", "example": "I suggest that he leave early."},
+        {"name": "Fixed phrases", "detail": "Old subjunctive leftovers.", "example": "God save the King. So be it. Long live the king."},
+        {"name": "Casual speech", "detail": "'If I was' is common in speech, but use were in formal writing.", "example": "If I were you, I'd apologize."}
+      ],
+      "history": "Old English had a whole set of subjunctive verb forms for wishes, doubts and commands. Over centuries, almost all of them merged with normal forms.\n\nThe survivors are 'were' for unreal situations and the bare verb after demands. American English kept the 'demand that he be' style more strongly than British English, which often says 'demand that he should be.'",
+      "examples": [
+        {"good": "I wish I were taller.", "bad": "I wish I am taller.", "note": "Unreal wish: were."},
+        {"good": "The doctor recommends that she rest.", "bad": "The doctor recommends that she rests.", "note": "Base verb after recommends that (formal)."},
+        {"good": "If he were here, he would help.", "bad": null, "note": "He isn't here, so it's unreal."}
+      ],
+      "trick": "Dreams use WERE. If it isn't real, it's were.",
+      "quiz": [
+        {"q": "'If I ___ you, I would study.'", "options": ["am", "was", "were", "be"], "answer": 2, "why": "Unreal situation: were."},
+        {"q": "'It is essential that every student ___ on time.'", "options": ["is", "be", "are", "being"], "answer": 1, "why": "After 'essential that,' use the base verb."}
+      ]
+    }
+  ]
+}
