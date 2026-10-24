@@ -6,7 +6,7 @@ import org.json.JSONArray
 import org.json.JSONObject
 
 /**
- * Loads every category from assets/grammar/*.json. Adding a new rule or a
+ * Loads every category from the JSON files in assets/grammar. Adding a new rule or a
  * whole new category is just a matter of editing or adding a JSON file.
  */
 class GrammarRepository(context: Context) {
