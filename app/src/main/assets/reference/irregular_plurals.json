@@ -1,0 +1,514 @@
+{
+ "groups": [
+  {
+   "title": "Vowel change",
+   "note": "The vowel inside the word changes. An ancient Germanic sound change (i-mutation).",
+   "items": [
+    {
+     "singular": "man",
+     "plural": "men"
+    },
+    {
+     "singular": "woman",
+     "plural": "women"
+    },
+    {
+     "singular": "child",
+     "plural": "children (-en)"
+    },
+    {
+     "singular": "foot",
+     "plural": "feet"
+    },
+    {
+     "singular": "tooth",
+     "plural": "teeth"
+    },
+    {
+     "singular": "goose",
+     "plural": "geese"
+    },
+    {
+     "singular": "mouse",
+     "plural": "mice"
+    },
+    {
+     "singular": "louse",
+     "plural": "lice"
+    },
+    {
+     "singular": "ox",
+     "plural": "oxen (-en)"
+    },
+    {
+     "singular": "person",
+     "plural": "people (also persons, in legal writing)"
+    }
+   ]
+  },
+  {
+   "title": "Same in singular and plural",
+   "note": "These never change.",
+   "items": [
+    {
+     "singular": "sheep",
+     "plural": "sheep"
+    },
+    {
+     "singular": "deer",
+     "plural": "deer"
+    },
+    {
+     "singular": "fish",
+     "plural": "fish (fishes = different species)"
+    },
+    {
+     "singular": "moose",
+     "plural": "moose"
+    },
+    {
+     "singular": "swine",
+     "plural": "swine"
+    },
+    {
+     "singular": "bison",
+     "plural": "bison"
+    },
+    {
+     "singular": "salmon",
+     "plural": "salmon"
+    },
+    {
+     "singular": "trout",
+     "plural": "trout"
+    },
+    {
+     "singular": "aircraft",
+     "plural": "aircraft"
+    },
+    {
+     "singular": "spacecraft",
+     "plural": "spacecraft"
+    },
+    {
+     "singular": "series",
+     "plural": "series"
+    },
+    {
+     "singular": "species",
+     "plural": "species"
+    },
+    {
+     "singular": "means",
+     "plural": "means"
+    },
+    {
+     "singular": "offspring",
+     "plural": "offspring"
+    }
+   ]
+  },
+  {
+   "title": "-f / -fe → -ves",
+   "note": "Many old words ending in f or fe soften to v.",
+   "items": [
+    {
+     "singular": "leaf",
+     "plural": "leaves"
+    },
+    {
+     "singular": "knife",
+     "plural": "knives"
+    },
+    {
+     "singular": "wife",
+     "plural": "wives"
+    },
+    {
+     "singular": "life",
+     "plural": "lives"
+    },
+    {
+     "singular": "wolf",
+     "plural": "wolves"
+    },
+    {
+     "singular": "half",
+     "plural": "halves"
+    },
+    {
+     "singular": "calf",
+     "plural": "calves"
+    },
+    {
+     "singular": "loaf",
+     "plural": "loaves"
+    },
+    {
+     "singular": "shelf",
+     "plural": "shelves"
+    },
+    {
+     "singular": "thief",
+     "plural": "thieves"
+    },
+    {
+     "singular": "elf",
+     "plural": "elves"
+    },
+    {
+     "singular": "self",
+     "plural": "selves"
+    },
+    {
+     "singular": "scarf",
+     "plural": "scarves (or scarfs)"
+    },
+    {
+     "singular": "hoof",
+     "plural": "hooves (or hoofs)"
+    },
+    {
+     "singular": "roof",
+     "plural": "roofs (exception!)"
+    },
+    {
+     "singular": "chief",
+     "plural": "chiefs (exception!)"
+    },
+    {
+     "singular": "belief",
+     "plural": "beliefs (exception!)"
+    },
+    {
+     "singular": "cliff",
+     "plural": "cliffs (exception!)"
+    }
+   ]
+  },
+  {
+   "title": "-o → -oes or -os",
+   "note": "Some -o words add -es, others just -s. Learn the -oes ones.",
+   "items": [
+    {
+     "singular": "potato",
+     "plural": "potatoes"
+    },
+    {
+     "singular": "tomato",
+     "plural": "tomatoes"
+    },
+    {
+     "singular": "hero",
+     "plural": "heroes"
+    },
+    {
+     "singular": "echo",
+     "plural": "echoes"
+    },
+    {
+     "singular": "veto",
+     "plural": "vetoes"
+    },
+    {
+     "singular": "torpedo",
+     "plural": "torpedoes"
+    },
+    {
+     "singular": "mosquito",
+     "plural": "mosquitoes (or mosquitos)"
+    },
+    {
+     "singular": "volcano",
+     "plural": "volcanoes (or volcanos)"
+    },
+    {
+     "singular": "piano",
+     "plural": "pianos"
+    },
+    {
+     "singular": "photo",
+     "plural": "photos"
+    },
+    {
+     "singular": "video",
+     "plural": "videos"
+    },
+    {
+     "singular": "radio",
+     "plural": "radios"
+    },
+    {
+     "singular": "kilo",
+     "plural": "kilos"
+    }
+   ]
+  },
+  {
+   "title": "Latin words",
+   "note": "Borrowed from Latin with their Latin plurals. Many also have an English -s plural in everyday use.",
+   "items": [
+    {
+     "singular": "cactus",
+     "plural": "cacti (or cactuses)"
+    },
+    {
+     "singular": "fungus",
+     "plural": "fungi"
+    },
+    {
+     "singular": "nucleus",
+     "plural": "nuclei"
+    },
+    {
+     "singular": "radius",
+     "plural": "radii"
+    },
+    {
+     "singular": "stimulus",
+     "plural": "stimuli"
+    },
+    {
+     "singular": "syllabus",
+     "plural": "syllabi (or syllabuses)"
+    },
+    {
+     "singular": "alumnus",
+     "plural": "alumni"
+    },
+    {
+     "singular": "alga",
+     "plural": "algae"
+    },
+    {
+     "singular": "larva",
+     "plural": "larvae"
+    },
+    {
+     "singular": "antenna",
+     "plural": "antennae (insects) / antennas (radios)"
+    },
+    {
+     "singular": "formula",
+     "plural": "formulae (or formulas)"
+    },
+    {
+     "singular": "vertebra",
+     "plural": "vertebrae"
+    },
+    {
+     "singular": "appendix",
+     "plural": "appendices (or appendixes)"
+    },
+    {
+     "singular": "index",
+     "plural": "indices (or indexes)"
+    },
+    {
+     "singular": "matrix",
+     "plural": "matrices"
+    },
+    {
+     "singular": "vertex",
+     "plural": "vertices"
+    },
+    {
+     "singular": "datum",
+     "plural": "data"
+    },
+    {
+     "singular": "medium",
+     "plural": "media (or mediums, for psychics)"
+    },
+    {
+     "singular": "curriculum",
+     "plural": "curricula (or curriculums)"
+    },
+    {
+     "singular": "memorandum",
+     "plural": "memoranda (or memorandums)"
+    },
+    {
+     "singular": "bacterium",
+     "plural": "bacteria"
+    },
+    {
+     "singular": "referendum",
+     "plural": "referenda (or referendums)"
+    },
+    {
+     "singular": "genus",
+     "plural": "genera"
+    },
+    {
+     "singular": "corpus",
+     "plural": "corpora"
+    }
+   ]
+  },
+  {
+   "title": "Greek words",
+   "note": "Words from Greek, often used in science.",
+   "items": [
+    {
+     "singular": "analysis",
+     "plural": "analyses"
+    },
+    {
+     "singular": "basis",
+     "plural": "bases"
+    },
+    {
+     "singular": "crisis",
+     "plural": "crises"
+    },
+    {
+     "singular": "diagnosis",
+     "plural": "diagnoses"
+    },
+    {
+     "singular": "hypothesis",
+     "plural": "hypotheses"
+    },
+    {
+     "singular": "oasis",
+     "plural": "oases"
+    },
+    {
+     "singular": "parenthesis",
+     "plural": "parentheses"
+    },
+    {
+     "singular": "synopsis",
+     "plural": "synopses"
+    },
+    {
+     "singular": "thesis",
+     "plural": "theses"
+    },
+    {
+     "singular": "axis",
+     "plural": "axes"
+    },
+    {
+     "singular": "criterion",
+     "plural": "criteria"
+    },
+    {
+     "singular": "phenomenon",
+     "plural": "phenomena"
+    },
+    {
+     "singular": "automaton",
+     "plural": "automata (or automatons)"
+    }
+   ]
+  },
+  {
+   "title": "French & Italian words",
+   "note": "Borrowed with their original plurals.",
+   "items": [
+    {
+     "singular": "bureau",
+     "plural": "bureaus (or bureaux)"
+    },
+    {
+     "singular": "château",
+     "plural": "châteaux (or châteaus)"
+    },
+    {
+     "singular": "plateau",
+     "plural": "plateaus (or plateaux)"
+    },
+    {
+     "singular": "tableau",
+     "plural": "tableaux"
+    },
+    {
+     "singular": "libretto",
+     "plural": "librettos (or libretti)"
+    },
+    {
+     "singular": "graffito",
+     "plural": "graffiti"
+    }
+   ]
+  },
+  {
+   "title": "Compound nouns",
+   "note": "Usually the main noun gets the plural.",
+   "items": [
+    {
+     "singular": "mother-in-law",
+     "plural": "mothers-in-law"
+    },
+    {
+     "singular": "passer-by",
+     "plural": "passers-by"
+    },
+    {
+     "singular": "attorney general",
+     "plural": "attorneys general"
+    },
+    {
+     "singular": "editor-in-chief",
+     "plural": "editors-in-chief"
+    },
+    {
+     "singular": "runner-up",
+     "plural": "runners-up"
+    },
+    {
+     "singular": "spoonful",
+     "plural": "spoonfuls"
+    }
+   ]
+  },
+  {
+   "title": "Only plural",
+   "note": "These nouns have no singular form in everyday use.",
+   "items": [
+    {
+     "singular": "scissors",
+     "plural": "scissors"
+    },
+    {
+     "singular": "trousers",
+     "plural": "trousers"
+    },
+    {
+     "singular": "pants",
+     "plural": "pants"
+    },
+    {
+     "singular": "jeans",
+     "plural": "jeans"
+    },
+    {
+     "singular": "glasses (spectacles)",
+     "plural": "glasses"
+    },
+    {
+     "singular": "pajamas",
+     "plural": "pajamas"
+    },
+    {
+     "singular": "clothes",
+     "plural": "clothes"
+    },
+    {
+     "singular": "thanks",
+     "plural": "thanks"
+    },
+    {
+     "singular": "goods",
+     "plural": "goods"
+    },
+    {
+     "singular": "headquarters",
+     "plural": "headquarters"
+    }
+   ]
+  }
+ ]
+}

@@ -65,6 +65,7 @@ fun HomeScreen(
     progress: ProgressStore,
     onCategory: (String) -> Unit,
     onRule: (String) -> Unit,
+    onTraining: (String) -> Unit,
 ) {
     var query by rememberSaveable { mutableStateOf("") }
     var castInfo by remember { mutableStateOf<CastMember?>(null) }
@@ -123,6 +124,22 @@ fun HomeScreen(
                                 Text(m.name.substringBefore(' '), color = Color.White, fontSize = 12.sp, textAlign = TextAlign.Center, maxLines = 1)
                             }
                         }
+                    }
+                }
+                item { SectionTitle("Training grounds") }
+                item {
+                    TrainingCard("⏳", "Irregular Verbs", "go · went · gone, and 140+ more rebels", Color(0xFF1A237E), Color(0xFF4DD0E1)) {
+                        onTraining("verbs")
+                    }
+                }
+                item {
+                    TrainingCard("🏮", "Irregular Plurals", "mouse → mice, crisis → crises", Color(0xFFBF360C), Color(0xFFFFB74D)) {
+                        onTraining("plurals")
+                    }
+                }
+                item {
+                    TrainingCard("🥋", "Practice Dojo", "Professional-level tests with ranks", Color(0xFF263238), Color(0xFF80CBC4)) {
+                        onTraining("practice")
                     }
                 }
                 item { SectionTitle("Story arcs") }
@@ -234,6 +251,27 @@ private fun CategoryCard(cat: Category, masteredCount: Int, onClick: () -> Unit)
             Spacer(Modifier.height(4.dp))
             Text("$masteredCount / ${cat.rules.size} mastered", color = Color.White.copy(alpha = 0.8f), fontSize = 11.sp)
         }
+    }
+}
+
+@Composable
+private fun TrainingCard(emoji: String, title: String, subtitle: String, dark: Color, light: Color, onClick: () -> Unit) {
+    Row(
+        Modifier
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(22.dp))
+            .background(Brush.horizontalGradient(listOf(dark, light.copy(alpha = 0.85f))))
+            .clickable(onClick = onClick)
+            .padding(horizontal = 16.dp, vertical = 14.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Text(emoji, fontSize = 34.sp, modifier = Modifier.size(48.dp), textAlign = TextAlign.Center)
+        Spacer(Modifier.width(12.dp))
+        Column(Modifier.weight(1f)) {
+            Text(title, color = Color.White, fontWeight = FontWeight.ExtraBold, fontSize = 18.sp)
+            Text(subtitle, color = Color.White.copy(alpha = 0.9f), fontSize = 13.sp)
+        }
+        Text("▶", color = Color.White, fontSize = 18.sp)
     }
 }
 

@@ -33,6 +33,19 @@ Voices use the phone's built-in text-to-speech engine.
 9. Conditionals & Advanced: The Crossroads of If
 10. Commonly Confused Words: Yumi's Trickster Forest
 
+## Training grounds
+
+- **⏳ Irregular Verbs:** 147 verbs with base, past and past participle, meanings, search, and
+  pattern filters (A-A-A cut-cut-cut, A-B-B buy-bought-bought, A-B-A come-came-come, A-B-C go-went-gone).
+  Tap a verb to hear Chrono say all three forms.
+- **🏮 Irregular Plurals:** 114 nouns in 9 groups (vowel change, unchanged, -f → -ves, -o → -oes,
+  Latin, Greek, French & Italian, compounds, plural-only). Tap a pair to hear Yumi say it.
+- **🥋 Practice Dojo:** 96 professional-level questions in six disciplines (Agreement, Verbs & Tenses,
+  Punctuation, Word Choice, Sentence Structure, Professional Style). Rounds of 10, 20 or 30 questions
+  with explanations, a rank at the end (Genin → Grammar Kage), best scores, and a review of missed questions.
+
+Reference data lives in `app/src/main/assets/reference/` and the practice bank in `app/src/main/assets/practice/`.
+
 ## Install on your phone
 
 Every push to `main` builds the app on GitHub Actions and publishes it as a release.

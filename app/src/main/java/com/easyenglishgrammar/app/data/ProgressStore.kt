@@ -24,6 +24,13 @@ class ProgressStore(context: Context) {
         prefs.edit().putStringSet(KEY_MASTERED, mastered.value).apply()
     }
 
+    /** Best score (percent) in the Practice Dojo, per topic ("All" for the mixed test). */
+    fun bestPractice(topic: String): Int = prefs.getInt(KEY_PRACTICE + topic, -1)
+
+    fun recordPractice(topic: String, percent: Int) {
+        if (percent > bestPractice(topic)) prefs.edit().putInt(KEY_PRACTICE + topic, percent).apply()
+    }
+
     fun reset() {
         read.value = emptySet()
         mastered.value = emptySet()
@@ -33,5 +40,6 @@ class ProgressStore(context: Context) {
     private companion object {
         const val KEY_READ = "read"
         const val KEY_MASTERED = "mastered"
+        const val KEY_PRACTICE = "practice_best_"
     }
 }

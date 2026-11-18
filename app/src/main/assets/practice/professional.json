@@ -1,0 +1,1156 @@
+{
+ "questions": [
+  {
+   "topic": "Agreement",
+   "q": "The list of approved vendors ___ been updated.",
+   "options": [
+    "have",
+    "has",
+    "are",
+    "were"
+   ],
+   "answer": 1,
+   "why": "The subject is 'list' (singular). 'Of approved vendors' is just a description."
+  },
+  {
+   "topic": "Agreement",
+   "q": "Neither the manager nor the analysts ___ aware of the change.",
+   "options": [
+    "was",
+    "were",
+    "is",
+    "has been"
+   ],
+   "answer": 1,
+   "why": "With neither/nor, the verb agrees with the nearer subject: 'analysts' (plural)."
+  },
+  {
+   "topic": "Agreement",
+   "q": "Neither the analysts nor the manager ___ aware of the change.",
+   "options": [
+    "were",
+    "was",
+    "are",
+    "have been"
+   ],
+   "answer": 1,
+   "why": "The nearer subject is 'manager' (singular), so 'was'."
+  },
+  {
+   "topic": "Agreement",
+   "q": "Each of the candidates ___ a strong portfolio.",
+   "options": [
+    "have",
+    "has",
+    "are having",
+    "were having"
+   ],
+   "answer": 1,
+   "why": "'Each' is singular, even when followed by 'of the candidates'."
+  },
+  {
+   "topic": "Agreement",
+   "q": "The committee ___ reached its decision.",
+   "options": [
+    "have",
+    "has",
+    "are",
+    "were"
+   ],
+   "answer": 1,
+   "why": "Used with 'its', the committee acts as one unit, so the verb is singular."
+  },
+  {
+   "topic": "Agreement",
+   "q": "Along with her two assistants, the director ___ attending the summit.",
+   "options": [
+    "are",
+    "is",
+    "were",
+    "have been"
+   ],
+   "answer": 1,
+   "why": "'Along with...' doesn't change the subject. The subject is 'the director'."
+  },
+  {
+   "topic": "Agreement",
+   "q": "There ___ several issues with the proposal.",
+   "options": [
+    "is",
+    "was",
+    "are",
+    "has been"
+   ],
+   "answer": 2,
+   "why": "With 'there is/are', the verb agrees with what follows: 'several issues' (plural)."
+  },
+  {
+   "topic": "Agreement",
+   "q": "Which sentence is correct?",
+   "options": [
+    "Every employee must submit their timesheet by Friday.",
+    "Every employees must submit their timesheet by Friday.",
+    "Every employee must submits their timesheet by Friday.",
+    "Every employee must submit there timesheet by Friday."
+   ],
+   "answer": 0,
+   "why": "'Every' takes a singular noun; singular 'their' is accepted by major style guides."
+  },
+  {
+   "topic": "Agreement",
+   "q": "One of the reports that ___ submitted last week contains an error.",
+   "options": [
+    "was",
+    "were",
+    "is",
+    "has been"
+   ],
+   "answer": 1,
+   "why": "'That' refers to 'reports' (plural), so the verb in that clause is 'were'. The main verb 'contains' agrees with 'one'."
+  },
+  {
+   "topic": "Agreement",
+   "q": "The number of applicants ___ increased this year.",
+   "options": [
+    "have",
+    "has",
+    "are",
+    "were"
+   ],
+   "answer": 1,
+   "why": "'The number of' is singular. ('A number of applicants have...' would be plural.)"
+  },
+  {
+   "topic": "Agreement",
+   "q": "A number of employees ___ requested remote work.",
+   "options": [
+    "has",
+    "have",
+    "is",
+    "was"
+   ],
+   "answer": 1,
+   "why": "'A number of' means 'several', so it takes a plural verb."
+  },
+  {
+   "topic": "Agreement",
+   "q": "Ten thousand dollars ___ a reasonable budget for the pilot.",
+   "options": [
+    "are",
+    "is",
+    "were",
+    "have been"
+   ],
+   "answer": 1,
+   "why": "An amount of money treated as one sum takes a singular verb."
+  },
+  {
+   "topic": "Agreement",
+   "q": "Mathematics ___ a required subject for the program.",
+   "options": [
+    "are",
+    "is",
+    "were",
+    "have been"
+   ],
+   "answer": 1,
+   "why": "Subjects ending in -ics (mathematics, economics) are singular when they name a field of study."
+  },
+  {
+   "topic": "Agreement",
+   "q": "Find the error: 'The quality of the products have improved since the new supplier was hired.'",
+   "options": [
+    "quality",
+    "have improved",
+    "since",
+    "was hired"
+   ],
+   "answer": 1,
+   "why": "The subject is 'quality' (singular), so it should be 'has improved'."
+  },
+  {
+   "topic": "Agreement",
+   "q": "The CEO, as well as the board members, ___ expected to attend.",
+   "options": [
+    "are",
+    "is",
+    "were",
+    "have been"
+   ],
+   "answer": 1,
+   "why": "'As well as...' is extra information; the subject is 'the CEO'."
+  },
+  {
+   "topic": "Agreement",
+   "q": "Either the client or her lawyers ___ going to call us back.",
+   "options": [
+    "is",
+    "are",
+    "was",
+    "has"
+   ],
+   "answer": 1,
+   "why": "With either/or, match the nearer subject: 'lawyers' (plural)."
+  },
+  {
+   "topic": "Verbs & Tenses",
+   "q": "By the time the audit begins, we ___ all the documents.",
+   "options": [
+    "will gather",
+    "will have gathered",
+    "gathered",
+    "have gathered"
+   ],
+   "answer": 1,
+   "why": "An action completed before a future point uses the future perfect."
+  },
+  {
+   "topic": "Verbs & Tenses",
+   "q": "She ___ at the firm for ten years before she was promoted.",
+   "options": [
+    "has worked",
+    "had worked",
+    "works",
+    "is working"
+   ],
+   "answer": 1,
+   "why": "Duration before another past event uses the past perfect."
+  },
+  {
+   "topic": "Verbs & Tenses",
+   "q": "If I ___ about the delay, I would have informed the client.",
+   "options": [
+    "knew",
+    "had known",
+    "would know",
+    "have known"
+   ],
+   "answer": 1,
+   "why": "Third conditional (an unreal past): if + had + past participle."
+  },
+  {
+   "topic": "Verbs & Tenses",
+   "q": "The report should ___ sent yesterday.",
+   "options": [
+    "have been",
+    "of been",
+    "had been",
+    "be"
+   ],
+   "answer": 0,
+   "why": "Modal + have + past participle. 'Should of' is a common error for 'should've'."
+  },
+  {
+   "topic": "Verbs & Tenses",
+   "q": "Which is correct?",
+   "options": [
+    "The documents were laid on the desk.",
+    "The documents were lain on the desk.",
+    "The documents were layed on the desk.",
+    "The documents were lied on the desk."
+   ],
+   "answer": 0,
+   "why": "'Lay' (to put) takes an object; its passive is 'were laid'."
+  },
+  {
+   "topic": "Verbs & Tenses",
+   "q": "Yesterday the manager ___ down for an hour because of a headache.",
+   "options": [
+    "laid",
+    "lay",
+    "lain",
+    "layed"
+   ],
+   "answer": 1,
+   "why": "The past tense of 'lie' (to recline) is 'lay'."
+  },
+  {
+   "topic": "Verbs & Tenses",
+   "q": "It is essential that every participant ___ the consent form.",
+   "options": [
+    "signs",
+    "sign",
+    "signed",
+    "will sign"
+   ],
+   "answer": 1,
+   "why": "After 'essential that', formal English uses the subjunctive base form: 'sign'."
+  },
+  {
+   "topic": "Verbs & Tenses",
+   "q": "The board recommended that the policy ___ revised.",
+   "options": [
+    "is",
+    "be",
+    "was",
+    "will be"
+   ],
+   "answer": 1,
+   "why": "Subjunctive after 'recommended that': base form 'be'."
+  },
+  {
+   "topic": "Verbs & Tenses",
+   "q": "We ___ the new software since January.",
+   "options": [
+    "use",
+    "are using",
+    "have been using",
+    "used"
+   ],
+   "answer": 2,
+   "why": "An action that began in the past and continues now: present perfect continuous."
+  },
+  {
+   "topic": "Verbs & Tenses",
+   "q": "Which is correct?",
+   "options": [
+    "The meeting has began.",
+    "The meeting has begun.",
+    "The meeting has beginned.",
+    "The meeting has began already."
+   ],
+   "answer": 1,
+   "why": "Begin – began – begun. After 'has', use the past participle 'begun'."
+  },
+  {
+   "topic": "Verbs & Tenses",
+   "q": "Which is correct?",
+   "options": [
+    "The price of materials has risen sharply.",
+    "The price of materials has rose sharply.",
+    "The price of materials has raised sharply.",
+    "The price of materials has rised sharply."
+   ],
+   "answer": 0,
+   "why": "Rise – rose – risen (no object). 'Raise' needs an object: 'They raised the price.'"
+  },
+  {
+   "topic": "Verbs & Tenses",
+   "q": "Which is correct?",
+   "options": [
+    "The company raised its prices.",
+    "The company rose its prices.",
+    "The company risen its prices.",
+    "The company rised its prices."
+   ],
+   "answer": 0,
+   "why": "'Raise' takes an object (its prices); past tense 'raised'."
+  },
+  {
+   "topic": "Verbs & Tenses",
+   "q": "When I arrived, the presentation ___.",
+   "options": [
+    "already started",
+    "has already started",
+    "had already started",
+    "was already start"
+   ],
+   "answer": 2,
+   "why": "It started before I arrived (two past events): past perfect."
+  },
+  {
+   "topic": "Verbs & Tenses",
+   "q": "I look forward to ___ from you.",
+   "options": [
+    "hear",
+    "hearing",
+    "be hearing",
+    "heard"
+   ],
+   "answer": 1,
+   "why": "In 'look forward to', 'to' is a preposition, so it's followed by -ing."
+  },
+  {
+   "topic": "Verbs & Tenses",
+   "q": "The team ___ the deadline if they had started earlier.",
+   "options": [
+    "would meet",
+    "would have met",
+    "will meet",
+    "had met"
+   ],
+   "answer": 1,
+   "why": "Third conditional result: would have + past participle."
+  },
+  {
+   "topic": "Verbs & Tenses",
+   "q": "Which is correct?",
+   "options": [
+    "She has drank the coffee.",
+    "She has drunk the coffee.",
+    "She has drinked the coffee.",
+    "She drunk the coffee."
+   ],
+   "answer": 1,
+   "why": "Drink – drank – drunk. 'Has' needs the past participle 'drunk'."
+  },
+  {
+   "topic": "Punctuation",
+   "q": "Which is punctuated correctly?",
+   "options": [
+    "The deadline is Friday, however, we may need an extension.",
+    "The deadline is Friday; however, we may need an extension.",
+    "The deadline is Friday however; we may need an extension.",
+    "The deadline is Friday: however we may need an extension."
+   ],
+   "answer": 1,
+   "why": "'However' joining two independent clauses needs a semicolon before it and a comma after it."
+  },
+  {
+   "topic": "Punctuation",
+   "q": "Which is punctuated correctly?",
+   "options": [
+    "Our offices are in Paris, France, Berlin, Germany, and Madrid, Spain.",
+    "Our offices are in Paris, France; Berlin, Germany; and Madrid, Spain.",
+    "Our offices are in Paris; France, Berlin; Germany, and Madrid; Spain.",
+    "Our offices are in: Paris, France, Berlin, Germany and Madrid, Spain."
+   ],
+   "answer": 1,
+   "why": "When list items contain commas, separate the items with semicolons."
+  },
+  {
+   "topic": "Punctuation",
+   "q": "Which is correct?",
+   "options": [
+    "The company changed it's logo.",
+    "The company changed its logo.",
+    "The company changed its' logo.",
+    "The company changed it is logo."
+   ],
+   "answer": 1,
+   "why": "'Its' is possessive. 'It's' always means 'it is' or 'it has'."
+  },
+  {
+   "topic": "Punctuation",
+   "q": "Which is correct?",
+   "options": [
+    "The employees' lounge is on the third floor.",
+    "The employee's lounge is on the third floor (shared by all staff).",
+    "The employees lounge's is on the third floor.",
+    "The employees's lounge is on the third floor."
+   ],
+   "answer": 0,
+   "why": "A lounge shared by many employees: plural possessive 'employees''."
+  },
+  {
+   "topic": "Punctuation",
+   "q": "Which uses a colon correctly?",
+   "options": [
+    "The required documents are: a passport, a visa, and a photo.",
+    "Please bring three documents: a passport, a visa, and a photo.",
+    "Please bring: a passport, a visa, and a photo.",
+    "The documents: are a passport, a visa, and a photo."
+   ],
+   "answer": 1,
+   "why": "A colon must follow a complete sentence. Don't place one directly after a verb."
+  },
+  {
+   "topic": "Punctuation",
+   "q": "Which is correct?",
+   "options": [
+    "My manager who joined last year is very supportive.",
+    "My manager, who joined last year, is very supportive.",
+    "My manager, who joined last year is very supportive.",
+    "My manager who joined last year, is very supportive."
+   ],
+   "answer": 1,
+   "why": "You have one manager, so the clause is extra information and needs commas on both sides."
+  },
+  {
+   "topic": "Punctuation",
+   "q": "Which is correct?",
+   "options": [
+    "Employees, who arrive late, must sign in at reception.",
+    "Employees who arrive late must sign in at reception.",
+    "Employees who arrive late, must sign in at reception.",
+    "Employees, who arrive late must sign in at reception."
+   ],
+   "answer": 1,
+   "why": "The clause identifies which employees (essential), so no commas."
+  },
+  {
+   "topic": "Punctuation",
+   "q": "Which is correct (American style)?",
+   "options": [
+    "She said, “The contract is ready”.",
+    "She said, “The contract is ready.”",
+    "She said “the contract is ready.”",
+    "She said, “The contract is ready”!"
+   ],
+   "answer": 1,
+   "why": "In American English, periods and commas go inside closing quotation marks."
+  },
+  {
+   "topic": "Punctuation",
+   "q": "Which is a comma splice?",
+   "options": [
+    "The client approved the budget, so we began work.",
+    "The client approved the budget, we began work.",
+    "The client approved the budget; we began work.",
+    "After the client approved the budget, we began work."
+   ],
+   "answer": 1,
+   "why": "Two independent clauses joined only by a comma form a comma splice."
+  },
+  {
+   "topic": "Punctuation",
+   "q": "Which is correct?",
+   "options": [
+    "We need a well-designed, user-friendly interface.",
+    "We need a well designed, user friendly interface.",
+    "We need a well-designed user-friendly, interface.",
+    "We need a well, designed user, friendly interface."
+   ],
+   "answer": 0,
+   "why": "Hyphenate compound adjectives before a noun; separate two equal adjectives with a comma."
+  },
+  {
+   "topic": "Punctuation",
+   "q": "Which is correct in formal writing?",
+   "options": [
+    "The project ran from 2019 to 2022.",
+    "The project ran from 2019–2022.",
+    "The project ran from 2019 – to 2022.",
+    "The project ran 2019 to – 2022."
+   ],
+   "answer": 0,
+   "why": "After 'from', use 'to'. Use an en dash on its own, without 'from': 'the 2019–2022 project'."
+  },
+  {
+   "topic": "Punctuation",
+   "q": "Which needs a comma?",
+   "options": [
+    "If you need help please call me.",
+    "Please call me if you need help.",
+    "Call me tomorrow.",
+    "I will call you."
+   ],
+   "answer": 0,
+   "why": "An introductory if-clause is followed by a comma: 'If you need help, please call me.'"
+  },
+  {
+   "topic": "Punctuation",
+   "q": "Which is correct?",
+   "options": [
+    "Dear Ms. Tanaka:",
+    "Dear Ms. Tanaka;",
+    "Dear Ms. Tanaka.",
+    "Dear, Ms. Tanaka"
+   ],
+   "answer": 0,
+   "why": "In formal American business letters, the salutation takes a colon (a comma is used in friendly letters)."
+  },
+  {
+   "topic": "Punctuation",
+   "q": "Which is correct?",
+   "options": [
+    "The 1990's were a decade of growth.",
+    "The 1990s were a decade of growth.",
+    "The 1990s' were a decade of growth.",
+    "The 1990s's were a decade of growth."
+   ],
+   "answer": 1,
+   "why": "Decades are plural, not possessive: no apostrophe."
+  },
+  {
+   "topic": "Punctuation",
+   "q": "Which is correct?",
+   "options": [
+    "I have two concerns: cost and time.",
+    "I have two concerns; cost and time.",
+    "I have two concerns, cost, and time.",
+    "I have: two concerns cost and time."
+   ],
+   "answer": 0,
+   "why": "A colon introduces a list after a complete sentence."
+  },
+  {
+   "topic": "Punctuation",
+   "q": "Which sentence uses the em dash correctly?",
+   "options": [
+    "The results—though preliminary—are promising.",
+    "The results—though preliminary are promising.",
+    "The—results though preliminary are promising.",
+    "The results though—preliminary—are promising."
+   ],
+   "answer": 0,
+   "why": "Em dashes come in pairs around an interrupting phrase in mid-sentence."
+  },
+  {
+   "topic": "Word Choice",
+   "q": "The new policy will ___ all departments.",
+   "options": [
+    "effect",
+    "affect",
+    "infect",
+    "afect"
+   ],
+   "answer": 1,
+   "why": "'Affect' is the verb meaning 'influence'."
+  },
+  {
+   "topic": "Word Choice",
+   "q": "The new manager hopes to ___ real change.",
+   "options": [
+    "affect",
+    "effect",
+    "infect",
+    "afect"
+   ],
+   "answer": 1,
+   "why": "'Effect' as a verb means 'to bring about'. A rare but formal use."
+  },
+  {
+   "topic": "Word Choice",
+   "q": "Please ___ that all files are backed up.",
+   "options": [
+    "insure",
+    "ensure",
+    "assure",
+    "unsure"
+   ],
+   "answer": 1,
+   "why": "'Ensure' = make certain. 'Insure' = cover with insurance. 'Assure' = tell someone confidently."
+  },
+  {
+   "topic": "Word Choice",
+   "q": "The ___ reason for the delay was a supply shortage.",
+   "options": [
+    "principle",
+    "principal",
+    "principel",
+    "principality"
+   ],
+   "answer": 1,
+   "why": "'Principal' = main. 'Principle' = a rule or belief."
+  },
+  {
+   "topic": "Word Choice",
+   "q": "The project team ___ five engineers.",
+   "options": [
+    "comprises",
+    "comprises of",
+    "is comprised from",
+    "compose"
+   ],
+   "answer": 0,
+   "why": "Traditionally, the whole comprises its parts: no 'of'. ('Is composed of' is also correct.)"
+  },
+  {
+   "topic": "Word Choice",
+   "q": "There were ___ errors in this draft than in the last one.",
+   "options": [
+    "less",
+    "fewer",
+    "lesser",
+    "little"
+   ],
+   "answer": 1,
+   "why": "Errors are countable: 'fewer'."
+  },
+  {
+   "topic": "Word Choice",
+   "q": "Which is correct?",
+   "options": [
+    "Bring several items, e.g., a laptop and a charger.",
+    "Bring several items, i.e., a laptop and a charger (examples).",
+    "Bring several items, ie a laptop.",
+    "Bring several items, eg., a laptop."
+   ],
+   "answer": 0,
+   "why": "'e.g.' = for example. 'i.e.' = that is (restates exactly)."
+  },
+  {
+   "topic": "Word Choice",
+   "q": "The scarf ___ your coat nicely.",
+   "options": [
+    "compliments",
+    "complements",
+    "complement's",
+    "complimentary"
+   ],
+   "answer": 1,
+   "why": "'Complement' = complete or go well with. 'Compliment' = praise."
+  },
+  {
+   "topic": "Word Choice",
+   "q": "To ___ should the invoice be addressed?",
+   "options": [
+    "who",
+    "whom",
+    "whose",
+    "who's"
+   ],
+   "answer": 1,
+   "why": "After a preposition, use 'whom'."
+  },
+  {
+   "topic": "Word Choice",
+   "q": "Which is correct?",
+   "options": [
+    "Irregardless of the cost, we will proceed.",
+    "Regardless of the cost, we will proceed.",
+    "Irregardless the cost, we will proceed.",
+    "Regardless the cost of, we will proceed."
+   ],
+   "answer": 1,
+   "why": "'Regardless' is standard. 'Irregardless' is considered nonstandard in formal writing."
+  },
+  {
+   "topic": "Word Choice",
+   "q": "The proposal was approved, ___ we will start next week.",
+   "options": [
+    "than",
+    "then",
+    "so",
+    "therefor"
+   ],
+   "answer": 2,
+   "why": "'So' links cause and result after a comma."
+  },
+  {
+   "topic": "Word Choice",
+   "q": "All staff must ___ the new safety guidelines.",
+   "options": [
+    "adhere to",
+    "adhere",
+    "adhere with",
+    "adhere by"
+   ],
+   "answer": 0,
+   "why": "The verb 'adhere' is always followed by 'to'."
+  },
+  {
+   "topic": "Word Choice",
+   "q": "He was ___ by the complex instructions.",
+   "options": [
+    "confused",
+    "confusing",
+    "confuse",
+    "confusion"
+   ],
+   "answer": 0,
+   "why": "-ed adjectives describe how someone feels; -ing adjectives describe what causes it."
+  },
+  {
+   "topic": "Word Choice",
+   "q": "Which is correct?",
+   "options": [
+    "Please advise me of any changes.",
+    "Please advice me of any changes.",
+    "Please adviced me of any changes.",
+    "Please advices me of any changes."
+   ],
+   "answer": 0,
+   "why": "'Advise' is the verb; 'advice' is the noun."
+  },
+  {
+   "topic": "Word Choice",
+   "q": "The board ___ the merger yesterday.",
+   "options": [
+    "excepted",
+    "accepted",
+    "expected",
+    "exempted"
+   ],
+   "answer": 1,
+   "why": "'Accept' = agree to. 'Except' = excluding."
+  },
+  {
+   "topic": "Word Choice",
+   "q": "The firm is ___ to strict regulations.",
+   "options": [
+    "subjected",
+    "subject",
+    "subjecting",
+    "subjective"
+   ],
+   "answer": 1,
+   "why": "'Subject to' = governed by. 'Subjected to' means made to undergo something (often unpleasant)."
+  },
+  {
+   "topic": "Sentence Structure",
+   "q": "Which sentence is parallel?",
+   "options": [
+    "The role requires planning, organizing, and to lead a team.",
+    "The role requires planning, organizing, and leading a team.",
+    "The role requires to plan, organizing, and leading a team.",
+    "The role requires plan, to organize, and leading a team."
+   ],
+   "answer": 1,
+   "why": "All items in a list should share the same form (-ing)."
+  },
+  {
+   "topic": "Sentence Structure",
+   "q": "Which sentence has a dangling modifier?",
+   "options": [
+    "After reviewing the data, the analyst found an error.",
+    "After reviewing the data, an error was found.",
+    "The analyst found an error after reviewing the data.",
+    "An error was found after the analyst reviewed the data."
+   ],
+   "answer": 1,
+   "why": "Who reviewed the data? Not 'an error'. The modifier has no correct subject."
+  },
+  {
+   "topic": "Sentence Structure",
+   "q": "Which is a complete sentence?",
+   "options": [
+    "Although the budget was approved.",
+    "Because of the delay in shipping.",
+    "The budget was approved despite the delay.",
+    "Which caused the delay in shipping."
+   ],
+   "answer": 2,
+   "why": "The others are dependent clauses or phrases that cannot stand alone."
+  },
+  {
+   "topic": "Sentence Structure",
+   "q": "Which is correct?",
+   "options": [
+    "Not only did sales increase, but profits also rose.",
+    "Not only sales increased, but profits also rose.",
+    "Not only did sales increased, but profits also rose.",
+    "Not only sales did increase, but profits rose also."
+   ],
+   "answer": 0,
+   "why": "When 'not only' starts a sentence, invert the subject and helper: 'did sales increase'."
+  },
+  {
+   "topic": "Sentence Structure",
+   "q": "Which is correct?",
+   "options": [
+    "Rarely we see such strong results.",
+    "Rarely do we see such strong results.",
+    "Rarely we do see such strong results.",
+    "Rarely seeing we such strong results."
+   ],
+   "answer": 1,
+   "why": "Negative adverbs at the start (rarely, seldom, never) trigger inversion."
+  },
+  {
+   "topic": "Sentence Structure",
+   "q": "Which places 'only' to mean 'no one except the manager approved it'?",
+   "options": [
+    "The manager only approved the budget.",
+    "Only the manager approved the budget.",
+    "The manager approved only the budget.",
+    "The manager approved the budget only."
+   ],
+   "answer": 1,
+   "why": "Place 'only' directly before the word it limits."
+  },
+  {
+   "topic": "Sentence Structure",
+   "q": "Which sentence is clearest?",
+   "options": [
+    "She told her colleague that she had made a mistake.",
+    "She told her colleague, 'I made a mistake.'",
+    "She told her that she had made a mistake.",
+    "She told her colleague that her mistake was made."
+   ],
+   "answer": 1,
+   "why": "The first version is ambiguous: whose mistake? Direct speech removes the confusion."
+  },
+  {
+   "topic": "Sentence Structure",
+   "q": "Which is correct?",
+   "options": [
+    "The reason is because the server crashed.",
+    "The reason is that the server crashed.",
+    "The reason why is because the server crashed.",
+    "The reason is due to because the server crashed."
+   ],
+   "answer": 1,
+   "why": "'The reason is that...' avoids redundancy ('reason' already means 'because')."
+  },
+  {
+   "topic": "Sentence Structure",
+   "q": "Which is correct?",
+   "options": [
+    "The new system is more faster than the old one.",
+    "The new system is faster than the old one.",
+    "The new system is fastest than the old one.",
+    "The new system is more fast than the old one."
+   ],
+   "answer": 1,
+   "why": "One-syllable adjectives take -er; never combine 'more' with -er."
+  },
+  {
+   "topic": "Sentence Structure",
+   "q": "Which is correct?",
+   "options": [
+    "She is one of the most talented engineers who has ever worked here.",
+    "She is one of the most talented engineers who have ever worked here.",
+    "She is one of the most talented engineer who have ever worked here.",
+    "She is one of the more talented engineer who has worked here."
+   ],
+   "answer": 1,
+   "why": "'Who' refers to 'engineers' (plural), so 'have'."
+  },
+  {
+   "topic": "Sentence Structure",
+   "q": "Which comparison is logical?",
+   "options": [
+    "Our prices are lower than our competitors.",
+    "Our prices are lower than those of our competitors.",
+    "Our prices are lower then our competitors.",
+    "Our prices are lower compared with competitors prices."
+   ],
+   "answer": 1,
+   "why": "Compare prices with prices, not prices with competitors."
+  },
+  {
+   "topic": "Sentence Structure",
+   "q": "Which is correct?",
+   "options": [
+    "Between you and I, the plan won't work.",
+    "Between you and me, the plan won't work.",
+    "Between yourself and I, the plan won't work.",
+    "Between you and myself, the plan won't work."
+   ],
+   "answer": 1,
+   "why": "Prepositions take object pronouns: 'me'."
+  },
+  {
+   "topic": "Sentence Structure",
+   "q": "Which is correct?",
+   "options": [
+    "The manager asked whether we had finished the report.",
+    "The manager asked had we finished the report.",
+    "The manager asked whether had we finished the report.",
+    "The manager asked did we finish the report?"
+   ],
+   "answer": 0,
+   "why": "Reported questions use 'whether/if' and normal word order, with no question mark."
+  },
+  {
+   "topic": "Sentence Structure",
+   "q": "Which is correct?",
+   "options": [
+    "Hardly had we started when the power failed.",
+    "Hardly we had started when the power failed.",
+    "Hardly had we started than the power failed.",
+    "Hardly we started when the power failed."
+   ],
+   "answer": 0,
+   "why": "'Hardly ... when' with inversion: 'Hardly had we started when...'"
+  },
+  {
+   "topic": "Sentence Structure",
+   "q": "Which sentence avoids a misplaced modifier?",
+   "options": [
+    "We sent the brochure to clients printed on recycled paper.",
+    "We sent clients the brochure printed on recycled paper.",
+    "Printed on recycled paper, we sent the brochure to clients.",
+    "We sent, printed on recycled paper, clients the brochure."
+   ],
+   "answer": 1,
+   "why": "Keep 'printed on recycled paper' next to 'brochure'."
+  },
+  {
+   "topic": "Sentence Structure",
+   "q": "Which is correct?",
+   "options": [
+    "Whom do you think will win the contract?",
+    "Who do you think will win the contract?",
+    "Whom do you think it will win the contract?",
+    "Who you think will win the contract?"
+   ],
+   "answer": 1,
+   "why": "Ignore 'do you think': 'Who will win?' (he will win)."
+  },
+  {
+   "topic": "Professional Style",
+   "q": "Which is the most concise?",
+   "options": [
+    "Due to the fact that the server failed, we lost data.",
+    "Because the server failed, we lost data.",
+    "In view of the fact that the server failed, data was lost by us.",
+    "Owing to the fact of the server failing, we lost data."
+   ],
+   "answer": 1,
+   "why": "Replace wordy phrases like 'due to the fact that' with 'because'."
+  },
+  {
+   "topic": "Professional Style",
+   "q": "Which avoids redundancy?",
+   "options": [
+    "We will meet at 10 a.m. in the morning.",
+    "We will meet at 10 a.m.",
+    "We will meet at 10 a.m. o'clock in the morning.",
+    "We will meet at 10 in the a.m."
+   ],
+   "answer": 1,
+   "why": "'a.m.' already means 'in the morning'."
+  },
+  {
+   "topic": "Professional Style",
+   "q": "Which is most appropriate for a formal email?",
+   "options": [
+    "Hey guys, just checking in!",
+    "Hi team, I'm following up on yesterday's meeting.",
+    "Yo, any updates?",
+    "Hello!!! Any news???"
+   ],
+   "answer": 1,
+   "why": "Professional but friendly, with no slang or repeated punctuation."
+  },
+  {
+   "topic": "Professional Style",
+   "q": "Which is the best active-voice version of 'Mistakes were made by the accounting team'?",
+   "options": [
+    "The accounting team made mistakes.",
+    "Mistakes were made.",
+    "Made were mistakes by the team.",
+    "The mistakes the team made were made."
+   ],
+   "answer": 0,
+   "why": "Active voice names the doer clearly and directly."
+  },
+  {
+   "topic": "Professional Style",
+   "q": "Which is redundant?",
+   "options": [
+    "final outcome",
+    "outcome",
+    "result",
+    "conclusion"
+   ],
+   "answer": 0,
+   "why": "An outcome is already final. Other examples: 'past history', 'end result', 'advance planning'."
+  },
+  {
+   "topic": "Professional Style",
+   "q": "Which is the most professional sign-off?",
+   "options": [
+    "Best regards,",
+    "Luv ya,",
+    "Later!",
+    "Cheers mate!!"
+   ],
+   "answer": 0,
+   "why": "'Best regards' and 'Kind regards' are standard professional closings."
+  },
+  {
+   "topic": "Professional Style",
+   "q": "Which sentence is the most concise?",
+   "options": [
+    "At this point in time, we are unable to proceed.",
+    "We cannot proceed now.",
+    "At the present moment in time, we are not able to proceed.",
+    "Currently, at this time, we cannot proceed."
+   ],
+   "answer": 1,
+   "why": "'At this point in time' is wordy for 'now'."
+  },
+  {
+   "topic": "Professional Style",
+   "q": "Which is correct in formal writing?",
+   "options": [
+    "The results were very unique.",
+    "The results were unique.",
+    "The results were most unique.",
+    "The results were extremely unique."
+   ],
+   "answer": 1,
+   "why": "'Unique' means one of a kind; traditional usage avoids grading it."
+  },
+  {
+   "topic": "Professional Style",
+   "q": "Which is most polite?",
+   "options": [
+    "Send me the file.",
+    "Could you please send me the file?",
+    "File. Now.",
+    "You need to send me the file."
+   ],
+   "answer": 1,
+   "why": "A question with 'could you please' is polite and professional."
+  },
+  {
+   "topic": "Professional Style",
+   "q": "Which avoids a cliché?",
+   "options": [
+    "At the end of the day, we need results.",
+    "We need results by the end of the quarter.",
+    "Let's think outside the box for results.",
+    "It is what it is; we need results."
+   ],
+   "answer": 1,
+   "why": "Specific language beats clichés like 'at the end of the day'."
+  },
+  {
+   "topic": "Professional Style",
+   "q": "Which uses nominalization the least (clearest)?",
+   "options": [
+    "We made a decision to conduct an investigation.",
+    "We decided to investigate.",
+    "A decision was made to conduct an investigation.",
+    "Our decision was the conduct of an investigation."
+   ],
+   "answer": 1,
+   "why": "Turn noun phrases ('make a decision') back into verbs ('decide')."
+  },
+  {
+   "topic": "Professional Style",
+   "q": "Which sentence is gender-neutral?",
+   "options": [
+    "Each manager should submit his report.",
+    "Each manager should submit their report.",
+    "Each manager should submit her or his reports'.",
+    "Each managers should submit their report."
+   ],
+   "answer": 1,
+   "why": "Singular 'they/their' is accepted by APA, Chicago and AP styles."
+  },
+  {
+   "topic": "Professional Style",
+   "q": "Which is the best subject line for a work email?",
+   "options": [
+    "Hi",
+    "Question",
+    "Q3 budget review: decision needed by Friday",
+    "URGENT!!!!!"
+   ],
+   "answer": 2,
+   "why": "A good subject line is specific and states any action or deadline."
+  },
+  {
+   "topic": "Professional Style",
+   "q": "Which is the most formal?",
+   "options": [
+    "We're gonna need more time.",
+    "We will need additional time.",
+    "We kinda need more time.",
+    "We need, like, more time."
+   ],
+   "answer": 1,
+   "why": "Avoid informal words like 'gonna' and 'kinda' in professional writing."
+  },
+  {
+   "topic": "Professional Style",
+   "q": "Which sentence uses the passive voice appropriately?",
+   "options": [
+    "The vaccine was developed in 2020.",
+    "The ball was kicked by me.",
+    "A decision was made by me to quit.",
+    "The email was written by me yesterday."
+   ],
+   "answer": 0,
+   "why": "The passive is fine when the doer is unknown, unimportant, or obvious."
+  },
+  {
+   "topic": "Professional Style",
+   "q": "Which is correct in a formal report?",
+   "options": [
+    "The data shows a clear trend.",
+    "The data show a clear trend.",
+    "Both are acceptable; 'data show' is more traditional in academic writing.",
+    "Neither is acceptable."
+   ],
+   "answer": 2,
+   "why": "'Data' is treated as plural in traditional academic style and as a mass noun in everyday and business use."
+  }
+ ]
+}

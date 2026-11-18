@@ -5,6 +5,7 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -15,15 +16,19 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
@@ -139,5 +144,67 @@ fun SectionTitle(text: String, modifier: Modifier = Modifier) {
     Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
         Text("✦", color = MaterialTheme.colorScheme.tertiary, fontSize = 16.sp)
         Text(text, style = MaterialTheme.typography.titleLarge, color = Color.White)
+    }
+}
+
+@Composable
+fun SearchField(value: String, onChange: (String) -> Unit, placeholder: String, modifier: Modifier = Modifier) {
+    OutlinedTextField(
+        value = value,
+        onValueChange = onChange,
+        modifier = modifier.fillMaxWidth(),
+        placeholder = { Text(placeholder) },
+        leadingIcon = { Icon(Icons.Filled.Search, contentDescription = null) },
+        singleLine = true,
+        shape = RoundedCornerShape(20.dp),
+        colors = OutlinedTextFieldDefaults.colors(
+            focusedBorderColor = Color(0xFFFF7EB6),
+            unfocusedBorderColor = Color(0xFFB388FF).copy(alpha = 0.5f),
+            focusedContainerColor = Color.White.copy(alpha = 0.06f),
+            unfocusedContainerColor = Color.White.copy(alpha = 0.06f),
+        ),
+    )
+}
+
+/** A selectable filter chip in the anime style. */
+@Composable
+fun FilterPill(text: String, selected: Boolean, color: Color, onClick: () -> Unit) {
+    Text(
+        text,
+        color = if (selected) Color(0xFF2A1F3D) else Color.White,
+        fontWeight = FontWeight.Bold,
+        fontSize = 13.sp,
+        modifier = Modifier
+            .clip(RoundedCornerShape(50))
+            .background(if (selected) color else Color.White.copy(alpha = 0.08f))
+            .border(1.dp, color.copy(alpha = if (selected) 1f else 0.5f), RoundedCornerShape(50))
+            .clickable(onClick = onClick)
+            .padding(horizontal = 14.dp, vertical = 8.dp),
+    )
+}
+
+/** A gradient banner where a cast member introduces a screen. */
+@Composable
+fun IntroBanner(member: CastMember, title: String, line: String, colors: List<Color>) {
+    Row(
+        Modifier
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(24.dp))
+            .background(Brush.linearGradient(colors))
+            .padding(16.dp),
+        verticalAlignment = Alignment.Top,
+    ) {
+        Avatar(member, size = 52.dp)
+        Box(Modifier.padding(start = 12.dp)) {
+            Column {
+                Text(title, color = Color.White, fontWeight = FontWeight.Black, fontSize = 22.sp)
+                Text(
+                    "${member.name}: \u201c$line\u201d",
+                    color = Color.White.copy(alpha = 0.95f),
+                    fontSize = 14.sp,
+                    lineHeight = 20.sp,
+                )
+            }
+        }
     }
 }
