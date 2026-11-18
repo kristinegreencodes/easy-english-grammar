@@ -18,8 +18,12 @@ import com.easyenglishgrammar.app.audio.MusicPlayer
 import com.easyenglishgrammar.app.audio.VoiceActor
 import com.easyenglishgrammar.app.data.GrammarRepository
 import com.easyenglishgrammar.app.data.ProgressStore
+import com.easyenglishgrammar.app.data.ReferenceRepository
 import com.easyenglishgrammar.app.ui.screens.CategoryScreen
 import com.easyenglishgrammar.app.ui.screens.HomeScreen
+import com.easyenglishgrammar.app.ui.screens.IrregularPluralsScreen
+import com.easyenglishgrammar.app.ui.screens.IrregularVerbsScreen
+import com.easyenglishgrammar.app.ui.screens.PracticeScreen
 import com.easyenglishgrammar.app.ui.screens.RuleScreen
 import com.easyenglishgrammar.app.ui.theme.EasyGrammarTheme
 
@@ -38,6 +42,7 @@ class MainActivity : ComponentActivity() {
                     val context = LocalContext.current
                     val repo = remember { GrammarRepository(context.applicationContext) }
                     val progress = remember { ProgressStore(context.applicationContext) }
+                    val ref = remember { ReferenceRepository(context.applicationContext) }
                     val nav = rememberNavController()
 
                     NavHost(navController = nav, startDestination = "home") {
@@ -47,7 +52,17 @@ class MainActivity : ComponentActivity() {
                                 progress = progress,
                                 onCategory = { nav.navigate("category/$it") },
                                 onRule = { nav.navigate("rule/$it") },
+                                onTraining = { nav.navigate(it) },
                             )
+                        }
+                        composable("verbs") {
+                            IrregularVerbsScreen(ref, onBack = { nav.popBackStack() })
+                        }
+                        composable("plurals") {
+                            IrregularPluralsScreen(ref, onBack = { nav.popBackStack() })
+                        }
+                        composable("practice") {
+                            PracticeScreen(ref, progress, onBack = { nav.popBackStack() })
                         }
                         composable(
                             "category/{id}",

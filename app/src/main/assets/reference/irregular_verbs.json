@@ -1,0 +1,1033 @@
+{
+ "verbs": [
+  {
+   "base": "arise",
+   "past": "arose",
+   "participle": "arisen",
+   "meaning": "to come up, appear",
+   "pattern": "ABC"
+  },
+  {
+   "base": "awake",
+   "past": "awoke",
+   "participle": "awoken",
+   "meaning": "to wake up",
+   "pattern": "ABC"
+  },
+  {
+   "base": "be",
+   "past": "was / were",
+   "participle": "been",
+   "meaning": "to exist",
+   "pattern": "ABC"
+  },
+  {
+   "base": "bear",
+   "past": "bore",
+   "participle": "borne",
+   "meaning": "to carry; to put up with",
+   "pattern": "ABC"
+  },
+  {
+   "base": "beat",
+   "past": "beat",
+   "participle": "beaten",
+   "meaning": "to hit; to win against",
+   "pattern": "ABC"
+  },
+  {
+   "base": "become",
+   "past": "became",
+   "participle": "become",
+   "meaning": "to start to be",
+   "pattern": "ABA"
+  },
+  {
+   "base": "begin",
+   "past": "began",
+   "participle": "begun",
+   "meaning": "to start",
+   "pattern": "ABC"
+  },
+  {
+   "base": "bend",
+   "past": "bent",
+   "participle": "bent",
+   "meaning": "to make curved",
+   "pattern": "ABB"
+  },
+  {
+   "base": "bet",
+   "past": "bet",
+   "participle": "bet",
+   "meaning": "to risk money on a result",
+   "pattern": "AAA"
+  },
+  {
+   "base": "bid",
+   "past": "bid",
+   "participle": "bid",
+   "meaning": "to offer a price",
+   "pattern": "AAA"
+  },
+  {
+   "base": "bind",
+   "past": "bound",
+   "participle": "bound",
+   "meaning": "to tie together",
+   "pattern": "ABB"
+  },
+  {
+   "base": "bite",
+   "past": "bit",
+   "participle": "bitten",
+   "meaning": "to cut with teeth",
+   "pattern": "ABC"
+  },
+  {
+   "base": "bleed",
+   "past": "bled",
+   "participle": "bled",
+   "meaning": "to lose blood",
+   "pattern": "ABB"
+  },
+  {
+   "base": "blow",
+   "past": "blew",
+   "participle": "blown",
+   "meaning": "to move air",
+   "pattern": "ABC"
+  },
+  {
+   "base": "break",
+   "past": "broke",
+   "participle": "broken",
+   "meaning": "to split into pieces",
+   "pattern": "ABC"
+  },
+  {
+   "base": "breed",
+   "past": "bred",
+   "participle": "bred",
+   "meaning": "to raise animals; to produce",
+   "pattern": "ABB"
+  },
+  {
+   "base": "bring",
+   "past": "brought",
+   "participle": "brought",
+   "meaning": "to carry toward",
+   "pattern": "ABB"
+  },
+  {
+   "base": "broadcast",
+   "past": "broadcast",
+   "participle": "broadcast",
+   "meaning": "to send out on TV or radio",
+   "pattern": "AAA"
+  },
+  {
+   "base": "build",
+   "past": "built",
+   "participle": "built",
+   "meaning": "to make a structure",
+   "pattern": "ABB"
+  },
+  {
+   "base": "burn",
+   "past": "burned / burnt",
+   "participle": "burned / burnt",
+   "meaning": "to be on fire",
+   "pattern": "ABB"
+  },
+  {
+   "base": "burst",
+   "past": "burst",
+   "participle": "burst",
+   "meaning": "to break open suddenly",
+   "pattern": "AAA"
+  },
+  {
+   "base": "buy",
+   "past": "bought",
+   "participle": "bought",
+   "meaning": "to pay for",
+   "pattern": "ABB"
+  },
+  {
+   "base": "cast",
+   "past": "cast",
+   "participle": "cast",
+   "meaning": "to throw; to choose actors",
+   "pattern": "AAA"
+  },
+  {
+   "base": "catch",
+   "past": "caught",
+   "participle": "caught",
+   "meaning": "to grab something moving",
+   "pattern": "ABB"
+  },
+  {
+   "base": "choose",
+   "past": "chose",
+   "participle": "chosen",
+   "meaning": "to pick",
+   "pattern": "ABC"
+  },
+  {
+   "base": "cling",
+   "past": "clung",
+   "participle": "clung",
+   "meaning": "to hold on tightly",
+   "pattern": "ABB"
+  },
+  {
+   "base": "come",
+   "past": "came",
+   "participle": "come",
+   "meaning": "to move toward",
+   "pattern": "ABA"
+  },
+  {
+   "base": "cost",
+   "past": "cost",
+   "participle": "cost",
+   "meaning": "to have a price",
+   "pattern": "AAA"
+  },
+  {
+   "base": "creep",
+   "past": "crept",
+   "participle": "crept",
+   "meaning": "to move slowly and quietly",
+   "pattern": "ABB"
+  },
+  {
+   "base": "cut",
+   "past": "cut",
+   "participle": "cut",
+   "meaning": "to divide with a blade",
+   "pattern": "AAA"
+  },
+  {
+   "base": "deal",
+   "past": "dealt",
+   "participle": "dealt",
+   "meaning": "to handle; to give out cards",
+   "pattern": "ABB"
+  },
+  {
+   "base": "dig",
+   "past": "dug",
+   "participle": "dug",
+   "meaning": "to make a hole",
+   "pattern": "ABB"
+  },
+  {
+   "base": "dive",
+   "past": "dove / dived",
+   "participle": "dived",
+   "meaning": "to jump head first into water",
+   "pattern": "ABC"
+  },
+  {
+   "base": "do",
+   "past": "did",
+   "participle": "done",
+   "meaning": "to perform an action",
+   "pattern": "ABC"
+  },
+  {
+   "base": "draw",
+   "past": "drew",
+   "participle": "drawn",
+   "meaning": "to make a picture; to pull",
+   "pattern": "ABC"
+  },
+  {
+   "base": "dream",
+   "past": "dreamed / dreamt",
+   "participle": "dreamed / dreamt",
+   "meaning": "to see images while sleeping",
+   "pattern": "ABB"
+  },
+  {
+   "base": "drink",
+   "past": "drank",
+   "participle": "drunk",
+   "meaning": "to swallow liquid",
+   "pattern": "ABC"
+  },
+  {
+   "base": "drive",
+   "past": "drove",
+   "participle": "driven",
+   "meaning": "to operate a vehicle",
+   "pattern": "ABC"
+  },
+  {
+   "base": "eat",
+   "past": "ate",
+   "participle": "eaten",
+   "meaning": "to consume food",
+   "pattern": "ABC"
+  },
+  {
+   "base": "fall",
+   "past": "fell",
+   "participle": "fallen",
+   "meaning": "to drop down",
+   "pattern": "ABC"
+  },
+  {
+   "base": "feed",
+   "past": "fed",
+   "participle": "fed",
+   "meaning": "to give food to",
+   "pattern": "ABB"
+  },
+  {
+   "base": "feel",
+   "past": "felt",
+   "participle": "felt",
+   "meaning": "to sense; to have an emotion",
+   "pattern": "ABB"
+  },
+  {
+   "base": "fight",
+   "past": "fought",
+   "participle": "fought",
+   "meaning": "to battle",
+   "pattern": "ABB"
+  },
+  {
+   "base": "find",
+   "past": "found",
+   "participle": "found",
+   "meaning": "to discover",
+   "pattern": "ABB"
+  },
+  {
+   "base": "flee",
+   "past": "fled",
+   "participle": "fled",
+   "meaning": "to run away",
+   "pattern": "ABB"
+  },
+  {
+   "base": "fling",
+   "past": "flung",
+   "participle": "flung",
+   "meaning": "to throw hard",
+   "pattern": "ABB"
+  },
+  {
+   "base": "fly",
+   "past": "flew",
+   "participle": "flown",
+   "meaning": "to move through the air",
+   "pattern": "ABC"
+  },
+  {
+   "base": "forbid",
+   "past": "forbade",
+   "participle": "forbidden",
+   "meaning": "to not allow",
+   "pattern": "ABC"
+  },
+  {
+   "base": "forecast",
+   "past": "forecast",
+   "participle": "forecast",
+   "meaning": "to predict",
+   "pattern": "AAA"
+  },
+  {
+   "base": "forget",
+   "past": "forgot",
+   "participle": "forgotten",
+   "meaning": "to not remember",
+   "pattern": "ABC"
+  },
+  {
+   "base": "forgive",
+   "past": "forgave",
+   "participle": "forgiven",
+   "meaning": "to stop being angry at",
+   "pattern": "ABC"
+  },
+  {
+   "base": "freeze",
+   "past": "froze",
+   "participle": "frozen",
+   "meaning": "to turn to ice",
+   "pattern": "ABC"
+  },
+  {
+   "base": "get",
+   "past": "got",
+   "participle": "got / gotten",
+   "meaning": "to receive; to become",
+   "pattern": "ABB"
+  },
+  {
+   "base": "give",
+   "past": "gave",
+   "participle": "given",
+   "meaning": "to hand to someone",
+   "pattern": "ABC"
+  },
+  {
+   "base": "go",
+   "past": "went",
+   "participle": "gone",
+   "meaning": "to move from one place to another",
+   "pattern": "ABC"
+  },
+  {
+   "base": "grind",
+   "past": "ground",
+   "participle": "ground",
+   "meaning": "to crush into powder",
+   "pattern": "ABB"
+  },
+  {
+   "base": "grow",
+   "past": "grew",
+   "participle": "grown",
+   "meaning": "to get bigger",
+   "pattern": "ABC"
+  },
+  {
+   "base": "hang",
+   "past": "hung",
+   "participle": "hung",
+   "meaning": "to attach from above",
+   "pattern": "ABB"
+  },
+  {
+   "base": "have",
+   "past": "had",
+   "participle": "had",
+   "meaning": "to own; to hold",
+   "pattern": "ABB"
+  },
+  {
+   "base": "hear",
+   "past": "heard",
+   "participle": "heard",
+   "meaning": "to sense sound",
+   "pattern": "ABB"
+  },
+  {
+   "base": "hide",
+   "past": "hid",
+   "participle": "hidden",
+   "meaning": "to put out of sight",
+   "pattern": "ABC"
+  },
+  {
+   "base": "hit",
+   "past": "hit",
+   "participle": "hit",
+   "meaning": "to strike",
+   "pattern": "AAA"
+  },
+  {
+   "base": "hold",
+   "past": "held",
+   "participle": "held",
+   "meaning": "to keep in your hands",
+   "pattern": "ABB"
+  },
+  {
+   "base": "hurt",
+   "past": "hurt",
+   "participle": "hurt",
+   "meaning": "to cause pain",
+   "pattern": "AAA"
+  },
+  {
+   "base": "keep",
+   "past": "kept",
+   "participle": "kept",
+   "meaning": "to continue to have",
+   "pattern": "ABB"
+  },
+  {
+   "base": "kneel",
+   "past": "knelt / kneeled",
+   "participle": "knelt / kneeled",
+   "meaning": "to rest on your knees",
+   "pattern": "ABB"
+  },
+  {
+   "base": "know",
+   "past": "knew",
+   "participle": "known",
+   "meaning": "to have information",
+   "pattern": "ABC"
+  },
+  {
+   "base": "lay",
+   "past": "laid",
+   "participle": "laid",
+   "meaning": "to put down flat",
+   "pattern": "ABB"
+  },
+  {
+   "base": "lead",
+   "past": "led",
+   "participle": "led",
+   "meaning": "to guide",
+   "pattern": "ABB"
+  },
+  {
+   "base": "lean",
+   "past": "leaned / leant",
+   "participle": "leaned / leant",
+   "meaning": "to rest against",
+   "pattern": "ABB"
+  },
+  {
+   "base": "leap",
+   "past": "leaped / leapt",
+   "participle": "leaped / leapt",
+   "meaning": "to jump",
+   "pattern": "ABB"
+  },
+  {
+   "base": "learn",
+   "past": "learned / learnt",
+   "participle": "learned / learnt",
+   "meaning": "to gain knowledge",
+   "pattern": "ABB"
+  },
+  {
+   "base": "leave",
+   "past": "left",
+   "participle": "left",
+   "meaning": "to go away from",
+   "pattern": "ABB"
+  },
+  {
+   "base": "lend",
+   "past": "lent",
+   "participle": "lent",
+   "meaning": "to let someone borrow",
+   "pattern": "ABB"
+  },
+  {
+   "base": "let",
+   "past": "let",
+   "participle": "let",
+   "meaning": "to allow",
+   "pattern": "AAA"
+  },
+  {
+   "base": "lie",
+   "past": "lay",
+   "participle": "lain",
+   "meaning": "to rest lying down",
+   "pattern": "ABC"
+  },
+  {
+   "base": "light",
+   "past": "lit / lighted",
+   "participle": "lit / lighted",
+   "meaning": "to start a fire; to illuminate",
+   "pattern": "ABB"
+  },
+  {
+   "base": "lose",
+   "past": "lost",
+   "participle": "lost",
+   "meaning": "to misplace; to not win",
+   "pattern": "ABB"
+  },
+  {
+   "base": "make",
+   "past": "made",
+   "participle": "made",
+   "meaning": "to create",
+   "pattern": "ABB"
+  },
+  {
+   "base": "mean",
+   "past": "meant",
+   "participle": "meant",
+   "meaning": "to intend; to signify",
+   "pattern": "ABB"
+  },
+  {
+   "base": "meet",
+   "past": "met",
+   "participle": "met",
+   "meaning": "to see someone for the first time or by plan",
+   "pattern": "ABB"
+  },
+  {
+   "base": "mistake",
+   "past": "mistook",
+   "participle": "mistaken",
+   "meaning": "to understand wrongly",
+   "pattern": "ABC"
+  },
+  {
+   "base": "overcome",
+   "past": "overcame",
+   "participle": "overcome",
+   "meaning": "to defeat a difficulty",
+   "pattern": "ABA"
+  },
+  {
+   "base": "pay",
+   "past": "paid",
+   "participle": "paid",
+   "meaning": "to give money for",
+   "pattern": "ABB"
+  },
+  {
+   "base": "prove",
+   "past": "proved",
+   "participle": "proven / proved",
+   "meaning": "to show to be true",
+   "pattern": "ABC"
+  },
+  {
+   "base": "put",
+   "past": "put",
+   "participle": "put",
+   "meaning": "to place",
+   "pattern": "AAA"
+  },
+  {
+   "base": "quit",
+   "past": "quit",
+   "participle": "quit",
+   "meaning": "to stop; to leave",
+   "pattern": "AAA"
+  },
+  {
+   "base": "read",
+   "past": "read",
+   "participle": "read",
+   "meaning": "to look at and understand words (past forms sound like \"red\")",
+   "pattern": "AAA"
+  },
+  {
+   "base": "ride",
+   "past": "rode",
+   "participle": "ridden",
+   "meaning": "to travel on",
+   "pattern": "ABC"
+  },
+  {
+   "base": "ring",
+   "past": "rang",
+   "participle": "rung",
+   "meaning": "to make a bell sound",
+   "pattern": "ABC"
+  },
+  {
+   "base": "rise",
+   "past": "rose",
+   "participle": "risen",
+   "meaning": "to go up",
+   "pattern": "ABC"
+  },
+  {
+   "base": "run",
+   "past": "ran",
+   "participle": "run",
+   "meaning": "to move fast on foot",
+   "pattern": "ABA"
+  },
+  {
+   "base": "say",
+   "past": "said",
+   "participle": "said",
+   "meaning": "to speak",
+   "pattern": "ABB"
+  },
+  {
+   "base": "see",
+   "past": "saw",
+   "participle": "seen",
+   "meaning": "to look at",
+   "pattern": "ABC"
+  },
+  {
+   "base": "seek",
+   "past": "sought",
+   "participle": "sought",
+   "meaning": "to look for",
+   "pattern": "ABB"
+  },
+  {
+   "base": "sell",
+   "past": "sold",
+   "participle": "sold",
+   "meaning": "to give for money",
+   "pattern": "ABB"
+  },
+  {
+   "base": "send",
+   "past": "sent",
+   "participle": "sent",
+   "meaning": "to cause to go",
+   "pattern": "ABB"
+  },
+  {
+   "base": "set",
+   "past": "set",
+   "participle": "set",
+   "meaning": "to place; to arrange",
+   "pattern": "AAA"
+  },
+  {
+   "base": "sew",
+   "past": "sewed",
+   "participle": "sewn / sewed",
+   "meaning": "to stitch with a needle",
+   "pattern": "ABC"
+  },
+  {
+   "base": "shake",
+   "past": "shook",
+   "participle": "shaken",
+   "meaning": "to move quickly back and forth",
+   "pattern": "ABC"
+  },
+  {
+   "base": "shine",
+   "past": "shone",
+   "participle": "shone",
+   "meaning": "to give light",
+   "pattern": "ABB"
+  },
+  {
+   "base": "shoot",
+   "past": "shot",
+   "participle": "shot",
+   "meaning": "to fire a weapon; to take a photo",
+   "pattern": "ABB"
+  },
+  {
+   "base": "show",
+   "past": "showed",
+   "participle": "shown",
+   "meaning": "to let someone see",
+   "pattern": "ABC"
+  },
+  {
+   "base": "shrink",
+   "past": "shrank",
+   "participle": "shrunk",
+   "meaning": "to become smaller",
+   "pattern": "ABC"
+  },
+  {
+   "base": "shut",
+   "past": "shut",
+   "participle": "shut",
+   "meaning": "to close",
+   "pattern": "AAA"
+  },
+  {
+   "base": "sing",
+   "past": "sang",
+   "participle": "sung",
+   "meaning": "to make music with your voice",
+   "pattern": "ABC"
+  },
+  {
+   "base": "sink",
+   "past": "sank",
+   "participle": "sunk",
+   "meaning": "to go under water",
+   "pattern": "ABC"
+  },
+  {
+   "base": "sit",
+   "past": "sat",
+   "participle": "sat",
+   "meaning": "to rest on a seat",
+   "pattern": "ABB"
+  },
+  {
+   "base": "sleep",
+   "past": "slept",
+   "participle": "slept",
+   "meaning": "to rest with eyes closed",
+   "pattern": "ABB"
+  },
+  {
+   "base": "slide",
+   "past": "slid",
+   "participle": "slid",
+   "meaning": "to move smoothly over a surface",
+   "pattern": "ABB"
+  },
+  {
+   "base": "speak",
+   "past": "spoke",
+   "participle": "spoken",
+   "meaning": "to talk",
+   "pattern": "ABC"
+  },
+  {
+   "base": "speed",
+   "past": "sped",
+   "participle": "sped",
+   "meaning": "to move fast",
+   "pattern": "ABB"
+  },
+  {
+   "base": "spend",
+   "past": "spent",
+   "participle": "spent",
+   "meaning": "to use money or time",
+   "pattern": "ABB"
+  },
+  {
+   "base": "spill",
+   "past": "spilled / spilt",
+   "participle": "spilled / spilt",
+   "meaning": "to let liquid fall out",
+   "pattern": "ABB"
+  },
+  {
+   "base": "spin",
+   "past": "spun",
+   "participle": "spun",
+   "meaning": "to turn around quickly",
+   "pattern": "ABB"
+  },
+  {
+   "base": "spit",
+   "past": "spit / spat",
+   "participle": "spit / spat",
+   "meaning": "to force out of the mouth",
+   "pattern": "AAA"
+  },
+  {
+   "base": "split",
+   "past": "split",
+   "participle": "split",
+   "meaning": "to divide",
+   "pattern": "AAA"
+  },
+  {
+   "base": "spread",
+   "past": "spread",
+   "participle": "spread",
+   "meaning": "to open out; to cover",
+   "pattern": "AAA"
+  },
+  {
+   "base": "spring",
+   "past": "sprang",
+   "participle": "sprung",
+   "meaning": "to jump suddenly",
+   "pattern": "ABC"
+  },
+  {
+   "base": "stand",
+   "past": "stood",
+   "participle": "stood",
+   "meaning": "to be on your feet",
+   "pattern": "ABB"
+  },
+  {
+   "base": "steal",
+   "past": "stole",
+   "participle": "stolen",
+   "meaning": "to take without permission",
+   "pattern": "ABC"
+  },
+  {
+   "base": "stick",
+   "past": "stuck",
+   "participle": "stuck",
+   "meaning": "to attach; to push in",
+   "pattern": "ABB"
+  },
+  {
+   "base": "sting",
+   "past": "stung",
+   "participle": "stung",
+   "meaning": "to hurt with a sharp point",
+   "pattern": "ABB"
+  },
+  {
+   "base": "stink",
+   "past": "stank",
+   "participle": "stunk",
+   "meaning": "to smell bad",
+   "pattern": "ABC"
+  },
+  {
+   "base": "strike",
+   "past": "struck",
+   "participle": "struck",
+   "meaning": "to hit",
+   "pattern": "ABB"
+  },
+  {
+   "base": "strive",
+   "past": "strove / strived",
+   "participle": "striven / strived",
+   "meaning": "to try very hard",
+   "pattern": "ABC"
+  },
+  {
+   "base": "swear",
+   "past": "swore",
+   "participle": "sworn",
+   "meaning": "to promise; to use bad words",
+   "pattern": "ABC"
+  },
+  {
+   "base": "sweep",
+   "past": "swept",
+   "participle": "swept",
+   "meaning": "to clean with a broom",
+   "pattern": "ABB"
+  },
+  {
+   "base": "swim",
+   "past": "swam",
+   "participle": "swum",
+   "meaning": "to move through water",
+   "pattern": "ABC"
+  },
+  {
+   "base": "swing",
+   "past": "swung",
+   "participle": "swung",
+   "meaning": "to move back and forth",
+   "pattern": "ABB"
+  },
+  {
+   "base": "take",
+   "past": "took",
+   "participle": "taken",
+   "meaning": "to get and carry",
+   "pattern": "ABC"
+  },
+  {
+   "base": "teach",
+   "past": "taught",
+   "participle": "taught",
+   "meaning": "to give lessons",
+   "pattern": "ABB"
+  },
+  {
+   "base": "tear",
+   "past": "tore",
+   "participle": "torn",
+   "meaning": "to rip",
+   "pattern": "ABC"
+  },
+  {
+   "base": "tell",
+   "past": "told",
+   "participle": "told",
+   "meaning": "to say to someone",
+   "pattern": "ABB"
+  },
+  {
+   "base": "think",
+   "past": "thought",
+   "participle": "thought",
+   "meaning": "to use your mind",
+   "pattern": "ABB"
+  },
+  {
+   "base": "throw",
+   "past": "threw",
+   "participle": "thrown",
+   "meaning": "to send through the air",
+   "pattern": "ABC"
+  },
+  {
+   "base": "understand",
+   "past": "understood",
+   "participle": "understood",
+   "meaning": "to know the meaning",
+   "pattern": "ABB"
+  },
+  {
+   "base": "undertake",
+   "past": "undertook",
+   "participle": "undertaken",
+   "meaning": "to begin a task",
+   "pattern": "ABC"
+  },
+  {
+   "base": "upset",
+   "past": "upset",
+   "participle": "upset",
+   "meaning": "to make unhappy",
+   "pattern": "AAA"
+  },
+  {
+   "base": "wake",
+   "past": "woke",
+   "participle": "woken",
+   "meaning": "to stop sleeping",
+   "pattern": "ABC"
+  },
+  {
+   "base": "wear",
+   "past": "wore",
+   "participle": "worn",
+   "meaning": "to have clothes on",
+   "pattern": "ABC"
+  },
+  {
+   "base": "weave",
+   "past": "wove",
+   "participle": "woven",
+   "meaning": "to make cloth by crossing threads",
+   "pattern": "ABC"
+  },
+  {
+   "base": "weep",
+   "past": "wept",
+   "participle": "wept",
+   "meaning": "to cry",
+   "pattern": "ABB"
+  },
+  {
+   "base": "win",
+   "past": "won",
+   "participle": "won",
+   "meaning": "to be first; to succeed",
+   "pattern": "ABB"
+  },
+  {
+   "base": "wind",
+   "past": "wound",
+   "participle": "wound",
+   "meaning": "to turn; to wrap around",
+   "pattern": "ABB"
+  },
+  {
+   "base": "withdraw",
+   "past": "withdrew",
+   "participle": "withdrawn",
+   "meaning": "to take back or out",
+   "pattern": "ABC"
+  },
+  {
+   "base": "write",
+   "past": "wrote",
+   "participle": "written",
+   "meaning": "to put words on paper",
+   "pattern": "ABC"
+  }
+ ]
+}
